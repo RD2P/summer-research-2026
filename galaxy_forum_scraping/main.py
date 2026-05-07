@@ -22,14 +22,13 @@ CATEGORY_IDS = [5, 6, 10, 11, 1, 3, 14, 15]
 
 BASE_URL = "https://help.galaxyproject.org"
 OUTPUT_DIR = Path("galaxy_topics")
-
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 def fetch_category_topics(category_id, per_page=100):
     """Fetch all topics from a category, handling pagination."""
     all_topics = []
     page = 0
-    
+
     while True:
         url = f"{BASE_URL}/c/{category_id}.json"
         params = {
@@ -38,7 +37,7 @@ def fetch_category_topics(category_id, per_page=100):
         }
         
         try:
-            response = requests.get(url, params=params)
+            response = session.get(url, params=params)
             response.raise_for_status()
             data = response.json()
             
@@ -61,20 +60,24 @@ def main():
     all_data = {}
     total_topics = 0
     
-    for category_id in CATEGORY_IDS:
-        print(f"\nFetching category {category_id}...")
-        topics = fetch_category_topics(category_id)
-        all_data[category_id] = topics
-        total_topics += len(topics)
+    with requests.Session() as session:
+        for category_id in CATEGORY_IDS:
+            print(f"\nFetching category {category_id}...")
+
+            topics = fetch_category_topics(category_id, session=session)
+            all_data[category_id] = topics
+            total_topics += len(topics)
         
-        # Save individual category file
-        output_file = OUTPUT_DIR / f"category_{category_id}.json"
-        with open(output_file, "w") as f:
-            json.dump(topics, f, indent=2)
-        print(f"Saved {len(topics)} topics to {output_file}")
+            # Save individual category file
+            output_file = OUTPUT_DIR / f"category_{category_id}.json"
+            with open(output_file, "w") as f:
+                json.dump(topics, f, indent=2)
+
+            print(f"Saved {len(topics)} topics to {output_file}")
     
     # Save combined data
     combined_file = OUTPUT_DIR / "all_topics.json"
+
     with open(combined_file, "w") as f:
         json.dump(all_data, f, indent=2)
     
