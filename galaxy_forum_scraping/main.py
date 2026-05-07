@@ -1,5 +1,6 @@
 import requests
 import json
+import time
 from pathlib import Path
 
 # According to site.json
@@ -18,13 +19,14 @@ from pathlib import Path
 
 
 # Category ids based on site.json:
-CATEGORY_IDS = [5, 6, 10, 11, 1, 3, 14, 15]
+CATEGORY_IDS = [15, 3, 11, 10, 14, 6, 5, 1]
 
 BASE_URL = "https://help.galaxyproject.org"
 OUTPUT_DIR = Path("galaxy_topics")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-def fetch_category_topics(category_id, per_page=100):
+
+def fetch_category_topics(category_id, session, per_page=100):
     """Fetch all topics from a category, handling pagination."""
     all_topics = []
     page = 0
@@ -33,11 +35,12 @@ def fetch_category_topics(category_id, per_page=100):
         url = f"{BASE_URL}/c/{category_id}.json"
         params = {
             "page": page,
-            "per_page": per_page
+            "per_page": per_page,
+            "no_definitions": "true"
         }
         
         try:
-            response = session.get(url, params=params)
+            response = session.get(url, params=params, timeout=30)
             response.raise_for_status()
             data = response.json()
             
@@ -49,6 +52,7 @@ def fetch_category_topics(category_id, per_page=100):
             print(f"Category {category_id}: Collected {len(all_topics)} topics (page {page})")
             
             page += 1
+            time.sleep(1)  # don't overload the server
             
         except Exception as e:
             print(f"Error fetching category {category_id}, page {page}: {e}")
