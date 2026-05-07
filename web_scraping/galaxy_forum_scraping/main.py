@@ -1,0 +1,82 @@
+import requests
+import json
+from pathlib import Path
+
+# According to site.json
+# Total topics across all categories:
+#     **Category**                **id**  **topic count**
+#     usegalaxy.org support       5       2030
+#     usegalaxy.eu support        6       1303
+#     usegalaxy.org.au support    10      82
+#     usegalaxy.be support        11      18
+#     Uncategorized               1       2733
+#     Site Feedback               3       5
+#     Resources                   14      108
+#     News & Updates              15      4
+
+# Category ids based on site.json:
+CATEGORY_IDS = [5, 6, 10, 11, 1, 3, 14, 15]
+
+BASE_URL = "https://help.galaxyproject.org"
+OUTPUT_DIR = Path("galaxy_topics")
+
+OUTPUT_DIR.mkdir(exist_ok=True)
+
+def fetch_category_topics(category_id, per_page=100):
+    """Fetch all topics from a category, handling pagination."""
+    all_topics = []
+    page = 0
+    
+    while True:
+        url = f"{BASE_URL}/c/{category_id}.json"
+        params = {
+            "page": page,
+            "per_page": per_page
+        }
+        
+        try:
+            response = requests.get(url, params=params)
+            response.raise_for_status()
+            data = response.json()
+            
+            topics = data.get("topic_list", {}).get("topics", [])
+            if not topics:
+                break
+            
+            all_topics.extend(topics)
+            print(f"Category {category_id}: Collected {len(all_topics)} topics (page {page})")
+            
+            page += 1
+            
+        except Exception as e:
+            print(f"Error fetching category {category_id}, page {page}: {e}")
+            break
+    
+    return all_topics
+
+def main():
+    all_data = {}
+    total_topics = 0
+    
+    for category_id in CATEGORY_IDS:
+        print(f"\nFetching category {category_id}...")
+        topics = fetch_category_topics(category_id)
+        all_data[category_id] = topics
+        total_topics += len(topics)
+        
+        # Save individual category file
+        output_file = OUTPUT_DIR / f"category_{category_id}.json"
+        with open(output_file, "w") as f:
+            json.dump(topics, f, indent=2)
+        print(f"Saved {len(topics)} topics to {output_file}")
+    
+    # Save combined data
+    combined_file = OUTPUT_DIR / "all_topics.json"
+    with open(combined_file, "w") as f:
+        json.dump(all_data, f, indent=2)
+    
+    print(f"\nTotal topics collected: {total_topics}")
+    print(f"Data saved to {OUTPUT_DIR}/")
+
+if __name__ == "__main__":
+    main()
