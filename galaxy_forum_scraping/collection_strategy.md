@@ -31,7 +31,9 @@ Total topics across all categories:
 | Uncategorized             | 1     | 2733          |
 | Site Feedback             | 3     | 5             |
 | Resources                 | 14    | 108           |
-| News & Updates            | 15    | 4             |
+| News & Updates            | 15    | 3             |
+
+Total: 6,282 topics, 69 requests
 
 
 ## Data fetching strategy:
@@ -41,5 +43,36 @@ Total topics across all categories:
     <url>/c/<category_id>.json?per_page=100
 - iterate pages until topics is null
 
-## Questions
-- exactly what data in what format do we need?
+# Data format
+
+- Per-category files:
+  - Path: galaxy_topics/category_{category_id}.json
+  - Format: JSON array of topic objects exactly as returned in topic_list.topics by the Discourse API (no post bodies fetched)
+  - Example entry (one element of the array):
+    ```json
+    {
+      "id": 12345,
+      "title": "Example topic title",
+      "slug": "example-topic-title",
+      "created_at": "2024-01-02T03:04:05.000Z",
+      "last_posted_at": "2024-05-07T12:34:56.000Z",
+      "posts_count": 4,
+      "views": 256,
+      "reply_count": 3,
+      "highest_post_number": 4,
+      "excerpt": "Short HTML/text excerpt",
+      "category_id": 6,
+      // ...other fields returned by the API...
+    }
+    ```
+
+- Combined file:
+  - Path: galaxy_topics/all_topics.json
+  - Format: JSON object mapping category_id → array of topic objects
+  - Example:
+    ```json
+    {
+      "6": [ { /* topic obj */ }, { /* topic obj */ } ],
+      "5": [ { /* topic obj */ } ]
+    }
+    ```
