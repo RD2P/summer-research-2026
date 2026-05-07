@@ -1,8 +1,4 @@
 # Tasks
-
-- [ ] Familiarize with web scraping
-  - kartik repo
-  - galaxy faqs
 - [ ] Understand scientific workflows: Galaxy
 - [ ] Hours tracker
 
@@ -120,6 +116,9 @@ options.add_argument("-headless")
 
 ## Thursday, 7 May
 - Galaxy forum scraping research
+- Familiarized with web scraping
+  - reviewed kartik repo
+  - reviewed galaxy forum
 - Attempted Selenium + BeautifulSoup scraper for help.galaxyproject.org
   - **Issues**: slow (sleep(2) waits), brittle DOM selectors, memory-intensive
 - **Discovery**: Forum runs Discourse software with public REST API
@@ -130,6 +129,7 @@ options.add_argument("-headless")
   - Implement pagination, batch fetching, retry/backoff
   - Write data to JSONL
   - Analyze issue patterns for research validation
+- wrote script to save galaxy forum data using Dicourse api
 
 ## Wednesday, 6 May
 - Conversation with Khairul about aim & new task
