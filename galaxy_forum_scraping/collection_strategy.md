@@ -32,7 +32,7 @@ Total topics across all categories:
 | Site Feedback             | 3     | 5             |
 | Resources                 | 14    | 108           |
 | News & Updates            | 15    | 4             |
-|                           |       |               |
+
 
 ## Data fetching strategy:
 - Iterate over all categories by id
