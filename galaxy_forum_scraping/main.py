@@ -4,15 +4,18 @@ from pathlib import Path
 
 # According to site.json
 # Total topics across all categories:
-#     **Category**                **id**  **topic count**
-#     usegalaxy.org support       5       2030
-#     usegalaxy.eu support        6       1303
-#     usegalaxy.org.au support    10      82
-#     usegalaxy.be support        11      18
-#     Uncategorized               1       2733
-#     Site Feedback               3       5
-#     Resources                   14      108
-#     News & Updates              15      4
+# use per_page=100 to reduce number of requests:
+#     **Category**                **id**  **topic count**   **num reqs**
+#     Uncategorized               1       2733                28
+#     usegalaxy.org support       5       2030                21
+#     usegalaxy.eu support        6       1303                14
+#     Resources                   14      108                 2
+#     usegalaxy.org.au support    10      82                  1
+#     usegalaxy.be support        11      18                  1
+#     Site Feedback               3       5                   1
+#     News & Updates              15      3                   1
+# Total: 6,282 topics, 69 requests
+
 
 # Category ids based on site.json:
 CATEGORY_IDS = [5, 6, 10, 11, 1, 3, 14, 15]
