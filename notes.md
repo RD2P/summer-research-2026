@@ -1,138 +1,156 @@
-# ========= Tasks =========
-- famil web scraping
+# Tasks
+
+- [ ] Familiarize with web scraping
   - kartik repo
   - galaxy faqs
-- understand scientific workflows: galaxy
+- [ ] Understand scientific workflows: Galaxy
+- [ ] Hours tracker
 
-- hours tracker
-
+---
 
 # Questions
-- how will agent interact with galaxy? find tools, construct workflow, ...
-  - galaxy api, galaxy tool
-  - galaxy tool list, documentation
 
-# ========= Notes =========
+- How will agent interact with Galaxy? Find tools, construct workflow, ...
+  - Galaxy API
+  - Galaxy tool list & documentation
+- What agents will be used? **TBD**
+- What agent framework will be used?
+  - **LangGraph** (decision made)
 
-- what agents will be used? - tbd
-- what agent framework will be used? any decisions made on this?
-  - langgraph
+---
 
-KeePassXC
-~/KeePassXC/AppRun
+# Notes
 
-### Galaxy
-- web based data analysis platform
+## Setup
+- KeePassXC: `~/KeePassXC/AppRun`
 
-## Papers:
+## Galaxy
+- Web-based data analysis platform
+
+## Papers & Frameworks
+
 ### MapCoder
-  - agent framework for competitive programming
-  - 4 agents with dynamic agent traversal
-    - retrieval
-    - planning
-    - coding
-    - debugging
+- Agent framework for competitive programming
+- **4 agents** with dynamic agent traversal:
+  - Retrieval
+  - Planning
+  - Coding
+  - Debugging
 
 ### AgentCoder
-  - code gen agent framework focused on improved test generation and lower token use
-  - 3 agents
-    - programmer
-    - test designer
-    - test executor
-  - loop until correct answer
+- Code generation agent framework
+- Focus: improved test generation, lower token use
+- **3 agents**:
+  - Programmer
+  - Test designer
+  - Test executor
+- Loop until correct answer
 
 ### CodeAgent
-  - repo level code generation
-  - 4 agent strategies
-    - ReAct
-    - Tool-Planning
-    - OpenAIFun
-    - Rule-based form
-  - create CODEAGENTBENCH to test CodeAgent
-  - use DuckDuckGo api for web search: https://api.duckduckgo.com/  
-  - BM25 - documentation reading tool
-  - treesitter for code symbol navigation
+- Repo-level code generation
+- **4 agent strategies**:
+  - ReAct
+  - Tool-Planning
+  - OpenAIFun
+  - Rule-based form
+- Created **CODEAGENTBENCH** for testing
+- Tools:
+  - DuckDuckGo API for web search: https://api.duckduckgo.com/
+  - BM25 for documentation reading
+  - TreeSitter for code symbol navigation
 
 ### Improved Bug Localization with AI Agents Leveraging Hypothesis and Dynamic Cognition
-  - CogniGent - multiple agents
-  - conduct hypothesis testing
-  - 1. make hpothesis on root cause of bug
-  - 2. causal reasoning to find starting points, explore dependent code
-  - Click2Cause algorithm - depth-first traversal of call graph
-      
+- **CogniGent** - multiple agents with hypothesis testing
+- Process:
+  1. Make hypothesis on root cause of bug
+  2. Causal reasoning to find starting points
+  3. Explore dependent code
+- **Click2Cause algorithm** - depth-first traversal of call graph
 
 ### Benchmarks
-  HumanEval
-  MBPP - most basic program problems
+- HumanEval
+- MBPP (Most Basic Program Problems)
 
-### Web Scraping
-    Selenium - framework to open and manipulate browser
-    - start session
-        driver = webdriver.Firefox() / webdriver.Chrome()
-        add options for firefox:
-            options = webdriver.FirefoxOptions()
-            options.add_argument("-headless")
-    - take actions
-    - request info from browser
-        title, current_url
-    - wait
-        implicit wait
-            - driver.implicitly_wait(2)
-            - wait this long for element
-            - if element found before wait time, return
-            - if timeout, error
-        explicit wait
-            - wait until explicit condition is met
-            - if timeout, return error
-    - find elements
-        locate by: class, id, name, tag, link text
-    - interact w elements
-    - request element info
-    - close session
-        driver.quit()
+## Web Scraping
 
-# ========= days record =========
+### Selenium Framework
+- Open and manipulate browser
 
-R 7 May
-    - Galaxy forum scraping research
-    - Attempted Selenium + BeautifulSoup scraper for help.galaxyproject.org
-        - Issues: slow (sleep(2) waits), brittle DOM selectors, memory-intensive
-    - Discovered forum runs Discourse software with public REST API
-    - Key endpoints: /latest.json, /t/{slug}/{id}.json, /site.json, /about.json, /u/{username}.json
-    - Discourse returns structured JSON: post_stream, topics, users, metadata
-    - Next: replace Selenium with requests-based API crawler
-        - pagination, batch fetching, retry/backoff, write to JSONL
-        - analyze issue patterns for research validation
-    - public endpoints:
-        - `https://help.galaxyproject.org/latest.json` - topic list (paginated)
-        - `https://help.galaxyproject.org/t/{slug}/{id}.json` - full topic with all posts
-        - `https://help.galaxyproject.org/site.json` - categories, tags, site metadata
-        - `https://help.galaxyproject.org/about.json` - site stats, moderators, version
-        - `https://help.galaxyproject.org/u/{username}.json` - public user profile
+**Start session**:
+```python
+driver = webdriver.Firefox()  # or webdriver.Chrome()
+options = webdriver.FirefoxOptions()
+options.add_argument("-headless")
+```
 
-W 6 May
-    - convo w khairul about aim, new task
-    - write email to techsupport asking for sudo access
-        - sudo access granted
-        - downloaded tmux, nvim, vscode
-        - update sioyek exec
-    - request lab key
+**Waiting strategies**:
+- **Implicit wait**: Wait for element across all find operations
+  ```python
+  driver.implicitly_wait(2)
+  ```
+- **Explicit wait**: Wait until specific condition met
+  ```python
+  WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "id")))
+  ```
 
-T 5 May
-    - Papers read:
-    - AgentCoder: Multi-Agent Code Generation with Effective Testing and Self-optimisation 
-    - CODEAGENT: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges
-    - read bug localization paper
-    - read up on benchmarks - HumanEval, MBPP, APPS, ...
-    - galaxy: tools, workflows, scientific workflows
-    - install ollama, run model
-    - test out langchain, make minimal agent
-    - make minimal agent
-         define minimal task
-         download ollama
+**Common operations**:
+- Find elements: by class, ID, name, tag, link text
+- Interact with elements
+- Request element info
+- Get page info: `title`, `current_url`
+- Close session: `driver.quit()`
 
-M 4 May
-    - onboarding
-    - intro to projects, read up on agents, workflows
-        - usegalaxy,  nextflow, snakemake
-    - read MapCoder
+---
+
+# Public Discourse API Endpoints
+
+| Endpoint | Purpose |
+|---|---|
+| `/latest.json` | Topic list (paginated) |
+| `/t/{slug}/{id}.json` | Full topic with all posts |
+| `/site.json` | Categories, tags, site metadata |
+| `/about.json` | Site stats, moderators, version |
+| `/u/{username}.json` | Public user profile |
+
+**Base URL**: `https://help.galaxyproject.org`
+
+---
+
+# Daily Record
+
+## Thursday, 7 May
+- Galaxy forum scraping research
+- Attempted Selenium + BeautifulSoup scraper for help.galaxyproject.org
+  - **Issues**: slow (sleep(2) waits), brittle DOM selectors, memory-intensive
+- **Discovery**: Forum runs Discourse software with public REST API
+- **Key endpoints identified** (see table above)
+- Discourse returns structured JSON: post_stream, topics, users, metadata
+- **Next steps**:
+  - Replace Selenium with requests-based API crawler
+  - Implement pagination, batch fetching, retry/backoff
+  - Write data to JSONL
+  - Analyze issue patterns for research validation
+
+## Wednesday, 6 May
+- Conversation with Khairul about aim & new task
+- Email to techsupport requesting sudo access → **Granted**
+- Downloaded: tmux, nvim, vscode
+- Updated sioyek executable
+- Requested lab key
+
+## Tuesday, 5 May
+- Papers read:
+  - AgentCoder: Multi-Agent Code Generation with Effective Testing and Self-optimisation
+  - CODEAGENT: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges
+  - Bug localization paper
+- Galaxy research: tools, workflows, scientific workflows
+- Benchmark research: HumanEval, MBPP, APPS
+- Installed Ollama & tested model
+- Tested LangChain & built minimal agent
+- Task definition & minimal agent setup
+
+## Monday, 4 May
+- Onboarding
+- Project intro & agent/workflow research
+  - UseGalaxy, Nextflow, Snakemake
+- Read MapCoder paper
