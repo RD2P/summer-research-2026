@@ -93,6 +93,23 @@ KeePassXC
 
 # ========= days record =========
 
+R 7 May
+    - Galaxy forum scraping research
+    - Attempted Selenium + BeautifulSoup scraper for help.galaxyproject.org
+        - Issues: slow (sleep(2) waits), brittle DOM selectors, memory-intensive
+    - Discovered forum runs Discourse software with public REST API
+    - Key endpoints: /latest.json, /t/{slug}/{id}.json, /site.json, /about.json, /u/{username}.json
+    - Discourse returns structured JSON: post_stream, topics, users, metadata
+    - Next: replace Selenium with requests-based API crawler
+        - pagination, batch fetching, retry/backoff, write to JSONL
+        - analyze issue patterns for research validation
+    - public endpoints:
+        - `https://help.galaxyproject.org/latest.json` - topic list (paginated)
+        - `https://help.galaxyproject.org/t/{slug}/{id}.json` - full topic with all posts
+        - `https://help.galaxyproject.org/site.json` - categories, tags, site metadata
+        - `https://help.galaxyproject.org/about.json` - site stats, moderators, version
+        - `https://help.galaxyproject.org/u/{username}.json` - public user profile
+
 W 6 May
     - convo w khairul about aim, new task
     - write email to techsupport asking for sudo access
