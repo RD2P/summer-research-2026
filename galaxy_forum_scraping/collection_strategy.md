@@ -20,16 +20,19 @@ Change topics per page with:
 
 ## Looking at site.json (https://help.galaxyproject.org/site.json):
 
-Total topics across all categories:
-    **Category**                **id**  **topic count**
-    usegalaxy.org support       5       2030
-    usegalaxy.eu support        6       1303
-    usegalaxy.org.au support    10      82
-    usegalaxy.be support        11      18
-    Uncategorized               1       2733
-    Site Feedback               3       5
-    Resources                   14      108
-    News & Updates              15      4
+Total topics across all categories: 
+    
+| Category                  | ID    | Topic count   |
+|---                        |---:   |---:           |
+| usegalaxy.org support     | 5     | 2030          |
+| usegalaxy.eu support      | 6     | 1303          |
+| usegalaxy.org.au support  | 10    | 82            |
+| usegalaxy.be support      | 11    | 18            |
+| Uncategorized             | 1     | 2733          |
+| Site Feedback             | 3     | 5             |
+| Resources                 | 14    | 108           |
+| News & Updates            | 15    | 4             |
+|                           |       |               |
 
 ## Data fetching strategy:
 - Iterate over all categories by id
