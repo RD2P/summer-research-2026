@@ -1,0 +1,31 @@
+Summary of topic counts of each forum according to site.json
+
+
+
+# === GALAXY === #
+# use per_page=100 to reduce number of requests:
+#     **Category**                **id**  **topic count**   **post count**      **num requests**
+#     usegalaxy.org support       5       2030              8171                21
+#     usegalaxy.eu support        6       1303              5570                14
+#     usegalaxy.org.au support    10      82                314                 1
+#     usegalaxy.be support        11      18                62                  1
+#     Uncategorized               1       2733              10964               28
+#     Site Feedback               3       5                 24                  1
+#     Resources                   14      108               457                 2
+#     News & Updates             15       3                 4                   1
+# Total: 6,282 topics, 69 requests
+
+
+
+# === NEXTFLOW === #
+# use per_page=100 to reduce number of requests:
+#     **Category**                **id**  **topic count**   **post count**  **num requests**
+#     Ask for help                37      838                3540               9
+#     Training                    39      35                 187                1
+#     Tips & Tricks               36      28                 55                 1
+#     Events                      15      65                 127                2
+#     Show & Tell                 43      3                  5                  1
+#     Announcements               44      1                  1                  1
+#     Random                      4       1                  4                  1
+#     Uncategorized               1       0                  0                  1
+# Total: 971, 17 requests
