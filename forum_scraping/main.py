@@ -80,13 +80,8 @@ def fetch_category_topics():
 
             topics = _fetch_category_topics(category_id, session=session)
             total_topics += len(topics)
-        
-            # Save individual category file
-            output_file = OUTPUT_DIR / f"category_{category_id}.json"
-            with open(output_file, "w") as f:
-                json.dump(topics, f, indent=2)
 
-            print(f"Saved {len(topics)} topics to {output_file}")
+            print(f"Fetched {len(topics)} topics from category {category_id}. Total so far: {total_topics}")
 
             all_topics.extend(topics)
 
