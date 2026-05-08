@@ -1,0 +1,53 @@
+[
+  {
+    "fancy_title": "Seqera Community Forum *REWIND*",
+    "id": 2517,
+    "title": "Seqera Community Forum *REWIND*",
+    "slug": "seqera-community-forum-rewind",
+    "posts_count": 2,
+    "reply_count": 0,
+    "highest_post_number": 2,
+    "image_url": "https://europe1.discourse-cdn.com/flex013/uploads/seqera/optimized/2X/d/d99ae57de66a1a66ec20a9a86d6fed96df41938f_2_1024x885.gif",
+    "created_at": "2026-01-27T15:26:24.752Z",
+    "last_posted_at": "2026-01-30T10:11:20.716Z",
+    "bumped": true,
+    "bumped_at": "2026-01-30T10:11:20.716Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags": [],
+    "tags_descriptions": {},
+    "views": 27,
+    "like_count": 0,
+    "has_summary": false,
+    "last_poster_username": "mahesh.binzerpanchal",
+    "category_id": 4,
+    "op_like_count": 0,
+    "pinned_globally": false,
+    "featured_link": null,
+    "has_accepted_answer": false,
+    "can_vote": false,
+    "posters": [
+      {
+        "extras": null,
+        "description": "Original Poster",
+        "user_id": 1,
+        "primary_group_id": null,
+        "flair_group_id": 42
+      },
+      {
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 99,
+        "primary_group_id": null,
+        "flair_group_id": 41
+      }
+    ]
+  }
+]
