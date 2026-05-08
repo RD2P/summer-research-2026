@@ -21,12 +21,15 @@ from pathlib import Path
 # Category ids based on site.json:
 CATEGORY_IDS = [15, 3, 11, 10, 14, 6, 5, 1]
 
+# Nextflow "https://community.seqera.io/"
+# Galaxy "https://help.galaxyproject.org"
+
 BASE_URL = "https://help.galaxyproject.org"
 OUTPUT_DIR = Path("galaxy_topics")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 
-def fetch_category_topics(category_id, session, per_page=100):
+def _fetch_category_topics(category_id, session, per_page=100):
     """Fetch all topics from a category, handling pagination."""
     all_topics = []
     page = 0
@@ -60,7 +63,7 @@ def fetch_category_topics(category_id, session, per_page=100):
     
     return all_topics
 
-def main():
+def fetch_category_topics():
     all_data = {}
     total_topics = 0
     
@@ -68,7 +71,7 @@ def main():
         for category_id in CATEGORY_IDS:
             print(f"\nFetching category {category_id}...")
 
-            topics = fetch_category_topics(category_id, session=session)
+            topics = _fetch_category_topics(category_id, session=session)
             all_data[category_id] = topics
             total_topics += len(topics)
         
@@ -88,5 +91,11 @@ def main():
     print(f"\nTotal topics collected: {total_topics}")
     print(f"Data saved to {OUTPUT_DIR}/")
 
+
+
+
 if __name__ == "__main__":
-    main()
+    # fetch_category_topics()
+
+
+    pass
