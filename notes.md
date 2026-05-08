@@ -1,6 +1,9 @@
 # Tasks
-- [ ] Understand scientific workflows: Galaxy
-- [ ] Hours tracker
+- read muttakin paper
+- add replies and body
+- step by step documentation, teach course
+- Understand scientific workflows: Galaxy
+- Hours tracker
 
 ---
 
