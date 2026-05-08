@@ -1,0 +1,205 @@
+[
+  {
+    "fancy_title": "About the News &amp; Updates category",
+    "id": 12925,
+    "title": "About the News & Updates category",
+    "slug": "about-the-news-updates-category",
+    "posts_count": 2,
+    "reply_count": 0,
+    "highest_post_number": 2,
+    "image_url": null,
+    "created_at": "2024-07-11T05:46:02.638Z",
+    "last_posted_at": "2025-02-14T19:26:22.960Z",
+    "bumped": true,
+    "bumped_at": "2024-07-11T05:53:47.783Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": true,
+    "unpinned": null,
+    "excerpt": "At the moment this aims to publish various RSS feeds that our projects produce. \nUse the following paragraphs for a longer description, or to establish category guidelines or rules: \n\n\nWhy should people use this category&hellip;",
+    "visible": true,
+    "closed": true,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags": [],
+    "tags_descriptions": {},
+    "views": 31,
+    "like_count": 0,
+    "has_summary": false,
+    "last_poster_username": "jennaj",
+    "category_id": 15,
+    "op_like_count": 0,
+    "pinned_globally": false,
+    "featured_link": null,
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": null,
+        "description": "Original Poster",
+        "user_id": 3,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 6,
+        "primary_group_id": null,
+        "flair_group_id": null
+      }
+    ]
+  },
+  {
+    "fancy_title": "Release of Galaxy 26.0",
+    "id": 17654,
+    "title": "Release of Galaxy 26.0",
+    "slug": "release-of-galaxy-26-0",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": null,
+    "created_at": "2026-04-13T16:55:15.571Z",
+    "last_posted_at": "2026-04-13T16:55:15.679Z",
+    "bumped": true,
+    "bumped_at": "2026-04-13T16:55:15.679Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags": [
+      {
+        "id": 5,
+        "name": "news",
+        "slug": "news"
+      },
+      {
+        "id": 187,
+        "name": "release",
+        "slug": "release"
+      }
+    ],
+    "tags_descriptions": {},
+    "views": 46,
+    "like_count": 4,
+    "has_summary": false,
+    "last_poster_username": "natwhitaker",
+    "category_id": 15,
+    "op_like_count": 4,
+    "pinned_globally": false,
+    "featured_link": null,
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 5704,
+        "primary_group_id": null,
+        "flair_group_id": null
+      }
+    ]
+  },
+  {
+    "fancy_title": "Release of Galaxy 25.1",
+    "id": 16580,
+    "title": "Release of Galaxy 25.1",
+    "slug": "release-of-galaxy-25-1",
+    "posts_count": 2,
+    "reply_count": 0,
+    "highest_post_number": 2,
+    "image_url": null,
+    "created_at": "2025-12-17T18:43:04.923Z",
+    "last_posted_at": "2025-12-17T18:43:45.702Z",
+    "bumped": true,
+    "bumped_at": "2025-12-17T18:43:05.000Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags": [
+      {
+        "id": 187,
+        "name": "release",
+        "slug": "release"
+      }
+    ],
+    "tags_descriptions": {},
+    "views": 44,
+    "like_count": 1,
+    "has_summary": false,
+    "last_poster_username": "ahmedhamidawan",
+    "category_id": 15,
+    "op_like_count": 1,
+    "pinned_globally": false,
+    "featured_link": null,
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 5224,
+        "primary_group_id": null,
+        "flair_group_id": null
+      }
+    ]
+  },
+  {
+    "fancy_title": "Release of Galaxy 25.0",
+    "id": 15776,
+    "title": "Release of Galaxy 25.0",
+    "slug": "release-of-galaxy-25-0",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": null,
+    "created_at": "2025-06-19T04:09:59.217Z",
+    "last_posted_at": "2025-06-19T04:09:59.320Z",
+    "bumped": true,
+    "bumped_at": "2025-06-19T04:09:59.320Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags": [
+      {
+        "id": 187,
+        "name": "release",
+        "slug": "release"
+      }
+    ],
+    "tags_descriptions": {},
+    "views": 42,
+    "like_count": 0,
+    "has_summary": false,
+    "last_poster_username": "ahmedhamidawan",
+    "category_id": 15,
+    "op_like_count": 0,
+    "pinned_globally": false,
+    "featured_link": null,
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 5224,
+        "primary_group_id": null,
+        "flair_group_id": null
+      }
+    ]
+  }
+]
