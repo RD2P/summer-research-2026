@@ -186,33 +186,83 @@ def verify_all_posts():
 # === Create final output === #
 # =========================== #
 
-
-def parse_topics_flat():
-    """Parse all_topics.json and extract minimal fields into topics_flat.json"""
+# for each topic in all_topics.json create a new record with the following fields:
+# - id (topic.id)
+# - title (topic.title)
+# - cooked (all_posts.json: the cooked content of the first post in the topic - search the file for topic.id and get the cooked content of the first post in the posts array)
+# - created_at (topic.created_at)
+# - posts_count (topic.posts_count)
+# - reply_count (topic.reply_count)
+# - highest_post_number (topic.highest_post_number)
+# - last_posted_at (topic.last_posted_at)
+# - liked (topic.liked)
+# - views (topic.views)
+# - like_count (topic.like_count)
+# - has_accepted_answer (topic.has_accepted_answer)
+# - category_id (topic.category_id)
+# - tags (list of topic.tags.name)
+def create_final_output():
+    """
+    Create final output combining topics and posts with all desired fields.
     
-    # Load all topics
+     1. Load all topics from OUTPUT_DIR/all_topics.json
+     2. Load all posts from OUTPUT_DIR/all_posts.json
+     3. For each topic, find the corresponding posts and extract the cooked content of the first post
+     4. Create a new record with the required fields and save to OUTPUT_DIR/final_output.json
+    """
+    
     all_topics_file = OUTPUT_DIR / "all_topics.json"
-    with open(all_topics_file, "r") as f:
-        topics = json.load(f)
+    all_posts_file = OUTPUT_DIR / "all_posts.json"
+    output_file = OUTPUT_DIR / "final_output.json"
     
-    # extract fields
-    flat_topics = []
-    for topic in topics:
-        flat_topics.append({
+    # Load all topics and posts
+    with open(all_topics_file, "r") as f:
+        all_topics = json.load(f)
+    
+    with open(all_posts_file, "r") as f:
+        all_posts = json.load(f)
+    
+    # Create a lookup map for posts by topic_id
+    posts_by_topic_id = {post["id"]: post for post in all_posts}
+    
+    # Create final records
+    final_records = []
+    
+    for topic in all_topics:
+        topic_id = topic.get("id")
+        posts = posts_by_topic_id.get(topic_id, {}).get("posts", [])
+        
+        # Get cooked content from first post
+        cooked = posts[0].get("cooked", "") if posts else ""
+        
+        # Extract tag names
+        tags = [tag.get("name") for tag in topic.get("tags", [])] if topic.get("tags") else []
+        
+        record = {
             "id": topic.get("id"),
             "title": topic.get("title"),
+            "cooked": cooked,
+            "created_at": topic.get("created_at"),
             "posts_count": topic.get("posts_count"),
             "reply_count": topic.get("reply_count"),
-            "created_at": topic.get("created_at"),
+            "highest_post_number": topic.get("highest_post_number"),
+            "last_posted_at": topic.get("last_posted_at"),
+            "liked": topic.get("liked"),
+            "views": topic.get("views"),
+            "like_count": topic.get("like_count"),
+            "has_accepted_answer": topic.get("has_accepted_answer"),
             "category_id": topic.get("category_id"),
-        })
+            "tags": tags,
+        }
+        
+        final_records.append(record)
     
-    # Save flat file
-    flat_file = OUTPUT_DIR / "topics_flat.json"
-    with open(flat_file, "w") as f:
-        json.dump(flat_topics, f, indent=2)
+    # Save to file
+    with open(output_file, "w") as f:
+        json.dump(final_records, f, indent=2, ensure_ascii=False)
     
-    print(f"Saved {len(flat_topics)} flattened topics to {flat_file}")
+    print(f"Created final output with {len(final_records)} topics")
+    print(f"Data saved to {output_file}")
 
 
 if __name__ == "__main__":
@@ -227,6 +277,4 @@ if __name__ == "__main__":
     # verify_all_posts()
 
     # 4. create final output with desired fields for all topics
-    # parse_topics_flat()
-
-    pass
+    create_final_output()
