@@ -18,7 +18,9 @@ FORUMS =  {
     }
 }
 
+# ============================== #
 # === choose forum to scrape === #
+# ============================== #
 
 # "galaxy" or "nextflow"
 FORUM_KEY = "nextflow" 
@@ -32,6 +34,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 # ================================ #
 # === Fetch topics by category === #
 # ================================ #
+
 
 def _fetch_category_topics(category_id, session, per_page=100):
     """Fetch all topics from a category, handling pagination."""
@@ -95,11 +98,94 @@ def fetch_category_topics():
 # ================================== #
 # === Fetch posts for all topics === #
 # ================================== #
-# todo
+
+
+def fetch_all_topic_posts():
+    """
+    Fetch post_stream.posts for every topic in all_topics.json and save to all_posts.json.
+    1. Iterate over all topics in OUTPUT_DIR/all_topics.json 
+    2. Fetch info for each topic from BASE_URL/t/{id}.json
+    3. Save the posts for each topic in OUTPUT_DIR/all_posts.json    
+    """
+    
+    all_topics_file = OUTPUT_DIR / "all_topics.json"
+    all_posts_file = OUTPUT_DIR / "all_posts.json"
+
+    with open(all_topics_file, "r") as f:
+        topics = json.load(f)
+
+    with requests.Session() as session, open(all_posts_file, "w") as out:
+        out.write("[\n")  # start of JSON array
+        first = True
+
+        post_count = 0
+
+        for i, topic in enumerate(topics, start=1):
+            topic_id = topic.get("id")
+            if not topic_id:
+                continue
+
+            try:
+                url = f"{BASE_URL}/t/{topic_id}.json"
+                response = session.get(url, timeout=30)
+                response.raise_for_status()
+                data = response.json()
+
+                posts = data.get("post_stream", {}).get("posts", [])
+
+                record = {
+                    "id": topic_id,
+                    "title": topic.get("title"),
+                    "category_id": topic.get("category_id"),
+                    "posts": posts
+                }
+
+                if not first:
+                    out.write(",\n")  # comma between records
+
+                json.dump(record, out, indent=2, ensure_ascii=False)
+                first = False
+                post_count += 1
+
+                print(f"[{i}/{len(topics)}] Fetched {len(posts)} posts for topic {topic_id}")
+                time.sleep(0.3)
+
+            except Exception as e:
+                print(f"Error fetching topic {topic_id}: {e}")
+
+        out.write("\n]")  # end of JSON array
+
+    print(f"\nSaved posts for {post_count} topics to {all_posts_file}")
+
+
+# ============================= #
+# === Verify all_posts.json === #
+# ============================= #
+
+
+def verify_all_posts():
+    """Verify that all_posts.json has the required fields for each topic and post."""
+    with open(OUTPUT_DIR / "all_posts.json", "r") as f:
+        posts_data = json.load(f)
+
+    for post in posts_data:
+        assert("posts" in post), f"Missing 'posts' key in topic {post.get('id')}"
+        assert("id" in post), f"Missing 'id' key in topic {post}"
+        assert("title" in post), f"Missing 'title' key in topic {post.get('id')}"
+        assert("category_id" in post), f"Missing 'category_id' key in topic {post.get('id')}"
+        for p in post["posts"]:
+            assert("id" in p), f"Missing 'id' key in post of topic {post.get('id')}"
+            assert("username" in p), f"Missing 'username' key in post of topic {post.get('id')}"
+            assert("created_at" in p), f"Missing 'created_at' key in post of topic {post.get('id')}"
+            assert("cooked" in p), f"Missing 'cooked' key in post of topic {post.get('id')}"
+
+    print(f"Verified {len(posts_data)} topics have required fields and posts.")
+
 
 # =========================== #
 # === Create final output === #
 # =========================== #
+
 
 def parse_topics_flat():
     """Parse all_topics.json and extract minimal fields into topics_flat.json"""
@@ -128,13 +214,19 @@ def parse_topics_flat():
     
     print(f"Saved {len(flat_topics)} flattened topics to {flat_file}")
 
+
 if __name__ == "__main__":
 
-    # fetch topics by category
-    fetch_category_topics()
+    # 1. fetch topics by category
+    # fetch_category_topics()
 
-    # fetch posts for all topics (todo)
-    # fetch_all_topic_posts
+    # 2. fetch posts for all topics (todo)
+    # fetch_all_topic_posts()
 
-    # create final output with desired fields for all topics
+    # 3. verify all_posts.json has the required fields
+    # verify_all_posts()
+
+    # 4. create final output with desired fields for all topics
     # parse_topics_flat()
+
+    pass
