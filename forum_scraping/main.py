@@ -264,3 +264,5 @@ if __name__ == "__main__":
 
     # 4. create final output with desired fields for all topics
     # create_final_output()
+    
+    pass
