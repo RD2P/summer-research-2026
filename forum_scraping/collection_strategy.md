@@ -1,112 +1,190 @@
 # Forum Topic Collection Strategy
 
-## Intent: To gather data from Galaxy and Nextflow forums and validate need for an agentic framework
+## Intent
+Gather topic and post data from Galaxy and Nextflow forums to support analysis and validate the need for an agentic framework for scientific workflows.
 
-### Forum URLs:
+## Forums
 - Galaxy: https://help.galaxyproject.org/
 - Nextflow: https://community.seqera.io/
 
-Both forums use public Discourse endpoints (https://meta.discourse.org/)
+Both forums use public Discourse endpoints.
 
-### Public endpoints available:
-- `<base_url>/latest.json` - topic list (paginated)
-- `<base_url>/c/{id}.json` - full category
-- `<base_url>/t/{id}.json` - full topic with all posts
-- `<base_url>/site.json` - categories, tags, site metadata
-- `<base_url>/about.json` - site stats, moderators, version
-- `<base_url>/u/{username}.json` - public user profile
+## Public endpoints
+- `<base_url>/c/{id}.json` — category topics
+- `<base_url>/t/{id}.json` — full topic with posts
+- `<base_url>/site.json` — site metadata, categories, counts
+- `<base_url>/about.json` — site stats, version, moderators
+- `<base_url>/latest.json` — latest topics
 
-### Query parameters:
-- Paginate: `?page=1`
-- Topics per page: `?per_page=100`
-- Reduce payload: `?no_definitions=true`
-
----
-
-## Galaxy Forum
-
-### Category breakdown (from site.json):
-
-| Category                  | ID    | Topic count   | Post count |
-|---                        |---:   |---:           |---:        |
-| usegalaxy.org support     | 5     | 2030          | 8171       |
-| usegalaxy.eu support      | 6     | 1303          | 5570       |
-| usegalaxy.org.au support  | 10    | 82            | 314        |
-| usegalaxy.be support      | 11    | 18            | 62         |
-| Uncategorized             | 1     | 2733          | 10964      |
-| Site Feedback             | 3     | 5             | 24         |
-| Resources                 | 14    | 108           | 457        |
-| News & Updates            | 15    | 3             | 4          |
-
-**Total: 6,282 topics, ~69 requests @ per_page=100**
+## Query parameters
+- `page` — pagination
+- `per_page=100` — fetch up to 100 topics per page
+- `no_definitions=true` — reduce payload where supported
 
 ---
 
-## Nextflow Forum
+## Galaxy forum
 
-### Category breakdown (from site.json):
+### Category breakdown
 
-| Category                  | ID    | Topic count   | Post count |
-|---                        |---:   |---:           |---:        |
-| Ask for help              | 37    | 838           | 3540       |
-| Training                  | 39    | 35            | 187        |
-| Tips & Tricks             | 36    | 28            | 55         |
-| Events                    | 15    | 65            | 127        |
-| Show & Tell               | 43    | 3             | 5          |
-| Announcements             | 44    | 1             | 1          |
-| Random                    | 4     | 1             | 4          |
-| Uncategorized             | 1     | 0             | 0          |
+| Category | ID | Topic count | Post count | Category pages |
+|---|---:|---:|---:|---:|
+| usegalaxy.org support | 5 | 2030 | 8171 | 21 |
+| usegalaxy.eu support | 6 | 1303 | 5570 | 14 |
+| usegalaxy.org.au support | 10 | 82 | 314 | 1 |
+| usegalaxy.be support | 11 | 18 | 62 | 1 |
+| Uncategorized | 1 | 2733 | 10964 | 28 |
+| Site Feedback | 3 | 5 | 24 | 1 |
+| Resources | 14 | 108 | 457 | 2 |
+| News & Updates | 15 | 3 | 4 | 1 |
 
-**Total: 971 topics, ~10 requests @ per_page=100**
+**Totals**
+- Topics: **6,282**
+- Posts: **25,566**
+- Requests for category pages: **69**
+- Topic detail requests: **6,282**
+- Total requests: **6,351**
+
+---
+
+## Nextflow forum
+
+### Category breakdown
+
+| Category | ID | Topic count | Post count | Category pages |
+|---|---:|---:|---:|---:|
+| Ask for help | 37 | 838 | 3540 | 9 |
+| Training | 39 | 35 | 187 | 1 |
+| Tips & Tricks | 36 | 28 | 55 | 1 |
+| Events | 15 | 65 | 127 | 2 |
+| Show & Tell | 43 | 3 | 5 | 1 |
+| Announcements | 44 | 1 | 1 | 1 |
+| Random | 4 | 1 | 4 | 1 |
+| Uncategorized | 1 | 0 | 0 | 1 |
+
+**Totals**
+- Topics: **971**
+- Posts: **3,919**
+- Requests for category pages: **17**
+- Topic detail requests: **971**
+- Total requests: **988**
 
 ---
 
 ## Data fetching strategy
 
-1. Iterate over all categories by ID
-   ```
-   <base_url>/c/<category_id>.json?per_page=100&no_definitions=true
-   ```
+Current script flow in `main.py`:
 
-2. Paginate through results until `topics` array is empty
+1. **Fetch category topics**
+   - Iterate through all category IDs
+   - Fetch pages with:
+     ```text
+     <base_url>/c/<category_id>.json?page=<page>&per_page=100&no_definitions=true
+     ```
+   - Continue until no topics are returned
 
-3. Add 1 second delay between requests (rate limiting)
+2. **Fetch full topic posts**
+   - Load `all_topics.json`
+   - For each topic, fetch:
+     ```text
+     <base_url>/t/<topic_id>.json
+     ```
+   - Save `post_stream.posts` for each topic
 
-4. Save per-category and combined flat files
+3. **Create final combined output**
+   - Load `all_topics.json`
+   - Load `all_posts.json`
+   - Join by topic ID
+   - Extract `cooked` from the first post
+   - Write `final_output.json`
+
+4. **Verification**
+   - Validate that each topic record has:
+     - `id`
+     - `title`
+     - `category_id`
+     - `posts`
+   - Validate each post has:
+     - `id`
+     - `username`
+     - `created_at`
+     - `cooked`
 
 ---
 
-## Data format
+## Output files
 
-### Per-category files:
-- Path: `{forum}_results/category_{category_id}.json`
-  - Example: `galaxy_results/category_5.json`, `nextflow_results/category_37.json`
-- Format: JSON array of topic objects as returned by `/c/{id}.json`
-- Example entry:
-  ```json
-  {
-    "id": 12345,
-    "title": "Example topic title",
-    "slug": "example-topic-title",
-    "created_at": "2024-01-02T03:04:05.000Z",
-    "last_posted_at": "2024-05-07T12:34:56.000Z",
-    "posts_count": 4,
-    "views": 256,
-    "reply_count": 3,
-    "highest_post_number": 4,
-    "excerpt": "Short HTML/text excerpt",
-    "category_id": 5
-  }
-  ```
+### 1) `all_topics.json`
+Flat array of topic metadata returned from category endpoints.
 
-### Combined flat file:
-- Path: `{forum}_results/all_topics.jsonl`
-  - Example: `galaxy_results/all_topics.jsonl`, `nextflow_results/all_topics.jsonl`
-- Format: **JSONL** (one JSON topic object per line)
-- Streaming-friendly format to avoid high memory usage
-- Each line is a valid JSON object with `category_id` included
-- Example:
-  ```
-  {"id":12345,"title":"Example topic title","posts_count":4,"reply_count":3,"created_at":"2024-01-02T03:04:05.000Z","category_id":5}
-  {"id":12346,"title":"Another topic","posts_count":2,"reply_count":1,"created_at":"2024-01-03T10:20:30.000Z","category_id":5}
-  ```
+Example record:
+```json
+{
+  "id": 12345,
+  "title": "Example topic title",
+  "created_at": "2024-01-02T03:04:05.000Z",
+  "posts_count": 4,
+  "reply_count": 3,
+  "highest_post_number": 4,
+  "last_posted_at": "2024-05-07T12:34:56.000Z",
+  "views": 256,
+  "category_id": 37
+}
+```
+
+### 2) `all_posts.json`
+JSON array of topic records with full posts.
+
+Example record:
+```json
+{
+  "id": 12345,
+  "title": "Example topic title",
+  "category_id": 37,
+  "posts": [
+    {
+      "id": 111,
+      "username": "user1",
+      "created_at": "2024-01-02T03:04:05.000Z",
+      "cooked": "<p>First post body</p>"
+    },
+    {
+      "id": 112,
+      "username": "user2",
+      "created_at": "2024-01-02T04:10:00.000Z",
+      "cooked": "<p>Reply body</p>"
+    }
+  ]
+}
+```
+
+### 3) `final_output.json`
+Combined flat dataset with one record per topic.
+
+Example record:
+```json
+{
+  "id": 12345,
+  "title": "Example topic title",
+  "cooked": "<p>First post body</p>",
+  "created_at": "2024-01-02T03:04:05.000Z",
+  "posts_count": 4,
+  "reply_count": 3,
+  "highest_post_number": 4,
+  "last_posted_at": "2024-05-07T12:34:56.000Z",
+  "liked": false,
+  "views": 256,
+  "like_count": 2,
+  "has_accepted_answer": false,
+  "category_id": 37,
+  "tags": ["nextflow", "tutorial"]
+}
+```
+
+---
+
+## Notes
+- The script uses a 1 second delay between category page requests.
+- The topic fetch step is the main source of request volume.
+- Outputs are written under the selected forum’s results directory.
+- `FORUM_KEY` in `main.py` controls whether Galaxy or Nextflow is scraped.
