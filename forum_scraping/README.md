@@ -181,6 +181,37 @@ Desired final format:
 ]
 ```
 
+### `all_replies.json`
+Derived dataset containing only replies for each topic.
+
+Example:
+```json
+[
+  {
+    "topic_id": 12345,
+    "title": "Example topic title",
+    "post_id": 111,
+    "replies": [
+      {
+        "id": 112,
+        "cooked": "<p>Reply body</p>",
+        "created_at": "2024-01-02T04:10:00.000Z"
+      },
+      {
+        "id": 113,
+        "cooked": "<p>Another reply</p>",
+        "created_at": "2024-01-02T05:15:00.000Z"
+      }
+    ]
+  }
+]
+```
+
+Notes:
+- `post_id` is the first post in the topic.
+- `replies` contains all posts after the first post.
+- Each reply stores only `id`, `cooked`, and `created_at`.
+
 ## Notes
 
 - The script uses a delay between category page requests.
