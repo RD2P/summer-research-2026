@@ -29,3 +29,27 @@ Summary of topic counts of each forum according to site.json
 #     Random                      4       1                  4                  1
 #     Uncategorized               1       0                  0                  1
 # Total: 971, 17 requests
+
+
+
+
+Desired final output format:
+
+[
+    {
+    "id": 1,
+    "title": "Sample Topic",
+    "cooked": "<p>This is a sample topic.</p>",
+    "created_at": "2023-01-01T00:00:00Z",
+    "posts_count": 5,
+    "reply_count": 4,
+    "highest_post_number": 5,
+    "last_posted_at": "2023-01-01T00:00:00Z",
+    "liked": false,
+    "views": 10,
+    "like_count": 2,
+    "has_accepted_answer": false,
+    "category_id": 37,
+    "tags": ["nextflow", "tutorial"]
+    }
+]
