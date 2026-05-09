@@ -1,5 +1,4 @@
-Summary of topic counts of each forum according to site.json
-
+# Summary of topic counts of each forum according to site.json
 
 
 # === GALAXY === #
@@ -13,8 +12,11 @@ Summary of topic counts of each forum according to site.json
 #     Site Feedback               3       5                 24                  1
 #     Resources                   14      108               457                 2
 #     News & Updates             15       3                 4                   1
-# Total: 6,282 topics, 69 requests
 
+Total: 
+topics:     6,282
+posts:      25,566
+requests:   69 + 6,282 = 6,351
 
 
 # === NEXTFLOW === #
@@ -28,12 +30,14 @@ Summary of topic counts of each forum according to site.json
 #     Announcements               44      1                  1                  1
 #     Random                      4       1                  4                  1
 #     Uncategorized               1       0                  0                  1
-# Total: 971, 17 requests
+
+Total
+topics:     971
+posts:      3,919
+requests:   17 + 3,919 = 988
 
 
-
-
-Desired final output format:
+# Desired final output format:
 
 [
     {
