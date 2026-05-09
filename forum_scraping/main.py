@@ -186,21 +186,7 @@ def verify_all_posts():
 # === Create final output === #
 # =========================== #
 
-# for each topic in all_topics.json create a new record with the following fields:
-# - id (topic.id)
-# - title (topic.title)
-# - cooked (all_posts.json: the cooked content of the first post in the topic - search the file for topic.id and get the cooked content of the first post in the posts array)
-# - created_at (topic.created_at)
-# - posts_count (topic.posts_count)
-# - reply_count (topic.reply_count)
-# - highest_post_number (topic.highest_post_number)
-# - last_posted_at (topic.last_posted_at)
-# - liked (topic.liked)
-# - views (topic.views)
-# - like_count (topic.like_count)
-# - has_accepted_answer (topic.has_accepted_answer)
-# - category_id (topic.category_id)
-# - tags (list of topic.tags.name)
+
 def create_final_output():
     """
     Create final output combining topics and posts with all desired fields.
@@ -277,4 +263,4 @@ if __name__ == "__main__":
     # verify_all_posts()
 
     # 4. create final output with desired fields for all topics
-    create_final_output()
+    # create_final_output()
