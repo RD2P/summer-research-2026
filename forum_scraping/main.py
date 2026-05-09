@@ -251,6 +251,59 @@ def create_final_output():
     print(f"Data saved to {output_file}")
 
 
+def create_all_replies():
+    """
+    Create all_replies.json from all_posts.json.
+
+    Output format:
+    [
+      {
+        "id": <topic_id>,
+        "title": <topic_title>,
+        "post_id": <first_post_id>,
+        "replies": [
+          {"id": ..., "cooked": ..., "created_at": ...},
+          ...
+        ]
+      }
+    ]
+    """
+    all_posts_file = OUTPUT_DIR / "all_posts.json"
+    output_file = OUTPUT_DIR / "all_replies.json"
+
+    with open(all_posts_file, "r") as f:
+        topics = json.load(f)
+
+    all_replies = []
+
+    for topic in topics:
+        posts = topic.get("posts", [])
+        if not posts:
+            continue
+
+        first_post = posts[0]
+        replies = [
+            {
+                "id": post.get("id"),
+                "cooked": post.get("cooked", ""),
+                "created_at": post.get("created_at"),
+            }
+            for post in posts[1:]
+        ]
+
+        all_replies.append({
+            "topic_id": topic.get("id"),
+            "title": topic.get("title"),
+            "post_id": first_post.get("id"),
+            "replies": replies,
+        })
+
+    with open(output_file, "w") as f:
+        json.dump(all_replies, f, indent=2, ensure_ascii=False)
+
+    print(f"Saved replies for {len(all_replies)} topics to {output_file}")
+
+
 if __name__ == "__main__":
 
     # 1. fetch topics by category
@@ -264,5 +317,8 @@ if __name__ == "__main__":
 
     # 4. create final output with desired fields for all topics
     # create_final_output()
-    
+
+    # 5. create output with all replies for each topic
+    # create_all_replies()
+
     pass
