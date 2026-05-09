@@ -1,4 +1,4 @@
-# Summary of topic counts of each forum according to site.json
+# Summary of topic counts of each forum according to site.json (collected May 8th 2026)
 
 
 # === GALAXY === #
