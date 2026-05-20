@@ -1,0 +1,9 @@
+langgraph==1.2.0
+langgraph-cli[inmem]==0.4.26
+langgraph-checkpoint-sqlite
+langgraph-checkpoint-postgres
+langchain-openai
+langchain-anthropic
+langchain-community
+python-dotenv
+tavily-python
