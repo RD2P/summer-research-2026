@@ -1,0 +1,77 @@
+{
+    "default_panel_view": "all_tools",
+    "views": {
+        "default": {
+            "id": "default",
+            "model_class": "type",
+            "name": "Full Tool Panel",
+            "description": "Galaxy's fully configured toolbox panel with all sections, tools, and configured workflows loaded.",
+            "view_type": "default",
+            "searchable": true
+        },
+        "ontology:edam_operations": {
+            "id": "ontology:edam_operations",
+            "model_class": "EdamToolPanelView",
+            "name": "EDAM Operations",
+            "description": "Tools are grouped using annotated EDAM operation information (if available).",
+            "view_type": "ontology",
+            "searchable": true
+        },
+        "ontology:edam_topics": {
+            "id": "ontology:edam_topics",
+            "model_class": "EdamToolPanelView",
+            "name": "EDAM Topics",
+            "description": "Tools are grouped using annotated EDAM topic information (if available).",
+            "view_type": "ontology",
+            "searchable": true
+        },
+        "all_tools": {
+            "id": "all_tools",
+            "model_class": "StaticToolPanelView",
+            "name": "All Tools",
+            "description": null,
+            "view_type": "generic",
+            "searchable": true
+        },
+        "singlecell": {
+            "id": "singlecell",
+            "model_class": "StaticToolPanelView",
+            "name": "Single Cell",
+            "description": null,
+            "view_type": "generic",
+            "searchable": true
+        },
+        "vgp": {
+            "id": "vgp",
+            "model_class": "StaticToolPanelView",
+            "name": "Vertebrate Genomes Project",
+            "description": null,
+            "view_type": "generic",
+            "searchable": true
+        },
+        "microgalaxy": {
+            "id": "microgalaxy",
+            "model_class": "StaticToolPanelView",
+            "name": "Microbiology",
+            "description": null,
+            "view_type": "generic",
+            "searchable": true
+        },
+        "imaging": {
+            "id": "imaging",
+            "model_class": "StaticToolPanelView",
+            "name": "Imaging",
+            "description": null,
+            "view_type": "generic",
+            "searchable": true
+        },
+        "biodiversity-genomics": {
+            "id": "biodiversity-genomics",
+            "model_class": "StaticToolPanelView",
+            "name": "Biodiversity Genomics",
+            "description": null,
+            "view_type": "generic",
+            "searchable": true
+        }
+    }
+}
