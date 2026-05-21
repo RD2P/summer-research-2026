@@ -9,10 +9,11 @@ Use the calculator for math.
 """
 
 llm = ChatOllama(
-    model="lfm2.5-thinking:1.2b",
-    base_url="http://localhost:11434", 
-    temperature=0
-    )
+    model="qwen3.5:9b",
+    base_url="http://localhost:4378", 
+    temperature=0,
+)
+
 llm_with_tools = llm.bind_tools(TOOLS)
 
 
