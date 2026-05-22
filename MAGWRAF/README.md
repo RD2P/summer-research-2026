@@ -4,7 +4,7 @@
 
 Create a multi-agent framework that suggests valid Galaxy workflows from plain English user prompts.
 
-- Initially target public Galaxy instance (to be finalized)
+- Initially target public Galaxy instance
 
 ### Input
 Plain English prompts
@@ -51,28 +51,13 @@ Validation methods:
 - Deterministic compatibility checking
 - Avoid model training, autonomous execution, entire Galaxy ToolShed for now
 
-
 Start with:
 - One biological domain (RNA-seq)
 - 20 curated tools
 - Runnable workflows only
 
 ### Proposed Architecture
-```text
-User Prompt
-    ↓
-Intent/Task Extraction Agent
-    ↓
-Workflow Retrieval Agent (find similar workflows/tools)
-    ↓
-Tool Planning Agent (select candidate tools)
-    ↓
-Compatibility Validator (check datatype + semantic compatibility)
-    ↓
-Workflow Critic Agent (check for missing/invalid steps)
-    ↓
-Final Workflow Output
-```
+https://excalidraw.com/#json=KJf4UfIlkmY1kjW7qwr23,2LDHYdrgQ0xCRiSrSklzQA
 
 #### Tool Compatibility Graph
 Example:
@@ -168,25 +153,6 @@ Build:
 
 Use real workflows rather than manually encoding everything.
 
-### Long-Term Evolution
-Phase 1:
-- Curated workflows
-- Deterministic validation
-
-Phase 2:
-- Graph-based planning
-- Larger tool coverage
-
-Phase 3:
-- Adaptive workflow synthesis
-- Parameter optimization
-- Execution integration
-
-Phase 4:
-- ToolShed-scale planning
-- Personalized recommendations
-- Autonomous refinement
-
 ### 2-Week Proof-of-Concept Goal
 Input:
 
@@ -245,10 +211,8 @@ With:
 - Decide graph representation approach
 
 ### Demo Preparation
-- Prepare small curated dataset
-- Generate valid RNA-seq workflows from prompts
-- Demonstrate compatibility validation
-- Demonstrate retrieval + planning pipeline
 - Create architecture diagram
-
-
+- Prepare small curated dataset
+- Demonstrate retrieval + planning pipeline
+- Demonstrate compatibility validation
+- Generate valid RNA-seq workflows from prompts
