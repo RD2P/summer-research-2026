@@ -60,6 +60,8 @@ Due to the lack of `sudo` privileges on the servers, a standard installation is 
         LocalForward 4378 localhost:4378
     ````
 
+    You'll need to add a `ProxyJump` if you're using your personal computer and outside the university network.
+
 3.  **Connect and Start Tunnel**
 
     Run the following command to connect to the server. This will also automatically create the SSH tunnel defined in your config.
