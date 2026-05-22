@@ -1,13 +1,15 @@
 from langchain_core.messages import HumanMessage
 from graph import graph
+from state import AgentState
 
 def main() -> None:
-    initial = {
-        "messages": [HumanMessage(content=
-            "How many days are there between May 19th to September 5th?")],
+    initial = AgentState({
+        "messages": [
+            HumanMessage(content="What is (12 * 5) + 3?")
+        ],
         "research_notes": [],
         "iteration": 0,
-    }
+    })
     final = graph.invoke(initial)
     print("\n--- FINAL ANSWER ---")
     print(final["messages"][-1].content)
