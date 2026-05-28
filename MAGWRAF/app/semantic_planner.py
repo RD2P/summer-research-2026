@@ -40,6 +40,7 @@ def load_tool_catalog() -> list[dict]:
     return tools
 
 
+# todo: improve with llm
 def infer_semantic_intent(prompt: str) -> str:
     normalized = prompt.lower()
     if any(keyword in normalized for keyword in ["rna-seq", "rnaseq", "rna data", "differential expression", "expression"]):
@@ -48,6 +49,34 @@ def infer_semantic_intent(prompt: str) -> str:
 
 
 def score_tool(tool: dict[str, Any], query_terms: list[str], fallback_names: list[str]) -> int:
+    """Compute a simple relevance score for a tool given motif search terms.
+
+    This function performs a lightweight, substring-based ranking used for
+    retrieval of candidate tools for each motif step. The inputs are
+    prioritized into two groups: explicit `query_terms` (higher weight) and
+    `fallback_names` (lower weight, typically well-known tool names or aliases).
+
+    Scoring heuristics (case-insensitive, substring matches):
+    - +3 points for each `query_terms` match found in the tool's name,
+      description, section id, or declared tasks.
+    - +2 points for each `fallback_names` match.
+    - +1 bonus if the tool's `tool_section_id` equals "rna_seq".
+    - +1 bonus if the tool declares any `tasks` (indicates richer metadata).
+
+    Parameters
+    - tool: dict[str, Any] - tool metadata (expects keys like "name",
+      "description", "tool_section_id", and optional "tasks").
+    - query_terms: list[str] - prioritized search terms for the motif (higher
+      weight per match).
+    - fallback_names: list[str] - known tool names/aliases to match (lower
+      weight per match).
+
+    Returns
+    - int: relevance score (higher means more relevant). The score is
+      intentionally coarse-grained to favor recall over precision for initial
+      candidate retrieval.
+    """
+
     haystack = " ".join(
         str(tool.get(field, ""))
         for field in ["name", "description", "tool_section_id"]
