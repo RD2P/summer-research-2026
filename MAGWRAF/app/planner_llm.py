@@ -8,6 +8,7 @@ from langchain_core.messages import SystemMessage, HumanMessage
 
 
 # Use Ollama for plan refinement. On any error we return the base plan.
+# Uses Ollama set up described in soarserver_ollama_setup.md
 llm = ChatOllama(
     model="qwen3.5:9b",
     base_url="http://localhost:4378",
