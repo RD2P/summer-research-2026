@@ -6,14 +6,18 @@ from output_formatter import format_workflow_summary
 
 
 def main() -> None:
-    # take prompt from arg, fallback
-    prompt = " ".join(sys.argv[1:]).strip() or "Define a bulk RNA-seq differential expression workflow."
+    prompt = " ".join(sys.argv[1:]).strip()
+
+    assert prompt, "Please add prompt argument"
+
     final_state = graph.invoke(
         {
             "prompt": prompt,
             "iteration": 0,
         }
     )
+
+    print(final_state)
 
     workflow_plan = final_state["workflow_plan"]
     print(json.dumps(workflow_plan, indent=2))
