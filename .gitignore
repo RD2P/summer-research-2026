@@ -3,3 +3,4 @@ cloned_repos/
 notes.md
 papers/*
 venv/
+__pycache__
