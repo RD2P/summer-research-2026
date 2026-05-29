@@ -40,7 +40,7 @@ The framework should:
 - Existing workflow patterns
 
 ### Proposed Architecture
-https://excalidraw.com/#json=KJf4UfIlkmY1kjW7qwr23,2LDHYdrgQ0xCRiSrSklzQA
+https://excalidraw.com/#json=4eGvxaSpHO4E3zEMVn3mU,OwQm-Dpe-kZngfswjRnbNQ
 
 #### Tool Compatibility Graph
 Example:
@@ -118,3 +118,14 @@ The planner returns structured output with:
 - `task_topology`
 - `matched_tools`
 - `formatted steps and explanation`
+
+## Installation
+Requires Python 3.10 or higher
+
+Create a python environment
+`python3 -m venv venv`
+
+Activate the environment
+`source venv/bin/activate`
+
+You should see (venv) to the left
