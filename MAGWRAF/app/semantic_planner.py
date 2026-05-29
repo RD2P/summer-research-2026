@@ -40,7 +40,6 @@ def load_tool_catalog() -> list[dict]:
     return tools
 
 
-# todo: improve with llm
 def infer_semantic_intent(prompt: str) -> str:
     normalized = prompt.lower()
     if any(keyword in normalized for keyword in ["rna-seq", "rnaseq", "rna data", "differential expression", "expression"]):

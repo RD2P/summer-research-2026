@@ -19,12 +19,17 @@ Analyze bulk RNA-seq reads and identify differential expression
 
 Example output:
 
-1. FastQC
-2. Trim Galore
-3. HISAT2
-4. SAMtools sort
-5. featureCounts
-6. DESeq2
+  Workflow: bulk_rnaseq_differential_expression_pipeline
+  Intent: bulk RNA-seq differential expression analysis with quality control
+
+  Steps:
+  1. quality_control -> FastQC
+  2. trimming -> Trimmomatic
+  3. alignment -> STAR
+  4. read_counting -> featureCounts
+  5. differential_expression_analysis -> edgeR
+
+  Explanation: this workflow follows a standard RNA-seq analysis path, moving from quality control to trimming, alignment, counting, and differential expression.
 
 ### Framework Requirements
 The framework should:
@@ -39,25 +44,9 @@ The framework should:
 - Semantic compatibility
 - Existing workflow patterns
 
-### Proposed Architecture
-https://excalidraw.com/#json=4eGvxaSpHO4E3zEMVn3mU,OwQm-Dpe-kZngfswjRnbNQ
+### Architecture
+https://excalidraw.com/#json=Z9-6dPKeJN0rKVbfqi4fG,cuDnrV8Y408DGikwCXsXNA
 
-#### Tool Compatibility Graph
-Example:
-
-```text
-FASTQ
-  ↓
-FastQC
-  ↓
-Trim Galore
-  ↓
-HISAT2
-  ↓
-SAMtools
-  ↓
-featureCounts
-```
 
 ### Tool Metadata Structure
 ```json
