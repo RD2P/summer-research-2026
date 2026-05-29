@@ -19,7 +19,7 @@ llm = ChatOllama(
 def refine_plan_with_llm(prompt: str, base_plan: dict) -> dict:
     system = SystemMessage(
         content=(
-            "You are a workflow planner assistant.\n"
+            "You are a galaxy workflow planner assistant.\n"
             "Receive a user prompt and a base workflow plan (JSON). Return an improved workflow plan as JSON only.\n"
             "Required fields: workflow_name, semantic_intent, steps (list of {task,input_type,output_type,tool_name,tool_id}), task_topology (list of {from,to})."
         )
