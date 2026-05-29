@@ -2,6 +2,7 @@ from langgraph.graph import END, START, StateGraph
 
 from semantic_planner import plan_semantic_workflow
 from planner_llm import refine_plan
+from validate import validate_workflow_plan
 from state import PlannerState
 
 
@@ -22,15 +23,7 @@ def run_planner_llm(state: PlannerState) -> dict:
 
 
 def run_validator(state: PlannerState) -> dict:
-    plan = state.get("workflow_plan", {})
-    plan_out = dict(plan)
-    matched = plan_out.get("matched_tools", [])
-    missing = [step for step in plan_out.get("steps", []) if not step.get("tool_id")]
-    plan_out["validation"] = {
-        "matched_tools": len(matched),
-        "missing_tool_ids": len(missing),
-        "valid": len(missing) == 0 and len(matched) > 0,
-    }
+    plan_out = validate_workflow_plan(state.get("workflow_plan", {}))
     return {
         "workflow_plan": plan_out,
         "iteration": state.get("iteration", 0) + 1,
