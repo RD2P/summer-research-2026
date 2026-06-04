@@ -32,7 +32,6 @@ Example output:
   Explanation: this workflow follows a standard RNA-seq analysis path, moving from quality control to trimming, alignment, counting, and differential expression.
 
 ### Framework Requirements
-The framework should:
 - Suggest only existing Galaxy tools
 - Ensure tool compatibility
 - All workflows are runnable
