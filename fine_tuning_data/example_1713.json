@@ -1,0 +1,840 @@
+{
+    "data": {
+        "id": "1713",
+        "type": "workflows",
+        "attributes": {
+            "discussion_links": [
+                {
+                    "id": "2015",
+                    "label": "GTN Matrix",
+                    "url": "https://matrix.to/#/%23galaxyproject_admin:gitter.im"
+                }
+            ],
+            "title": "DEG Part - Ref Based RNA Seq - Transcriptomics - GTN",
+            "license": "MIT",
+            "description": "Reference-based RNA-Seq data analysis\n\n## Associated Tutorial\n\nThis workflows is part of the tutorial [Reference-based RNA-Seq data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html), available in the [GTN](https://training.galaxyproject.org)\n\n## Features\n\n* Includes [Galaxy Workflow Tests](https://training.galaxyproject.org/training-material/faqs/gtn/workflow_run_test.html)\n* Includes a [Galaxy Workflow Report](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_report_view.html)\n\n## Thanks to...\n\n**Workflow Author(s)**: Bérénice Batut, Mallory Freeberg, Mo Heydarian, Anika Erxleben, Pavankumar Videm, Clemens Blank, Maria Doyle, Nicola Soranzo, Peter van Heusden, Lucille Delisle\n\n**Tutorial Author(s)**: [Bérénice Batut](https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/), [Mallory Freeberg](https://training.galaxyproject.org/training-material/hall-of-fame/malloryfreeberg/), [Mo Heydarian](https://training.galaxyproject.org/training-material/hall-of-fame/moheydarian/), [Anika Erxleben](https://training.galaxyproject.org/training-material/hall-of-fame/erxleben/), [Pavankumar Videm](https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/), [Clemens Blank](https://training.galaxyproject.org/training-material/hall-of-fame/blankclemens/), [Maria Doyle](https://training.galaxyproject.org/training-material/hall-of-fame/mblue9/), [Nicola Soranzo](https://training.galaxyproject.org/training-material/hall-of-fame/nsoranzo/), [Peter van Heusden](https://training.galaxyproject.org/training-material/hall-of-fame/pvanheus/), [Lucille Delisle](https://training.galaxyproject.org/training-material/hall-of-fame/lldelisle/)\n\n**Tutorial Contributor(s)**: [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/), [Clea Siguret](https://training.galaxyproject.org/training-material/hall-of-fame/clsiguret/), [Wolfgang Maier](https://training.galaxyproject.org/training-material/hall-of-fame/wm75/), [Pavankumar Videm](https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/), [Bérénice Batut](https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/), [Lucille Delisle](https://training.galaxyproject.org/training-material/hall-of-fame/lldelisle/), [Björn Grüning](https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/), [Nicola Soranzo](https://training.galaxyproject.org/training-material/hall-of-fame/nsoranzo/), [Hans-Rudolf Hotz](https://training.galaxyproject.org/training-material/hall-of-fame/hrhotz/), [Cristóbal Gallardo](https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/), [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/), [Graeme Tyson](https://training.galaxyproject.org/training-material/hall-of-fame/hrukkudyr/), [Maria Doyle](https://training.galaxyproject.org/training-material/hall-of-fame/mblue9/), [Amirhossein Naghsh Nilchi](https://training.galaxyproject.org/training-material/hall-of-fame/Nilchia/), [Mehmet Tekman](https://training.galaxyproject.org/training-material/hall-of-fame/mtekman/), [Anika Erxleben](https://training.galaxyproject.org/training-material/hall-of-fame/erxleben/), [Simon Bray](https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/), [Clemens Blank](https://training.galaxyproject.org/training-material/hall-of-fame/blankclemens/), [Ekaterina Polkh](https://training.galaxyproject.org/training-material/hall-of-fame/polkhe/), [William Durand](https://training.galaxyproject.org/training-material/hall-of-fame/willdurand/), [Marius van den Beek](https://training.galaxyproject.org/training-material/hall-of-fame/mvdbeek/), [Niall Beard](https://training.galaxyproject.org/training-material/hall-of-fame/njall/), [Martin Čech](https://training.galaxyproject.org/training-material/hall-of-fame/martenson/), [Armin Dadras](https://training.galaxyproject.org/training-material/hall-of-fame/dadrasarmin/), [Florian Heyl](https://training.galaxyproject.org/training-material/hall-of-fame/heylf/)\n\n**Funder(s)**: [de.NBI](https://training.galaxyproject.org/training-material/hall-of-fame/deNBI/)\n\n[![gtn star logo followed by the word workflows](https://training.galaxyproject.org/training-material/assets/branding/gtn-workflows.png)](https://training.galaxyproject.org/training-material/)",
+            "latest_version": 2,
+            "tags": [
+                "GTN",
+                "Galaxy",
+                "Transcriptomics"
+            ],
+            "versions": [
+                {
+                    "version": 1,
+                    "revision_comments": null,
+                    "url": "https://workflowhub.eu/workflows/1713?version=1",
+                    "commit": "e78b2defa389d4b319b20a2befa4efe20117f7a7",
+                    "ref": "refs/tags/8.0",
+                    "tree": "/workflows/1713/git/1/tree",
+                    "doi": null
+                },
+                {
+                    "version": 2,
+                    "revision_comments": null,
+                    "url": "https://workflowhub.eu/workflows/1713?version=2",
+                    "commit": "9e14c2743c4e9bc6f2db8104cb363a24333bcdef",
+                    "ref": "refs/heads/master",
+                    "tree": "/workflows/1713/git/2/tree",
+                    "doi": null
+                }
+            ],
+            "version": 2,
+            "revision_comments": null,
+            "created_at": "2025-11-24T13:14:12.000Z",
+            "updated_at": "2025-11-24T13:14:12.000Z",
+            "doi": null,
+            "content_blobs": [],
+            "creators": [],
+            "other_creators": null,
+            "workflow_class": {
+                "title": "Galaxy",
+                "key": "galaxy",
+                "description": null
+            },
+            "operation_annotations": [],
+            "topic_annotations": [],
+            "internals": {
+                "inputs": [
+                    {
+                        "id": "Drosophila_melanogaster.BDGP6.32.109_UCSC.gtf.gz",
+                        "name": "Drosophila_melanogaster.BDGP6.32.109_UCSC.gtf.gz",
+                        "description": "gene annotation",
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "default_value": null
+                    },
+                    {
+                        "id": "Input Dataset Collection",
+                        "name": "Input Dataset Collection",
+                        "description": "Counts obtained by Feature counts",
+                        "type": [
+                            {
+                                "type": "File[]"
+                            }
+                        ],
+                        "default_value": null
+                    },
+                    {
+                        "id": "KEGG pathways to plot",
+                        "name": "KEGG pathways to plot",
+                        "description": "selected KEGG pathways to plot",
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "default_value": null
+                    },
+                    {
+                        "id": "header",
+                        "name": "header",
+                        "description": "header for annotated DESeq2 output",
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "default_value": null
+                    }
+                ],
+                "outputs": [
+                    {
+                        "id": "DESeq2_normalized_counts",
+                        "name": "DESeq2_normalized_counts",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "Differential Analysis/counts_out"
+                        ]
+                    },
+                    {
+                        "id": "DESeq2_plots",
+                        "name": "DESeq2_plots",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "Differential Analysis/plots"
+                        ]
+                    },
+                    {
+                        "id": "DESeq2_annotated_results_with_header",
+                        "name": "DESeq2_annotated_results_with_header",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "14/out_file1"
+                        ]
+                    },
+                    {
+                        "id": "z_score",
+                        "name": "z_score",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "15/table"
+                        ]
+                    },
+                    {
+                        "id": "go_genes",
+                        "name": "go_genes",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "18/cat_genes_tab"
+                        ]
+                    },
+                    {
+                        "id": "go_plot",
+                        "name": "go_plot",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "18/top_plot"
+                        ]
+                    },
+                    {
+                        "id": "go_terms",
+                        "name": "go_terms",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "18/wallenius_tab"
+                        ]
+                    },
+                    {
+                        "id": "kegg_genes",
+                        "name": "kegg_genes",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "19/cat_genes_tab"
+                        ]
+                    },
+                    {
+                        "id": "kegg_pathways",
+                        "name": "kegg_pathways",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "19/wallenius_tab"
+                        ]
+                    },
+                    {
+                        "id": "go_underrepresented",
+                        "name": "go_underrepresented",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "22/out_file1"
+                        ]
+                    },
+                    {
+                        "id": "go_overrepresented",
+                        "name": "go_overrepresented",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "23/out_file1"
+                        ]
+                    },
+                    {
+                        "id": "kegg_underrepresented",
+                        "name": "kegg_underrepresented",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "24/out_file1"
+                        ]
+                    },
+                    {
+                        "id": "kegg_overrepresented",
+                        "name": "kegg_overrepresented",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "25/out_file1"
+                        ]
+                    },
+                    {
+                        "id": "pathview_plot",
+                        "name": "pathview_plot",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "26/multiple_kegg_native"
+                        ]
+                    },
+                    {
+                        "id": "go_underrepresented_categories",
+                        "name": "go_underrepresented_categories",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "28/out_file1"
+                        ]
+                    },
+                    {
+                        "id": "go_overrepresented_categories",
+                        "name": "go_overrepresented_categories",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "29/out_file1"
+                        ]
+                    },
+                    {
+                        "id": "heatmap_log",
+                        "name": "heatmap_log",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "31/output1"
+                        ]
+                    },
+                    {
+                        "id": "heatmap_zscore",
+                        "name": "heatmap_zscore",
+                        "description": null,
+                        "type": [
+                            {
+                                "type": "File"
+                            }
+                        ],
+                        "source_ids": [
+                            "32/output1"
+                        ]
+                    }
+                ],
+                "steps": [
+                    {
+                        "id": "4",
+                        "name": "Extract samples' name",
+                        "description": "toolshed.g2.bx.psu.edu/repos/iuc/collection_element_identifiers/collection_element_identifiers/0.0.2"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Compute gene length",
+                        "description": "toolshed.g2.bx.psu.edu/repos/iuc/length_and_gc_content/length_and_gc_content/0.1.2"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Extract groups",
+                        "description": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.5+galaxy2"
+                    },
+                    {
+                        "id": "7",
+                        "name": "Change Case",
+                        "description": "ChangeCase"
+                    },
+                    {
+                        "id": "8",
+                        "name": "Tag elements with groups",
+                        "description": "__TAG_FROM_FILE__"
+                    },
+                    {
+                        "id": "9",
+                        "name": "Differential Analysis",
+                        "description": "toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2/2.11.40.8+galaxy0"
+                    },
+                    {
+                        "id": "10",
+                        "name": "Compute",
+                        "description": "toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/2.1"
+                    },
+                    {
+                        "id": "11",
+                        "name": "Annotate DESeq2/DEXSeq output tables",
+                        "description": "toolshed.g2.bx.psu.edu/repos/iuc/deg_annotate/deg_annotate/1.1.0+galaxy1"
+                    },
+                    {
+                        "id": "12",
+                        "name": "Table Compute",
+                        "description": "toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy2"
+                    },
+                    {
+                        "id": "13",
+                        "name": "Cut",
+                        "description": "Cut1"
+                    },
+                    {
+                        "id": "14",
+                        "name": "Concatenate datasets",
+                        "description": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.5+galaxy2"
+                    },
+                    {
+                        "id": "15",
+                        "name": "Table Compute",
+                        "description": "toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/1.2.4+galaxy2"
+                    },
+                    {
+                        "id": "16",
+                        "name": "Change Case",
+                        "description": "ChangeCase"
+                    },
+                    {
+                        "id": "17",
+                        "name": "Filter",
+                        "description": "Filter1"
+                    },
+                    {
+                        "id": "18",
+                        "name": "goseq",
+                        "description": "toolshed.g2.bx.psu.edu/repos/iuc/goseq/goseq/1.50.0+galaxy0"
+                    },
+                    {
+                        "id": "19",
+                        "name": "goseq",
+                        "description": "toolshed.g2.bx.psu.edu/repos/iuc/goseq/goseq/1.50.0+galaxy0"
+                    },
+                    {
+                        "id": "20",
+                        "name": "Cut",
+                        "description": "Cut1"
+                    },
+                    {
+                        "id": "21",
+                        "name": "Filter",
+                        "description": "Filter1"
+                    },
+                    {
+                        "id": "22",
+                        "name": "Filter",
+                        "description": "Filter1"
+                    },
+                    {
+                        "id": "23",
+                        "name": "Filter",
+                        "description": "Filter1"
+                    },
+                    {
+                        "id": "24",
+                        "name": "Filter",
+                        "description": "Filter1"
+                    },
+                    {
+                        "id": "25",
+                        "name": "Filter",
+                        "description": "Filter1"
+                    },
+                    {
+                        "id": "26",
+                        "name": "Pathview",
+                        "description": "toolshed.g2.bx.psu.edu/repos/iuc/pathview/pathview/1.34.0+galaxy0"
+                    },
+                    {
+                        "id": "27",
+                        "name": "Join two Datasets",
+                        "description": "join1"
+                    },
+                    {
+                        "id": "28",
+                        "name": "Group",
+                        "description": "Grouping1"
+                    },
+                    {
+                        "id": "29",
+                        "name": "Group",
+                        "description": "Grouping1"
+                    },
+                    {
+                        "id": "30",
+                        "name": "Cut",
+                        "description": "Cut1"
+                    },
+                    {
+                        "id": "31",
+                        "name": "heatmap2",
+                        "description": "toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.2.0+galaxy1"
+                    },
+                    {
+                        "id": "32",
+                        "name": "heatmap2",
+                        "description": "toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.2.0+galaxy1"
+                    }
+                ],
+                "links": [
+                    {
+                        "id": "input",
+                        "source_id": "Differential Analysis/deseq_out",
+                        "sink_id": "10",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "annotation",
+                        "source_id": "Drosophila_melanogaster.BDGP6.32.109_UCSC.gtf.gz",
+                        "sink_id": "11",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input_table",
+                        "source_id": "Differential Analysis/deseq_out",
+                        "sink_id": "11",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "singtabop|input",
+                        "source_id": "Differential Analysis/counts_out",
+                        "sink_id": "12",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input",
+                        "source_id": "10/out_file1",
+                        "sink_id": "13",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "inputs",
+                        "source_id": "header",
+                        "sink_id": "14",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "queries_0|inputs2",
+                        "source_id": "11",
+                        "sink_id": "14",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "singtabop|tables_0|input",
+                        "source_id": "Differential Analysis/counts_out",
+                        "sink_id": "15",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "singtabop|tables_1|input",
+                        "source_id": "12/table",
+                        "sink_id": "15",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input",
+                        "source_id": "13/out_file1",
+                        "sink_id": "16",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input",
+                        "source_id": "14/out_file1",
+                        "sink_id": "17",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "dge_file",
+                        "source_id": "16/out_file1",
+                        "sink_id": "18",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "length_file",
+                        "source_id": "7/out_file1",
+                        "sink_id": "18",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "dge_file",
+                        "source_id": "16/out_file1",
+                        "sink_id": "19",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "length_file",
+                        "source_id": "7/out_file1",
+                        "sink_id": "19",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input",
+                        "source_id": "17/out_file1",
+                        "sink_id": "20",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input",
+                        "source_id": "17/out_file1",
+                        "sink_id": "21",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input",
+                        "source_id": "18/wallenius_tab",
+                        "sink_id": "22",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input",
+                        "source_id": "18/wallenius_tab",
+                        "sink_id": "23",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input",
+                        "source_id": "19/wallenius_tab",
+                        "sink_id": "24",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input",
+                        "source_id": "19/wallenius_tab",
+                        "sink_id": "25",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "gene_data|tabular",
+                        "source_id": "20/out_file1",
+                        "sink_id": "26",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "pathway|tabular",
+                        "source_id": "KEGG pathways to plot",
+                        "sink_id": "26",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input1",
+                        "source_id": "Differential Analysis/counts_out",
+                        "sink_id": "27",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input2",
+                        "source_id": "21/out_file1",
+                        "sink_id": "27",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input1",
+                        "source_id": "22/out_file1",
+                        "sink_id": "28",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input1",
+                        "source_id": "23/out_file1",
+                        "sink_id": "29",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input",
+                        "source_id": "27/out_file1",
+                        "sink_id": "30",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input1",
+                        "source_id": "30/out_file1",
+                        "sink_id": "31",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input1",
+                        "source_id": "30/out_file1",
+                        "sink_id": "32",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input",
+                        "source_id": "Compute gene length/length",
+                        "sink_id": "7",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "gtf_file|gtf_history",
+                        "source_id": "Drosophila_melanogaster.BDGP6.32.109_UCSC.gtf.gz",
+                        "sink_id": "Compute gene length",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "select_data|countsFile",
+                        "source_id": "Tag elements with groups",
+                        "sink_id": "Differential Analysis",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "infile",
+                        "source_id": "Extract samples' name",
+                        "sink_id": "Extract groups",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input_collection",
+                        "source_id": "Input Dataset Collection",
+                        "sink_id": "Extract samples' name",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "input",
+                        "source_id": "Input Dataset Collection",
+                        "sink_id": "Tag elements with groups",
+                        "name": null,
+                        "default_value": null
+                    },
+                    {
+                        "id": "tags",
+                        "source_id": "Extract groups/outfile",
+                        "sink_id": "Tag elements with groups",
+                        "name": null,
+                        "default_value": null
+                    }
+                ]
+            },
+            "tools": [
+                {
+                    "name": "R",
+                    "id": "https://bio.tools/r"
+                },
+                {
+                    "name": "DESeq2",
+                    "id": "https://bio.tools/DESeq2"
+                },
+                {
+                    "name": "GOseq",
+                    "id": "https://bio.tools/goseq"
+                },
+                {
+                    "name": "pathview",
+                    "id": "https://bio.tools/pathview"
+                },
+                {
+                    "name": "ggplot2",
+                    "id": "https://bio.tools/ggplot2"
+                }
+            ]
+        },
+        "relationships": {
+            "creators": {
+                "data": []
+            },
+            "submitter": {
+                "data": [
+                    {
+                        "id": "731",
+                        "type": "people"
+                    }
+                ]
+            },
+            "people": {
+                "data": [
+                    {
+                        "id": "731",
+                        "type": "people"
+                    }
+                ]
+            },
+            "projects": {
+                "data": [
+                    {
+                        "id": "12",
+                        "type": "projects"
+                    }
+                ]
+            },
+            "investigations": {
+                "data": []
+            },
+            "studies": {
+                "data": []
+            },
+            "assays": {
+                "data": []
+            },
+            "publications": {
+                "data": []
+            },
+            "sops": {
+                "data": []
+            },
+            "presentations": {
+                "data": []
+            },
+            "data_files": {
+                "data": []
+            },
+            "documents": {
+                "data": []
+            }
+        },
+        "links": {
+            "self": "/workflows/1713?version=2",
+            "diagram": "/workflows/1713/diagram?version=2"
+        },
+        "meta": {
+            "created": "2025-06-02T10:05:52.000Z",
+            "modified": "2025-11-24T13:14:12.000Z",
+            "api_version": "0.3",
+            "base_url": "https://workflowhub.eu",
+            "uuid": "171ad490-21c7-013e-ea2d-005056ab8eb2"
+        }
+    },
+    "jsonapi": {
+        "version": "1.0"
+    }
+}
