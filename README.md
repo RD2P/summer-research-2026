@@ -5,7 +5,8 @@ Work focuses on agentic frameworks for scientific workflows and tooling for plat
 
 ## Repo scope
 This repository contains multiple projects for the summer research program. Current projects:
-- forum_scraping — tools to collect topics/posts from Discourse forums (Galaxy, Nextflow)
+- `forum_scraping` — tools to collect topics/posts from Discourse forums (Galaxy, Nextflow)
+- `MAGWRAF` — a multi-agent framework for Galaxy workflow retrieval and generation
 - (future) agent prototypes, workflow tooling, benchmarks, docs
 
 ## Project: forum_scraping
@@ -30,6 +31,19 @@ Primary outputs (per forum):
 ### Notes
 - Scripts use polite delays and `no_definitions=true` to reduce payload.
 - Documentation for collection strategy and summary of forum topics/counts/number of requests are in forum_scraping/
+
+## Project: MAGWRAF
+Location: `MAGWRAF/`
+
+Purpose: A Multi-Agent Galaxy Workflow Retrieval and Assembly Framework that suggests valid Galaxy workflows from plain English user prompts.
+
+Quick usage:
+```bash
+# from the MAGWRAF/ directory
+python -m app.main "Define a bulk RNA-seq differential expression workflow."
+```
+See the [project README](./MAGWRAF/README.md) for full details and installation instructions.
+
 
 ## Contact / Attribution
 ISE/SR Lab — University of Saskatchewan  
