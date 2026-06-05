@@ -12,8 +12,8 @@ with open("galaxy_workflows_summary.json", "r") as f:
 output_filename = "galaxy_workflows.jsonl"
 
 with open(output_filename, "w") as f:
-    for i in range(5):
-        workflow_id = workflows[i]["id"]
+    for workflow in workflows:
+        workflow_id = workflow["id"]
         url = f"{BASE_URL}/workflows/{workflow_id}.json"
         try:
             print(f"Fetching workflow {workflow_id} from {url}")
@@ -25,7 +25,7 @@ with open(output_filename, "w") as f:
             json.dump(response.json(), f)
             f.write("\n")
 
-            time.sleep(2)
+            time.sleep(1)
 
         except requests.exceptions.RequestException as e:
             print(f"Error fetching workflow {workflow_id}: {e}")
