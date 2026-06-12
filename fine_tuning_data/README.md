@@ -41,3 +41,11 @@ https://workflowhub.eu/workflows/<id>.json
 ```
 https://workflowhub.eu/workflows/1713.json
 ```
+
+## Data Collection Process
+
+1.  A summary of all Galaxy workflows is first retrieved from the `https://www.workflowhub.eu/workflows.json?filter[workflow_type]=galaxy` endpoint and saved as `galaxy_workflows_summary.json`.
+2.  This summary file, however, does not contain the full details for each workflow, such as the individual steps.
+3.  The `main.py` script reads `galaxy_workflows_summary.json` to extract the ID for each workflow.
+4.  For each ID, the script makes an API call to `https://workflowhub.eu/workflows/<id>.json` to fetch the complete workflow data.
+5.  This full workflow data is then appended as a new line to the `galaxy_workflows.jsonl` file, creating a JSON Lines dataset where each line is a complete JSON object for a single workflow.
