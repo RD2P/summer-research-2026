@@ -5,7 +5,8 @@ Work focuses on agentic frameworks for scientific workflows and tooling for plat
 
 ## Repo scope
 This repository contains multiple projects for the summer research program. Current projects:
-- forum_scraping — tools to collect topics/posts from Discourse forums (Galaxy, Nextflow)
+- `forum_scraping` — tools to collect topics/posts from Discourse forums (Galaxy, Nextflow)
+- `MAGWRAF` — a multi-agent framework for Galaxy workflow retrieval and generation
 - (future) agent prototypes, workflow tooling, benchmarks, docs
 
 ## Project: forum_scraping

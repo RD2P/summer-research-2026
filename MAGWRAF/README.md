@@ -44,8 +44,7 @@ Example output:
 - Existing workflow patterns
 
 ### Architecture
-https://excalidraw.com/#json=Z9-6dPKeJN0rKVbfqi4fG,cuDnrV8Y408DGikwCXsXNA
-
+https://excalidraw.com/#json=33sWbMnjd3SnmK0hr2UDf,U9Lk8FWoDsIvN84chaUFWA
 
 ### Tool Metadata Structure
 ```json
