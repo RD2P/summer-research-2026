@@ -31,6 +31,52 @@ Primary outputs (per forum):
 - Scripts use polite delays and `no_definitions=true` to reduce payload.
 - Documentation for collection strategy and summary of forum topics/counts/number of requests are in forum_scraping/
 
+## Project: MAGWRAF
+Location: `MAGWRAF/`
+
+Purpose: A Multi-Agent Galaxy Workflow Retrieval and Assembly Framework that suggests valid Galaxy workflows from plain English user prompts.
+
+Quick usage:
+```bash
+# from the MAGWRAF/ directory
+python -m app.main "Define a bulk RNA-seq differential expression workflow."
+```
+See the [project README](./MAGWRAF/README.md) for full details and installation instructions.
+
+## Project: Fine Tuning Data
+
+Location: `fine_tuning_data/`
+
+Purpose: Curate WorkflowHub Galaxy workflows into a compact dataset for LLM fine-tuning and retrieval tasks.
+
+Source: Collected from WorkflowHub on June 4, 2026 (https://www.workflowhub.eu/).
+
+Contents:
+- Total workflows: 1479
+- Galaxy workflows: 754
+- Key files:
+    - [fine_tuning_data/example_1713.json](fine_tuning_data/example_1713.json), 
+    - [fine_tuning_data/galaxy_workflows.jsonl](fine_tuning_data/galaxy_workflows.jsonl),
+    - [fine_tuning_data/galaxy_workflows_summary.json](fine_tuning_data/galaxy_workflows_summary.json)
+
+Scripts:
+- Data collection / processing: `fine_tuning_data/main.py`
+- Run locally:
+```bash
+python fine_tuning_data/main.py
+```
+
+API Endpoints Used:
+- `https://www.workflowhub.eu/workflows.json` — all workflows
+- `https://www.workflowhub.eu/workflows.json?filter[workflow_type]=galaxy` — filtered (Galaxy)
+- `https://workflowhub.eu/workflows/<id>.json` — individual workflow 
+    (example: `https://workflowhub.eu/workflows/1713.json`)
+
+Format / Usage:
+- Data is stored as JSON / JSONL (one record per line) suitable for standard fine-tuning pipelines.
+
+More info: See the dataset README for full details: [fine_tuning_data/README.md](fine_tuning_data/README.md)
+
 ## Contact / Attribution
 ISE/SR Lab — University of Saskatchewan  
 Summer 2026 research materials and code.
