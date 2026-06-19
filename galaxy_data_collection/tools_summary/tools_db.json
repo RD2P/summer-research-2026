@@ -1,0 +1,56 @@
+[
+    {
+        "id": "toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.74+galaxy1",
+        "name": "FastQC",
+        "description": "Read Quality reports",
+        "tool_section_id": "fastq_quality_control",
+        "inputs": ["fastq", "html"],
+        "outputs": ["html", "txt"],
+        "tasks": ["quality_control"]
+    },
+    {
+        "id": "toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.39+galaxy2",
+        "name": "Trimmomatic",
+        "description": "flexible read trimming tool for Illumina NGS data",
+        "tool_section_id": "fastq_quality_control",
+        "inputs": ["fastq"],
+        "outputs": ["trimmed_fastq"],
+        "tasks": ["trimming"]
+    },
+    {
+        "id": "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.2+galaxy0",
+        "name": "HISAT2",
+        "description": "A fast and sensitive alignment program",
+        "tool_section_id": "rna_seq",
+        "inputs": ["fastq"],
+        "outputs": ["bam"],
+        "tasks": ["alignment"]
+    },
+    {
+        "id": "toolshed.g2.bx.psu.edu/repos/iuc/stringtie/stringtie/2.2.3+galaxy0",
+        "name": "StringTie",
+        "description": "transcript assembly and quantification",
+        "tool_section_id": "rna_seq",
+        "inputs": ["bam"],
+        "outputs": ["transcript_assembly"],
+        "tasks": ["transcript_assembly"]
+    },
+    {
+        "id": "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0",
+        "name": "featureCounts",
+        "description": "Measure gene expression in RNA-Seq experiments from SAM or BAM files",
+        "tool_section_id": "rna_seq",
+        "inputs": ["bam"],
+        "outputs": ["count_matrix"],
+        "tasks": ["quantification"]
+    },
+    {
+        "tool_section_id": "rna_seq",
+        "id": "toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2/2.11.40.8+galaxy2",
+        "name": "DESeq2",
+        "description": "Determines differentially expressed features from count tables",
+        "inputs": ["count_matrix"],
+        "outputs": ["differential_expression_results"],
+        "tasks": ["differential_expression_analysis"]
+    }
+]
