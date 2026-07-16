@@ -304,6 +304,80 @@ def create_all_replies():
     print(f"Saved replies for {len(all_replies)} topics to {output_file}")
 
 
+def create_accepted_answers():
+    """
+    Create accepted_answers.json from all_posts.json.
+
+    Output format:
+    [
+      {
+        "topic_id": ...,
+        "title": ...,
+        "category_id": ...,
+        "post": {
+          "id": ...,
+          "created_at": ...
+        },
+        "accepted_answer": {
+          "post_id": ...,
+          "created_at": ...,
+          "post_url": ...
+        }
+      }
+    ]
+    """
+
+    topics_file = OUTPUT_DIR / "all_topics.json"
+    posts_file = OUTPUT_DIR / "all_posts.json"
+    output_file = OUTPUT_DIR / "accepted_answers.json"
+
+    with open(topics_file, "r") as f:
+        topics = json.load(f)
+    
+    with open(posts_file, "r") as f:
+        all_posts = json.load(f)
+
+    posts_by_topic_id = {topic["id"]: topic for topic in all_posts}
+
+    results = []
+
+    for topic in topics:
+        topic_id = topic.get("id")
+        topic_posts = posts_by_topic_id.get(topic_id, {})
+        posts = topic_posts.get("posts", [])
+
+        if not posts:
+            continue
+
+        first_post = posts[0]
+        accepted_post = next(
+            (p for p in posts if p.get("accepted_answer") is True),
+            None
+        )
+
+        if not accepted_post:
+            continue
+
+        results.append({
+            "topic_id": topic_id,
+            "title": topic.get("title"),
+            "category_id": topic.get("category_id"),
+            "post": {
+                "id": first_post.get("id"),
+                "created_at": first_post.get("created_at"),
+            },
+            "accepted_answer": {
+                "post_id": accepted_post.get("id"),
+                "created_at": accepted_post.get("created_at"),
+            }
+        })
+
+    with open(output_file, "w") as f:
+        json.dump(results, f, indent=2)
+
+    print(f"Saved {len(results)} topics with accepted answers to {output_file}")
+
+
 if __name__ == "__main__":
 
     # 1. fetch topics by category
@@ -320,5 +394,8 @@ if __name__ == "__main__":
 
     # 5. create output with all replies for each topic
     # create_all_replies()
+
+    # 6. create file to list topics with accepted answers
+    create_accepted_answers()
 
     pass
