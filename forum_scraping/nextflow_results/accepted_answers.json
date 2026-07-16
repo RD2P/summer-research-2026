@@ -1,0 +1,5423 @@
+[
+  {
+    "topic_id": 2642,
+    "title": "DRY Principle in statically typed Nextflow: reusing output path definitions in `output:` and `script:` sections",
+    "category_id": 37,
+    "post": {
+      "id": 6187,
+      "created_at": "2026-04-25T07:08:41.948Z"
+    },
+    "accepted_answer": {
+      "post_id": 6188,
+      "created_at": "2026-04-26T01:48:21.243Z"
+    }
+  },
+  {
+    "topic_id": 2630,
+    "title": "Adjusting tables in pdf output",
+    "category_id": 37,
+    "post": {
+      "id": 6142,
+      "created_at": "2026-04-09T07:54:40.612Z"
+    },
+    "accepted_answer": {
+      "post_id": 6143,
+      "created_at": "2026-04-09T09:07:16.200Z"
+    }
+  },
+  {
+    "topic_id": 2632,
+    "title": "Collect sorting by key but keep only files/paths",
+    "category_id": 37,
+    "post": {
+      "id": 6146,
+      "created_at": "2026-04-14T12:21:03.665Z"
+    },
+    "accepted_answer": {
+      "post_id": 6150,
+      "created_at": "2026-04-14T15:57:05.915Z"
+    }
+  },
+  {
+    "topic_id": 2611,
+    "title": "Issue with nextflows vs code parser reading my .venv file",
+    "category_id": 37,
+    "post": {
+      "id": 6105,
+      "created_at": "2026-03-16T09:38:16.530Z"
+    },
+    "accepted_answer": {
+      "post_id": 6107,
+      "created_at": "2026-03-16T12:59:05.578Z"
+    }
+  },
+  {
+    "topic_id": 2610,
+    "title": "Will map process inputs synchrously maintaining order?",
+    "category_id": 37,
+    "post": {
+      "id": 6104,
+      "created_at": "2026-03-16T09:28:23.256Z"
+    },
+    "accepted_answer": {
+      "post_id": 6106,
+      "created_at": "2026-03-16T12:53:12.410Z"
+    }
+  },
+  {
+    "topic_id": 2603,
+    "title": "Nextflow for proseq",
+    "category_id": 37,
+    "post": {
+      "id": 6083,
+      "created_at": "2026-03-05T21:28:10.999Z"
+    },
+    "accepted_answer": {
+      "post_id": 6089,
+      "created_at": "2026-03-08T16:23:50.815Z"
+    }
+  },
+  {
+    "topic_id": 2581,
+    "title": "How 'ignore' errorStrategy actually works?",
+    "category_id": 37,
+    "post": {
+      "id": 6027,
+      "created_at": "2026-02-19T13:11:24.029Z"
+    },
+    "accepted_answer": {
+      "post_id": 6051,
+      "created_at": "2026-02-23T19:57:52.954Z"
+    }
+  },
+  {
+    "topic_id": 2571,
+    "title": "Missing jszip.min.js when generating report (MultiQC v1.18)",
+    "category_id": 37,
+    "post": {
+      "id": 6004,
+      "created_at": "2026-02-17T16:52:56.603Z"
+    },
+    "accepted_answer": {
+      "post_id": 6005,
+      "created_at": "2026-02-17T17:36:14.021Z"
+    }
+  },
+  {
+    "topic_id": 2564,
+    "title": "Best practice on compile c++ or rust scripts",
+    "category_id": 37,
+    "post": {
+      "id": 5991,
+      "created_at": "2026-02-13T22:08:24.112Z"
+    },
+    "accepted_answer": {
+      "post_id": 5992,
+      "created_at": "2026-02-13T22:31:03.184Z"
+    }
+  },
+  {
+    "topic_id": 2557,
+    "title": "Best practices for error handling in Nextflow",
+    "category_id": 37,
+    "post": {
+      "id": 5979,
+      "created_at": "2026-02-13T11:11:15.408Z"
+    },
+    "accepted_answer": {
+      "post_id": 5988,
+      "created_at": "2026-02-13T15:12:17.150Z"
+    }
+  },
+  {
+    "topic_id": 2555,
+    "title": "Runnig Nextflow Chipseq",
+    "category_id": 37,
+    "post": {
+      "id": 5975,
+      "created_at": "2026-02-12T21:12:44.943Z"
+    },
+    "accepted_answer": {
+      "post_id": 5976,
+      "created_at": "2026-02-12T21:46:25.769Z"
+    }
+  },
+  {
+    "topic_id": 2540,
+    "title": "Wave cannot connect wtih my Seqera access token",
+    "category_id": 37,
+    "post": {
+      "id": 5918,
+      "created_at": "2026-02-10T04:59:07.326Z"
+    },
+    "accepted_answer": {
+      "post_id": 5921,
+      "created_at": "2026-02-10T10:07:12.055Z"
+    }
+  },
+  {
+    "topic_id": 2532,
+    "title": "Use the name of a (named) workflow from inside it?",
+    "category_id": 37,
+    "post": {
+      "id": 5887,
+      "created_at": "2026-02-04T16:55:55.163Z"
+    },
+    "accepted_answer": {
+      "post_id": 5888,
+      "created_at": "2026-02-04T18:09:27.438Z"
+    }
+  },
+  {
+    "topic_id": 2525,
+    "title": "Suggestion for getting people to review massive `nf-core/pacvar` PR",
+    "category_id": 37,
+    "post": {
+      "id": 5869,
+      "created_at": "2026-02-01T17:40:06.675Z"
+    },
+    "accepted_answer": {
+      "post_id": 5873,
+      "created_at": "2026-02-03T01:42:20.501Z"
+    }
+  },
+  {
+    "topic_id": 2527,
+    "title": "Handling Partial Pipeline Execution - How to skip successful upstream tasks without breaking cache",
+    "category_id": 37,
+    "post": {
+      "id": 5874,
+      "created_at": "2026-02-03T09:41:13.845Z"
+    },
+    "accepted_answer": {
+      "post_id": 5885,
+      "created_at": "2026-02-04T10:03:24.821Z"
+    }
+  },
+  {
+    "topic_id": 2523,
+    "title": "Weird bug: workdir missing output file but results has output file, when mode=copy",
+    "category_id": 37,
+    "post": {
+      "id": 5866,
+      "created_at": "2026-01-31T22:32:36.541Z"
+    },
+    "accepted_answer": {
+      "post_id": 5867,
+      "created_at": "2026-01-31T22:39:32.140Z"
+    }
+  },
+  {
+    "topic_id": 2508,
+    "title": "Condalock files generated by Wave",
+    "category_id": 37,
+    "post": {
+      "id": 5821,
+      "created_at": "2026-01-16T12:00:57.279Z"
+    },
+    "accepted_answer": {
+      "post_id": 5849,
+      "created_at": "2026-01-27T19:32:56.609Z"
+    }
+  },
+  {
+    "topic_id": 2513,
+    "title": "Pipeline PR issues with unstable llms-full.txt and multiqc.parquet",
+    "category_id": 37,
+    "post": {
+      "id": 5835,
+      "created_at": "2026-01-20T22:03:30.459Z"
+    },
+    "accepted_answer": {
+      "post_id": 5836,
+      "created_at": "2026-01-21T10:02:06.071Z"
+    }
+  },
+  {
+    "topic_id": 2510,
+    "title": "Custom Logo Not Displaying in Dark Mode on macOS",
+    "category_id": 37,
+    "post": {
+      "id": 5829,
+      "created_at": "2026-01-16T23:46:11.755Z"
+    },
+    "accepted_answer": {
+      "post_id": 5832,
+      "created_at": "2026-01-19T10:40:18.574Z"
+    }
+  },
+  {
+    "topic_id": 2506,
+    "title": "How to use MultiQC's API",
+    "category_id": 37,
+    "post": {
+      "id": 5814,
+      "created_at": "2026-01-14T14:21:21.241Z"
+    },
+    "accepted_answer": {
+      "post_id": 5815,
+      "created_at": "2026-01-15T08:36:53.563Z"
+    }
+  },
+  {
+    "topic_id": 2502,
+    "title": "Replace-names",
+    "category_id": 37,
+    "post": {
+      "id": 5798,
+      "created_at": "2026-01-09T01:47:46.921Z"
+    },
+    "accepted_answer": {
+      "post_id": 5799,
+      "created_at": "2026-01-09T08:43:40.725Z"
+    }
+  },
+  {
+    "topic_id": 2494,
+    "title": "ERROR ~ No such variable: ch_multiqc_report when trying to skip multiqc",
+    "category_id": 37,
+    "post": {
+      "id": 5776,
+      "created_at": "2025-12-31T13:58:59.901Z"
+    },
+    "accepted_answer": {
+      "post_id": 5803,
+      "created_at": "2026-01-11T23:52:52.064Z"
+    }
+  },
+  {
+    "topic_id": 2497,
+    "title": "Strict syntax enforced by pipeline",
+    "category_id": 37,
+    "post": {
+      "id": 5786,
+      "created_at": "2026-01-05T18:23:13.474Z"
+    },
+    "accepted_answer": {
+      "post_id": 5789,
+      "created_at": "2026-01-05T19:59:40.746Z"
+    }
+  },
+  {
+    "topic_id": 2496,
+    "title": "Does manifest.nextflowVersion control version on Seqera Platform",
+    "category_id": 37,
+    "post": {
+      "id": 5783,
+      "created_at": "2026-01-03T00:15:49.024Z"
+    },
+    "accepted_answer": {
+      "post_id": 5784,
+      "created_at": "2026-01-03T08:50:38.635Z"
+    }
+  },
+  {
+    "topic_id": 2487,
+    "title": "Specifying or using most recent bioconda build number for Seqera Containers",
+    "category_id": 37,
+    "post": {
+      "id": 5760,
+      "created_at": "2025-12-10T20:20:33.363Z"
+    },
+    "accepted_answer": {
+      "post_id": 5762,
+      "created_at": "2025-12-10T20:58:54.488Z"
+    }
+  },
+  {
+    "topic_id": 2485,
+    "title": "Multiple inputs with same meta map",
+    "category_id": 37,
+    "post": {
+      "id": 5752,
+      "created_at": "2025-12-04T20:11:20.437Z"
+    },
+    "accepted_answer": {
+      "post_id": 5753,
+      "created_at": "2025-12-04T20:21:51.704Z"
+    }
+  },
+  {
+    "topic_id": 2482,
+    "title": "Failed to build a Docker ARM64 container for STAR (v2.7.9a)",
+    "category_id": 37,
+    "post": {
+      "id": 5743,
+      "created_at": "2025-11-30T15:40:10.375Z"
+    },
+    "accepted_answer": {
+      "post_id": 5748,
+      "created_at": "2025-12-03T12:26:03.787Z"
+    }
+  },
+  {
+    "topic_id": 2481,
+    "title": "FastQC \"per tile seqeunce quality\" in MultiQC",
+    "category_id": 37,
+    "post": {
+      "id": 5740,
+      "created_at": "2025-11-28T12:41:09.991Z"
+    },
+    "accepted_answer": {
+      "post_id": 5741,
+      "created_at": "2025-11-28T12:57:57.333Z"
+    }
+  },
+  {
+    "topic_id": 2483,
+    "title": "Final step of my pipeline halts succesfully after 1 sample",
+    "category_id": 37,
+    "post": {
+      "id": 5745,
+      "created_at": "2025-12-01T15:31:49.022Z"
+    },
+    "accepted_answer": {
+      "post_id": 5746,
+      "created_at": "2025-12-01T19:29:48.874Z"
+    }
+  },
+  {
+    "topic_id": 2480,
+    "title": "Multiple Inputs vs Tuple Inputs",
+    "category_id": 37,
+    "post": {
+      "id": 5735,
+      "created_at": "2025-11-27T09:20:28.805Z"
+    },
+    "accepted_answer": {
+      "post_id": 5739,
+      "created_at": "2025-11-27T15:15:39.274Z"
+    }
+  },
+  {
+    "topic_id": 2477,
+    "title": "Completion percentage for long-running task",
+    "category_id": 37,
+    "post": {
+      "id": 5729,
+      "created_at": "2025-11-25T16:54:57.216Z"
+    },
+    "accepted_answer": {
+      "post_id": 5732,
+      "created_at": "2025-11-26T13:51:40.264Z"
+    }
+  },
+  {
+    "topic_id": 2464,
+    "title": "Manage datasets that are not stored in working directory",
+    "category_id": 37,
+    "post": {
+      "id": 5694,
+      "created_at": "2025-11-20T11:52:27.233Z"
+    },
+    "accepted_answer": {
+      "post_id": 5696,
+      "created_at": "2025-11-20T23:03:38.204Z"
+    }
+  },
+  {
+    "topic_id": 1947,
+    "title": "RUNNING of NF-CORE/VIRAL RECON with custom primers, reference sequence and bed files",
+    "category_id": 37,
+    "post": {
+      "id": 4384,
+      "created_at": "2025-03-11T22:39:26.774Z"
+    },
+    "accepted_answer": {
+      "post_id": 4407,
+      "created_at": "2025-03-13T05:09:06.620Z"
+    }
+  },
+  {
+    "topic_id": 2451,
+    "title": "Zoom for office hours requires passcode i never received",
+    "category_id": 37,
+    "post": {
+      "id": 5661,
+      "created_at": "2025-11-17T15:23:45.854Z"
+    },
+    "accepted_answer": {
+      "post_id": 5663,
+      "created_at": "2025-11-17T20:54:58.890Z"
+    }
+  },
+  {
+    "topic_id": 2444,
+    "title": "Alter process output folders for results",
+    "category_id": 37,
+    "post": {
+      "id": 5647,
+      "created_at": "2025-11-12T14:45:20.557Z"
+    },
+    "accepted_answer": {
+      "post_id": 5656,
+      "created_at": "2025-11-14T08:36:08.460Z"
+    }
+  },
+  {
+    "topic_id": 2378,
+    "title": "MultiQC with large tables backed by sqlite DBs",
+    "category_id": 37,
+    "post": {
+      "id": 5426,
+      "created_at": "2025-09-25T11:37:50.524Z"
+    },
+    "accepted_answer": {
+      "post_id": 5622,
+      "created_at": "2025-11-05T16:34:40.691Z"
+    }
+  },
+  {
+    "topic_id": 2412,
+    "title": "How can I force featureCounts to show number of reads not percent?",
+    "category_id": 37,
+    "post": {
+      "id": 5529,
+      "created_at": "2025-10-15T22:22:22.122Z"
+    },
+    "accepted_answer": {
+      "post_id": 5621,
+      "created_at": "2025-11-05T16:32:43.199Z"
+    }
+  },
+  {
+    "topic_id": 2405,
+    "title": "MultiQC fastp module issue with input filenames",
+    "category_id": 37,
+    "post": {
+      "id": 5500,
+      "created_at": "2025-10-05T04:19:43.670Z"
+    },
+    "accepted_answer": {
+      "post_id": 5501,
+      "created_at": "2025-10-05T05:11:06.525Z"
+    }
+  },
+  {
+    "topic_id": 2437,
+    "title": "Process already defined: upgrading to 25.10.0 with strict syntax",
+    "category_id": 37,
+    "post": {
+      "id": 5600,
+      "created_at": "2025-10-30T21:36:11.282Z"
+    },
+    "accepted_answer": {
+      "post_id": 5610,
+      "created_at": "2025-11-03T15:56:30.389Z"
+    }
+  },
+  {
+    "topic_id": 2436,
+    "title": "Unrecognized config options using strict syntax",
+    "category_id": 37,
+    "post": {
+      "id": 5599,
+      "created_at": "2025-10-30T21:29:30.125Z"
+    },
+    "accepted_answer": {
+      "post_id": 5609,
+      "created_at": "2025-11-03T15:36:11.566Z"
+    }
+  },
+  {
+    "topic_id": 2428,
+    "title": "Using workflow outputs to publish files from a nested map channel",
+    "category_id": 37,
+    "post": {
+      "id": 5586,
+      "created_at": "2025-10-27T13:28:00.447Z"
+    },
+    "accepted_answer": {
+      "post_id": 5591,
+      "created_at": "2025-10-27T17:22:39.476Z"
+    }
+  },
+  {
+    "topic_id": 2415,
+    "title": "Caching and resuming to skip one of the parallel jobs",
+    "category_id": 37,
+    "post": {
+      "id": 5536,
+      "created_at": "2025-10-21T19:18:56.481Z"
+    },
+    "accepted_answer": {
+      "post_id": 5543,
+      "created_at": "2025-10-22T11:31:29.608Z"
+    }
+  },
+  {
+    "topic_id": 2392,
+    "title": "Processes complete but (1) no caching, (2) no publishDir",
+    "category_id": 37,
+    "post": {
+      "id": 5469,
+      "created_at": "2025-09-29T10:24:31.957Z"
+    },
+    "accepted_answer": {
+      "post_id": 5514,
+      "created_at": "2025-10-09T06:57:03.371Z"
+    }
+  },
+  {
+    "topic_id": 2406,
+    "title": "A little channel building code golf",
+    "category_id": 37,
+    "post": {
+      "id": 5503,
+      "created_at": "2025-10-06T15:00:15.301Z"
+    },
+    "accepted_answer": {
+      "post_id": 5504,
+      "created_at": "2025-10-06T15:32:26.551Z"
+    }
+  },
+  {
+    "topic_id": 2401,
+    "title": "Bitbucket private repository using API tokens",
+    "category_id": 37,
+    "post": {
+      "id": 5490,
+      "created_at": "2025-10-03T09:11:04.470Z"
+    },
+    "accepted_answer": {
+      "post_id": 5498,
+      "created_at": "2025-10-03T18:26:22.833Z"
+    }
+  },
+  {
+    "topic_id": 2394,
+    "title": "Nextflow Quiz",
+    "category_id": 37,
+    "post": {
+      "id": 5474,
+      "created_at": "2025-09-30T15:46:51.482Z"
+    },
+    "accepted_answer": {
+      "post_id": 5483,
+      "created_at": "2025-10-01T20:26:42.267Z"
+    }
+  },
+  {
+    "topic_id": 2387,
+    "title": "Nextflow training week questions",
+    "category_id": 37,
+    "post": {
+      "id": 5454,
+      "created_at": "2025-09-26T18:09:37.767Z"
+    },
+    "accepted_answer": {
+      "post_id": 5484,
+      "created_at": "2025-10-01T20:51:19.596Z"
+    }
+  },
+  {
+    "topic_id": 2395,
+    "title": "Training Quiz",
+    "category_id": 37,
+    "post": {
+      "id": 5475,
+      "created_at": "2025-09-30T21:29:56.705Z"
+    },
+    "accepted_answer": {
+      "post_id": 5482,
+      "created_at": "2025-10-01T20:20:26.057Z"
+    }
+  },
+  {
+    "topic_id": 2396,
+    "title": "Selective log.info commands when a process using storeDir is run vs skipped",
+    "category_id": 37,
+    "post": {
+      "id": 5476,
+      "created_at": "2025-09-30T23:30:58.435Z"
+    },
+    "accepted_answer": {
+      "post_id": 5477,
+      "created_at": "2025-10-01T06:48:26.264Z"
+    }
+  },
+  {
+    "topic_id": 2366,
+    "title": "Custom general stats multiqc columns",
+    "category_id": 37,
+    "post": {
+      "id": 5367,
+      "created_at": "2025-09-19T12:54:08.695Z"
+    },
+    "accepted_answer": {
+      "post_id": 5467,
+      "created_at": "2025-09-29T08:55:25.647Z"
+    }
+  },
+  {
+    "topic_id": 2376,
+    "title": "Wave invalid response: POST https://wave.seqera.io/v1alpha2/container [400] {\"message\":\"Container image 'biocontainers/stringtie:2.2.3--h43eeafb_0' does not exist or access is not authorized\"}",
+    "category_id": 37,
+    "post": {
+      "id": 5412,
+      "created_at": "2025-09-23T16:09:48.479Z"
+    },
+    "accepted_answer": {
+      "post_id": 5424,
+      "created_at": "2025-09-25T02:01:15.618Z"
+    }
+  },
+  {
+    "topic_id": 2377,
+    "title": "Nextflow clean removes only the contents inside the folder, not the folder",
+    "category_id": 37,
+    "post": {
+      "id": 5413,
+      "created_at": "2025-09-23T16:36:45.630Z"
+    },
+    "accepted_answer": {
+      "post_id": 5422,
+      "created_at": "2025-09-24T12:19:02.844Z"
+    }
+  },
+  {
+    "topic_id": 2361,
+    "title": "How to use the .cross operator for 100 x 100 docking",
+    "category_id": 37,
+    "post": {
+      "id": 5346,
+      "created_at": "2025-09-12T21:09:15.860Z"
+    },
+    "accepted_answer": {
+      "post_id": 5415,
+      "created_at": "2025-09-23T17:55:25.108Z"
+    }
+  },
+  {
+    "topic_id": 2371,
+    "title": "Are container pulls and conda environment creations counted in \"realtime\" in a nextflow trace?",
+    "category_id": 37,
+    "post": {
+      "id": 5393,
+      "created_at": "2025-09-22T21:33:00.377Z"
+    },
+    "accepted_answer": {
+      "post_id": 5407,
+      "created_at": "2025-09-23T14:51:17.657Z"
+    }
+  },
+  {
+    "topic_id": 2367,
+    "title": "Nextflow SSL error",
+    "category_id": 37,
+    "post": {
+      "id": 5368,
+      "created_at": "2025-09-19T14:42:56.677Z"
+    },
+    "accepted_answer": {
+      "post_id": 5374,
+      "created_at": "2025-09-19T17:14:59.641Z"
+    }
+  },
+  {
+    "topic_id": 2363,
+    "title": "Statements cannot be mixed with script declarations error",
+    "category_id": 37,
+    "post": {
+      "id": 5358,
+      "created_at": "2025-09-18T08:41:31.027Z"
+    },
+    "accepted_answer": {
+      "post_id": 5363,
+      "created_at": "2025-09-18T11:34:20.490Z"
+    }
+  },
+  {
+    "topic_id": 2360,
+    "title": "Unable to validate Fusion license - reason: Unauthorized [401]",
+    "category_id": 37,
+    "post": {
+      "id": 5340,
+      "created_at": "2025-09-11T16:16:02.272Z"
+    },
+    "accepted_answer": {
+      "post_id": 5353,
+      "created_at": "2025-09-16T15:48:40.627Z"
+    }
+  },
+  {
+    "topic_id": 875,
+    "title": "Samtools coverage output not found by multiqc",
+    "category_id": 37,
+    "post": {
+      "id": 2102,
+      "created_at": "2024-06-21T07:16:18.716Z"
+    },
+    "accepted_answer": {
+      "post_id": 2143,
+      "created_at": "2024-06-26T10:59:28.217Z"
+    }
+  },
+  {
+    "topic_id": 2355,
+    "title": "RNAVAR nf-core pipeline: error on multiqc module",
+    "category_id": 37,
+    "post": {
+      "id": 5319,
+      "created_at": "2025-09-04T13:26:26.486Z"
+    },
+    "accepted_answer": {
+      "post_id": 5325,
+      "created_at": "2025-09-05T09:00:33.472Z"
+    }
+  },
+  {
+    "topic_id": 2352,
+    "title": "Save part of string",
+    "category_id": 37,
+    "post": {
+      "id": 5311,
+      "created_at": "2025-09-02T14:22:51.553Z"
+    },
+    "accepted_answer": {
+      "post_id": 5313,
+      "created_at": "2025-09-03T08:53:13.026Z"
+    }
+  },
+  {
+    "topic_id": 2353,
+    "title": "Nextflow not communicating back to Seqera",
+    "category_id": 37,
+    "post": {
+      "id": 5312,
+      "created_at": "2025-09-02T16:18:57.476Z"
+    },
+    "accepted_answer": {
+      "post_id": 5318,
+      "created_at": "2025-09-03T16:35:50.290Z"
+    }
+  },
+  {
+    "topic_id": 2240,
+    "title": "Sequential Process execution question",
+    "category_id": 37,
+    "post": {
+      "id": 5018,
+      "created_at": "2025-06-27T18:02:56.296Z"
+    },
+    "accepted_answer": {
+      "post_id": 5317,
+      "created_at": "2025-09-03T14:30:45.398Z"
+    }
+  },
+  {
+    "topic_id": 2354,
+    "title": "Dynamic config in executor",
+    "category_id": 37,
+    "post": {
+      "id": 5314,
+      "created_at": "2025-09-03T12:45:10.186Z"
+    },
+    "accepted_answer": {
+      "post_id": 5315,
+      "created_at": "2025-09-03T12:57:56.524Z"
+    }
+  },
+  {
+    "topic_id": 2350,
+    "title": "Amending workflow to work with docker",
+    "category_id": 37,
+    "post": {
+      "id": 5299,
+      "created_at": "2025-08-29T14:26:16.573Z"
+    },
+    "accepted_answer": {
+      "post_id": 5300,
+      "created_at": "2025-08-29T14:35:45.361Z"
+    }
+  },
+  {
+    "topic_id": 2346,
+    "title": "Using filename as samplename for custom content",
+    "category_id": 37,
+    "post": {
+      "id": 5281,
+      "created_at": "2025-08-27T21:20:49.388Z"
+    },
+    "accepted_answer": {
+      "post_id": 5285,
+      "created_at": "2025-08-28T09:19:47.458Z"
+    }
+  },
+  {
+    "topic_id": 2339,
+    "title": "Help with Parallelizing Sample Processing in Nextflow",
+    "category_id": 37,
+    "post": {
+      "id": 5243,
+      "created_at": "2025-08-20T15:00:08.238Z"
+    },
+    "accepted_answer": {
+      "post_id": 5277,
+      "created_at": "2025-08-22T11:58:11.012Z"
+    }
+  },
+  {
+    "topic_id": 2345,
+    "title": "Is there a way to change the sorting behaviour in multiqc",
+    "category_id": 37,
+    "post": {
+      "id": 5271,
+      "created_at": "2025-08-22T00:12:36.687Z"
+    },
+    "accepted_answer": {
+      "post_id": 5273,
+      "created_at": "2025-08-22T08:02:16.105Z"
+    }
+  },
+  {
+    "topic_id": 2337,
+    "title": "Nextflow process directive 'scratch' cleans but does not remove scratch dir",
+    "category_id": 37,
+    "post": {
+      "id": 5240,
+      "created_at": "2025-08-20T08:26:42.549Z"
+    },
+    "accepted_answer": {
+      "post_id": 5245,
+      "created_at": "2025-08-20T19:35:50.705Z"
+    }
+  },
+  {
+    "topic_id": 1212,
+    "title": "Getting Started: Disk and Memory Management Questions",
+    "category_id": 37,
+    "post": {
+      "id": 2925,
+      "created_at": "2024-09-24T19:18:13.535Z"
+    },
+    "accepted_answer": {
+      "post_id": 5247,
+      "created_at": "2025-08-20T21:34:23.999Z"
+    }
+  },
+  {
+    "topic_id": 2335,
+    "title": "Subworkflow with optional input and chained processes",
+    "category_id": 37,
+    "post": {
+      "id": 5237,
+      "created_at": "2025-08-19T13:37:37.142Z"
+    },
+    "accepted_answer": {
+      "post_id": 5238,
+      "created_at": "2025-08-19T15:18:50.480Z"
+    }
+  },
+  {
+    "topic_id": 2296,
+    "title": "Using MultiQC from Python to add to an existing report",
+    "category_id": 37,
+    "post": {
+      "id": 5166,
+      "created_at": "2025-07-22T14:47:47.612Z"
+    },
+    "accepted_answer": {
+      "post_id": 5169,
+      "created_at": "2025-07-22T15:47:02.556Z"
+    }
+  },
+  {
+    "topic_id": 2319,
+    "title": "About addParam and params deprecation",
+    "category_id": 37,
+    "post": {
+      "id": 5204,
+      "created_at": "2025-08-07T08:51:45.022Z"
+    },
+    "accepted_answer": {
+      "post_id": 5213,
+      "created_at": "2025-08-08T14:31:58.608Z"
+    }
+  },
+  {
+    "topic_id": 469,
+    "title": "Automatic vs. manual IAM policies for S3 bucket read/write",
+    "category_id": 37,
+    "post": {
+      "id": 985,
+      "created_at": "2024-02-09T14:43:39.093Z"
+    },
+    "accepted_answer": {
+      "post_id": 1061,
+      "created_at": "2024-02-14T22:08:20.213Z"
+    }
+  },
+  {
+    "topic_id": 2289,
+    "title": "Lane info in sample sheet for sarek",
+    "category_id": 37,
+    "post": {
+      "id": 5154,
+      "created_at": "2025-07-18T10:23:22.099Z"
+    },
+    "accepted_answer": {
+      "post_id": 5161,
+      "created_at": "2025-07-21T14:21:08.497Z"
+    }
+  },
+  {
+    "topic_id": 2118,
+    "title": "Mamba fails to create environment because the `--yes` flag is not supplied",
+    "category_id": 37,
+    "post": {
+      "id": 4769,
+      "created_at": "2025-05-09T19:00:26.689Z"
+    },
+    "accepted_answer": {
+      "post_id": 5113,
+      "created_at": "2025-07-10T22:57:25.113Z"
+    }
+  },
+  {
+    "topic_id": 2273,
+    "title": "MultiQC clean trim/regex/etc help with names like sample_1 getting a second _1 appended",
+    "category_id": 37,
+    "post": {
+      "id": 5101,
+      "created_at": "2025-07-09T15:49:37.713Z"
+    },
+    "accepted_answer": {
+      "post_id": 5109,
+      "created_at": "2025-07-10T13:07:52.772Z"
+    }
+  },
+  {
+    "topic_id": 2264,
+    "title": "Are the nextflow codespaces not working?",
+    "category_id": 37,
+    "post": {
+      "id": 5078,
+      "created_at": "2025-07-06T04:35:50.630Z"
+    },
+    "accepted_answer": {
+      "post_id": 5091,
+      "created_at": "2025-07-07T18:34:48.263Z"
+    }
+  },
+  {
+    "topic_id": 2247,
+    "title": "MultiQC finds only one PNG in Custom Content despite multiple matching the pattern",
+    "category_id": 37,
+    "post": {
+      "id": 5032,
+      "created_at": "2025-06-30T17:23:51.928Z"
+    },
+    "accepted_answer": {
+      "post_id": 5075,
+      "created_at": "2025-07-05T14:51:17.189Z"
+    }
+  },
+  {
+    "topic_id": 2259,
+    "title": "Why would native processes ( exec ) be resubmitted even though the hash inputs don't change?",
+    "category_id": 37,
+    "post": {
+      "id": 5069,
+      "created_at": "2025-07-03T12:12:55.979Z"
+    },
+    "accepted_answer": {
+      "post_id": 5074,
+      "created_at": "2025-07-04T12:48:56.363Z"
+    }
+  },
+  {
+    "topic_id": 2215,
+    "title": "Hide outliers in boxplot",
+    "category_id": 37,
+    "post": {
+      "id": 4963,
+      "created_at": "2025-06-23T13:58:32.477Z"
+    },
+    "accepted_answer": {
+      "post_id": 5063,
+      "created_at": "2025-07-02T12:35:12.637Z"
+    }
+  },
+  {
+    "topic_id": 2213,
+    "title": "Stdout not defined",
+    "category_id": 37,
+    "post": {
+      "id": 4960,
+      "created_at": "2025-06-23T11:26:53.261Z"
+    },
+    "accepted_answer": {
+      "post_id": 4988,
+      "created_at": "2025-06-25T17:17:52.003Z"
+    }
+  },
+  {
+    "topic_id": 2211,
+    "title": "StackOverflowError when chaining modules for nf-test",
+    "category_id": 37,
+    "post": {
+      "id": 4957,
+      "created_at": "2025-06-23T02:35:17.013Z"
+    },
+    "accepted_answer": {
+      "post_id": 4970,
+      "created_at": "2025-06-24T02:45:00.772Z"
+    }
+  },
+  {
+    "topic_id": 2168,
+    "title": "Dynamic tagging of processes",
+    "category_id": 37,
+    "post": {
+      "id": 4884,
+      "created_at": "2025-05-30T08:49:09.708Z"
+    },
+    "accepted_answer": {
+      "post_id": 4951,
+      "created_at": "2025-06-19T07:20:50.023Z"
+    }
+  },
+  {
+    "topic_id": 2206,
+    "title": "Handling large numbers of processes in an HPC",
+    "category_id": 37,
+    "post": {
+      "id": 4948,
+      "created_at": "2025-06-18T17:16:01.047Z"
+    },
+    "accepted_answer": {
+      "post_id": 4949,
+      "created_at": "2025-06-19T07:05:52.232Z"
+    }
+  },
+  {
+    "topic_id": 2202,
+    "title": "ERROR ~ Cannot read write-only property: from",
+    "category_id": 37,
+    "post": {
+      "id": 4933,
+      "created_at": "2025-06-17T21:19:39.994Z"
+    },
+    "accepted_answer": {
+      "post_id": 4942,
+      "created_at": "2025-06-18T08:55:56.282Z"
+    }
+  },
+  {
+    "topic_id": 2203,
+    "title": "DRY Principle in Nextflow: Reusing Output Path Definitions in `output:` and `script:` sections",
+    "category_id": 37,
+    "post": {
+      "id": 4935,
+      "created_at": "2025-06-17T21:25:26.931Z"
+    },
+    "accepted_answer": {
+      "post_id": 4936,
+      "created_at": "2025-06-17T21:34:59.440Z"
+    }
+  },
+  {
+    "topic_id": 2197,
+    "title": "Multiple publishDir for one process in nextflow config",
+    "category_id": 37,
+    "post": {
+      "id": 4927,
+      "created_at": "2025-06-17T12:39:41.212Z"
+    },
+    "accepted_answer": {
+      "post_id": 4928,
+      "created_at": "2025-06-17T14:30:25.274Z"
+    }
+  },
+  {
+    "topic_id": 2194,
+    "title": "Define task.ext.args per subworkflow",
+    "category_id": 37,
+    "post": {
+      "id": 4922,
+      "created_at": "2025-06-16T15:49:15.415Z"
+    },
+    "accepted_answer": {
+      "post_id": 4923,
+      "created_at": "2025-06-16T16:08:01.105Z"
+    }
+  },
+  {
+    "topic_id": 2172,
+    "title": ".bai files not found in follow-up process",
+    "category_id": 37,
+    "post": {
+      "id": 4894,
+      "created_at": "2025-06-03T23:34:54.833Z"
+    },
+    "accepted_answer": {
+      "post_id": 4897,
+      "created_at": "2025-06-04T16:08:28.524Z"
+    }
+  },
+  {
+    "topic_id": 2165,
+    "title": "Understanding relative paths",
+    "category_id": 37,
+    "post": {
+      "id": 4878,
+      "created_at": "2025-05-27T13:54:22.922Z"
+    },
+    "accepted_answer": {
+      "post_id": 4879,
+      "created_at": "2025-05-27T14:06:50.399Z"
+    }
+  },
+  {
+    "topic_id": 2126,
+    "title": "Multiqc not sorting descendingly with custom_plot_config",
+    "category_id": 37,
+    "post": {
+      "id": 4780,
+      "created_at": "2025-05-14T08:02:23.403Z"
+    },
+    "accepted_answer": {
+      "post_id": 4870,
+      "created_at": "2025-05-26T09:05:24.325Z"
+    }
+  },
+  {
+    "topic_id": 2157,
+    "title": "Dynamically assign Labels",
+    "category_id": 37,
+    "post": {
+      "id": 4830,
+      "created_at": "2025-05-22T15:51:31.097Z"
+    },
+    "accepted_answer": {
+      "post_id": 4834,
+      "created_at": "2025-05-23T07:52:58.925Z"
+    }
+  },
+  {
+    "topic_id": 1404,
+    "title": "Linter using the Nextflow Language Server",
+    "category_id": 37,
+    "post": {
+      "id": 3355,
+      "created_at": "2024-11-13T10:24:17.673Z"
+    },
+    "accepted_answer": {
+      "post_id": 3360,
+      "created_at": "2024-11-13T12:53:16.612Z"
+    }
+  },
+  {
+    "topic_id": 2115,
+    "title": "Installing an older torch version with pip from environment.yml",
+    "category_id": 37,
+    "post": {
+      "id": 4762,
+      "created_at": "2025-05-07T11:31:32.289Z"
+    },
+    "accepted_answer": {
+      "post_id": 4773,
+      "created_at": "2025-05-12T09:14:54.298Z"
+    }
+  },
+  {
+    "topic_id": 2109,
+    "title": "Python script used by bash script not found",
+    "category_id": 37,
+    "post": {
+      "id": 4749,
+      "created_at": "2025-05-05T11:21:38.496Z"
+    },
+    "accepted_answer": {
+      "post_id": 4751,
+      "created_at": "2025-05-06T07:42:32.962Z"
+    }
+  },
+  {
+    "topic_id": 2081,
+    "title": "How to have process continue even if one fails",
+    "category_id": 37,
+    "post": {
+      "id": 4687,
+      "created_at": "2025-04-17T19:11:21.088Z"
+    },
+    "accepted_answer": {
+      "post_id": 4703,
+      "created_at": "2025-04-22T07:42:44.260Z"
+    }
+  },
+  {
+    "topic_id": 2074,
+    "title": "MultiQC timing out",
+    "category_id": 37,
+    "post": {
+      "id": 4659,
+      "created_at": "2025-04-14T08:14:40.109Z"
+    },
+    "accepted_answer": {
+      "post_id": 4676,
+      "created_at": "2025-04-15T08:12:41.810Z"
+    }
+  },
+  {
+    "topic_id": 2084,
+    "title": "How to wait for a subworkflow to complete before proceeding to another subworkflow?",
+    "category_id": 37,
+    "post": {
+      "id": 4691,
+      "created_at": "2025-04-18T18:17:14.252Z"
+    },
+    "accepted_answer": {
+      "post_id": 4695,
+      "created_at": "2025-04-18T21:47:42.556Z"
+    }
+  },
+  {
+    "topic_id": 2049,
+    "title": "Nf- core/sarek on aws batch error",
+    "category_id": 37,
+    "post": {
+      "id": 4608,
+      "created_at": "2025-04-04T12:04:40.685Z"
+    },
+    "accepted_answer": {
+      "post_id": 4674,
+      "created_at": "2025-04-15T06:15:54.598Z"
+    }
+  },
+  {
+    "topic_id": 2050,
+    "title": "Pipeline not working in AWS Batch because of a fusion problem",
+    "category_id": 37,
+    "post": {
+      "id": 4613,
+      "created_at": "2025-04-04T15:04:02.581Z"
+    },
+    "accepted_answer": {
+      "post_id": 4662,
+      "created_at": "2025-04-14T14:00:13.025Z"
+    }
+  },
+  {
+    "topic_id": 2063,
+    "title": "Where can I find documentation fo the UnixPath type?",
+    "category_id": 37,
+    "post": {
+      "id": 4639,
+      "created_at": "2025-04-09T13:26:48.606Z"
+    },
+    "accepted_answer": {
+      "post_id": 4640,
+      "created_at": "2025-04-09T13:30:55.188Z"
+    }
+  },
+  {
+    "topic_id": 2061,
+    "title": "Oncoanalyser:",
+    "category_id": 37,
+    "post": {
+      "id": 4636,
+      "created_at": "2025-04-08T14:22:23.142Z"
+    },
+    "accepted_answer": {
+      "post_id": 4638,
+      "created_at": "2025-04-09T08:36:24.275Z"
+    }
+  },
+  {
+    "topic_id": 2043,
+    "title": "Include nextflow workflow status information in MultiQC report",
+    "category_id": 37,
+    "post": {
+      "id": 4599,
+      "created_at": "2025-04-03T18:54:24.115Z"
+    },
+    "accepted_answer": {
+      "post_id": 4628,
+      "created_at": "2025-04-07T15:09:39.460Z"
+    }
+  },
+  {
+    "topic_id": 2037,
+    "title": "Trying to launch pipeline from Seqera platform using private GitHub repository",
+    "category_id": 37,
+    "post": {
+      "id": 4587,
+      "created_at": "2025-04-03T11:55:29.589Z"
+    },
+    "accepted_answer": {
+      "post_id": 4594,
+      "created_at": "2025-04-03T17:25:09.082Z"
+    }
+  },
+  {
+    "topic_id": 2035,
+    "title": "Spawning processes in Workflow",
+    "category_id": 37,
+    "post": {
+      "id": 4583,
+      "created_at": "2025-04-02T22:55:44.285Z"
+    },
+    "accepted_answer": {
+      "post_id": 4596,
+      "created_at": "2025-04-03T18:27:44.116Z"
+    }
+  },
+  {
+    "topic_id": 2047,
+    "title": "Set up publishDir in more than one process",
+    "category_id": 37,
+    "post": {
+      "id": 4604,
+      "created_at": "2025-04-03T23:52:56.674Z"
+    },
+    "accepted_answer": {
+      "post_id": 4606,
+      "created_at": "2025-04-04T08:03:08.428Z"
+    }
+  },
+  {
+    "topic_id": 2033,
+    "title": "Flatten only the second item of a tuple",
+    "category_id": 37,
+    "post": {
+      "id": 4578,
+      "created_at": "2025-04-02T08:12:20.277Z"
+    },
+    "accepted_answer": {
+      "post_id": 4579,
+      "created_at": "2025-04-02T13:29:34.888Z"
+    }
+  },
+  {
+    "topic_id": 2013,
+    "title": "Complete DAG: show tasks (not process) dependencies",
+    "category_id": 37,
+    "post": {
+      "id": 4517,
+      "created_at": "2025-03-26T22:05:31.542Z"
+    },
+    "accepted_answer": {
+      "post_id": 4547,
+      "created_at": "2025-03-28T19:41:16.508Z"
+    }
+  },
+  {
+    "topic_id": 921,
+    "title": "Zombie runs, jobs has been killed in local but state is still running on Seqera",
+    "category_id": 37,
+    "post": {
+      "id": 2217,
+      "created_at": "2024-07-04T02:58:30.704Z"
+    },
+    "accepted_answer": {
+      "post_id": 4544,
+      "created_at": "2025-03-28T16:15:34.812Z"
+    }
+  },
+  {
+    "topic_id": 1986,
+    "title": "Seqera Platform Compute Environment error",
+    "category_id": 37,
+    "post": {
+      "id": 4445,
+      "created_at": "2025-03-19T15:43:58.314Z"
+    },
+    "accepted_answer": {
+      "post_id": 4572,
+      "created_at": "2025-03-31T19:18:11.488Z"
+    }
+  },
+  {
+    "topic_id": 603,
+    "title": "X axis ordered by date?",
+    "category_id": 37,
+    "post": {
+      "id": 1373,
+      "created_at": "2024-03-26T16:01:11.560Z"
+    },
+    "accepted_answer": {
+      "post_id": 1393,
+      "created_at": "2024-03-28T11:25:38.588Z"
+    }
+  },
+  {
+    "topic_id": 2025,
+    "title": "Using a container in a module",
+    "category_id": 37,
+    "post": {
+      "id": 4554,
+      "created_at": "2025-03-29T19:00:41.015Z"
+    },
+    "accepted_answer": {
+      "post_id": 4556,
+      "created_at": "2025-03-29T22:11:02.537Z"
+    }
+  },
+  {
+    "topic_id": 1668,
+    "title": "Use function inside the `exec` block of a process",
+    "category_id": 37,
+    "post": {
+      "id": 3919,
+      "created_at": "2025-01-28T12:11:00.711Z"
+    },
+    "accepted_answer": {
+      "post_id": 4523,
+      "created_at": "2025-03-27T13:55:33.131Z"
+    }
+  },
+  {
+    "topic_id": 2015,
+    "title": "How to unzip and run a process on every output file?",
+    "category_id": 37,
+    "post": {
+      "id": 4519,
+      "created_at": "2025-03-27T09:29:43.193Z"
+    },
+    "accepted_answer": {
+      "post_id": 4521,
+      "created_at": "2025-03-27T10:25:36.125Z"
+    }
+  },
+  {
+    "topic_id": 2002,
+    "title": "Using groovy without bash in process",
+    "category_id": 37,
+    "post": {
+      "id": 4496,
+      "created_at": "2025-03-21T17:14:00.198Z"
+    },
+    "accepted_answer": {
+      "post_id": 4497,
+      "created_at": "2025-03-21T18:31:13.734Z"
+    }
+  },
+  {
+    "topic_id": 1962,
+    "title": "Why nextflow overwrite my input?",
+    "category_id": 37,
+    "post": {
+      "id": 4406,
+      "created_at": "2025-03-13T04:59:11.257Z"
+    },
+    "accepted_answer": {
+      "post_id": 4429,
+      "created_at": "2025-03-17T17:25:49.367Z"
+    }
+  },
+  {
+    "topic_id": 1869,
+    "title": "Libz.so missing for AWS CLI in AWS batch tasks",
+    "category_id": 37,
+    "post": {
+      "id": 4237,
+      "created_at": "2025-03-03T06:49:32.602Z"
+    },
+    "accepted_answer": {
+      "post_id": 4435,
+      "created_at": "2025-03-18T03:00:50.831Z"
+    }
+  },
+  {
+    "topic_id": 1946,
+    "title": "Nfcore/rnaseq pipeline never finishes",
+    "category_id": 37,
+    "post": {
+      "id": 4382,
+      "created_at": "2025-03-11T18:44:36.897Z"
+    },
+    "accepted_answer": {
+      "post_id": 4411,
+      "created_at": "2025-03-13T12:08:38.614Z"
+    }
+  },
+  {
+    "topic_id": 1899,
+    "title": "Using my own container to run a process",
+    "category_id": 37,
+    "post": {
+      "id": 4316,
+      "created_at": "2025-03-07T17:55:59.157Z"
+    },
+    "accepted_answer": {
+      "post_id": 4351,
+      "created_at": "2025-03-09T20:17:28.453Z"
+    }
+  },
+  {
+    "topic_id": 1882,
+    "title": "Running nextflow pipelines with docker in studios instance",
+    "category_id": 37,
+    "post": {
+      "id": 4286,
+      "created_at": "2025-03-05T16:19:52.698Z"
+    },
+    "accepted_answer": {
+      "post_id": 4287,
+      "created_at": "2025-03-05T17:04:29.049Z"
+    }
+  },
+  {
+    "topic_id": 1805,
+    "title": "Picard QualityYieldMetrics doesn't display all data in QC report",
+    "category_id": 37,
+    "post": {
+      "id": 4165,
+      "created_at": "2025-02-26T13:54:49.290Z"
+    },
+    "accepted_answer": {
+      "post_id": 4246,
+      "created_at": "2025-03-04T10:37:25.454Z"
+    }
+  },
+  {
+    "topic_id": 1747,
+    "title": "Platform behaving differently for participants in same workspace",
+    "category_id": 37,
+    "post": {
+      "id": 4065,
+      "created_at": "2025-02-17T22:00:37.703Z"
+    },
+    "accepted_answer": {
+      "post_id": 4132,
+      "created_at": "2025-02-25T14:43:13.441Z"
+    }
+  },
+  {
+    "topic_id": 1754,
+    "title": "JupyterLab Studio session keeps throwing \"Server Connection Error\" popup",
+    "category_id": 37,
+    "post": {
+      "id": 4083,
+      "created_at": "2025-02-19T11:40:18.974Z"
+    },
+    "accepted_answer": {
+      "post_id": 4131,
+      "created_at": "2025-02-25T14:18:06.215Z"
+    }
+  },
+  {
+    "topic_id": 1759,
+    "title": "General question on cached Nextflow containers",
+    "category_id": 37,
+    "post": {
+      "id": 4097,
+      "created_at": "2025-02-20T16:48:42.917Z"
+    },
+    "accepted_answer": {
+      "post_id": 4099,
+      "created_at": "2025-02-20T20:17:59.586Z"
+    }
+  },
+  {
+    "topic_id": 1756,
+    "title": "Fixing error: FastQ file for reads 1 must be provided, cannot contain spaces and must have extension",
+    "category_id": 37,
+    "post": {
+      "id": 4090,
+      "created_at": "2025-02-20T12:45:58.064Z"
+    },
+    "accepted_answer": {
+      "post_id": 4093,
+      "created_at": "2025-02-20T15:30:39.563Z"
+    }
+  },
+  {
+    "topic_id": 1687,
+    "title": "CannotInspectContainerError when launching jobs from localhost to run on AWS Batch",
+    "category_id": 37,
+    "post": {
+      "id": 3956,
+      "created_at": "2025-01-30T19:31:19.081Z"
+    },
+    "accepted_answer": {
+      "post_id": 4019,
+      "created_at": "2025-02-07T17:55:59.030Z"
+    }
+  },
+  {
+    "topic_id": 1716,
+    "title": "Correct handler syntax and langserver",
+    "category_id": 37,
+    "post": {
+      "id": 4013,
+      "created_at": "2025-02-07T09:16:34.971Z"
+    },
+    "accepted_answer": {
+      "post_id": 4014,
+      "created_at": "2025-02-07T10:34:45.593Z"
+    }
+  },
+  {
+    "topic_id": 1715,
+    "title": "Fastq columns in nf-core pipeline even though they are not part of the samplesheet",
+    "category_id": 37,
+    "post": {
+      "id": 4006,
+      "created_at": "2025-02-06T16:58:29.931Z"
+    },
+    "accepted_answer": {
+      "post_id": 4008,
+      "created_at": "2025-02-06T20:17:27.098Z"
+    }
+  },
+  {
+    "topic_id": 1708,
+    "title": "Handlers and the language server",
+    "category_id": 37,
+    "post": {
+      "id": 3994,
+      "created_at": "2025-02-05T15:16:50.705Z"
+    },
+    "accepted_answer": {
+      "post_id": 3995,
+      "created_at": "2025-02-05T15:22:38.387Z"
+    }
+  },
+  {
+    "topic_id": 1676,
+    "title": "AWS Batch: Spot Instance - How does Nextflow log an interruption?",
+    "category_id": 37,
+    "post": {
+      "id": 3938,
+      "created_at": "2025-01-29T19:44:43.882Z"
+    },
+    "accepted_answer": {
+      "post_id": 3939,
+      "created_at": "2025-01-29T20:53:03.274Z"
+    }
+  },
+  {
+    "topic_id": 1678,
+    "title": "Installing nf-tower in AWS EC2 Instance",
+    "category_id": 37,
+    "post": {
+      "id": 3941,
+      "created_at": "2025-01-29T21:39:13.006Z"
+    },
+    "accepted_answer": {
+      "post_id": 3953,
+      "created_at": "2025-01-30T13:43:17.468Z"
+    }
+  },
+  {
+    "topic_id": 1685,
+    "title": "Fastqc - Per Base Sequence Content",
+    "category_id": 37,
+    "post": {
+      "id": 3948,
+      "created_at": "2025-01-30T07:53:42.965Z"
+    },
+    "accepted_answer": {
+      "post_id": 3950,
+      "created_at": "2025-01-30T11:04:14.296Z"
+    }
+  },
+  {
+    "topic_id": 1673,
+    "title": "Nextflow Secrets produces empty string due to wrong path",
+    "category_id": 37,
+    "post": {
+      "id": 3929,
+      "created_at": "2025-01-29T14:03:39.930Z"
+    },
+    "accepted_answer": {
+      "post_id": 3932,
+      "created_at": "2025-01-29T14:26:04.874Z"
+    }
+  },
+  {
+    "topic_id": 1639,
+    "title": "Inconsistent number of columns found",
+    "category_id": 37,
+    "post": {
+      "id": 3872,
+      "created_at": "2025-01-23T01:41:52.786Z"
+    },
+    "accepted_answer": {
+      "post_id": 3887,
+      "created_at": "2025-01-23T13:50:34.287Z"
+    }
+  },
+  {
+    "topic_id": 1655,
+    "title": "Optional input path",
+    "category_id": 37,
+    "post": {
+      "id": 3899,
+      "created_at": "2025-01-24T19:21:10.713Z"
+    },
+    "accepted_answer": {
+      "post_id": 3902,
+      "created_at": "2025-01-24T22:58:59.679Z"
+    }
+  },
+  {
+    "topic_id": 1648,
+    "title": "Plot a histogram of different samples as a bargraph with custom content",
+    "category_id": 37,
+    "post": {
+      "id": 3884,
+      "created_at": "2025-01-23T13:21:38.662Z"
+    },
+    "accepted_answer": {
+      "post_id": 3888,
+      "created_at": "2025-01-23T14:06:41.807Z"
+    }
+  },
+  {
+    "topic_id": 1640,
+    "title": "Including gif images in MultiQC report?",
+    "category_id": 37,
+    "post": {
+      "id": 3873,
+      "created_at": "2025-01-23T03:46:25.253Z"
+    },
+    "accepted_answer": {
+      "post_id": 3879,
+      "created_at": "2025-01-23T09:46:20.053Z"
+    }
+  },
+  {
+    "topic_id": 1634,
+    "title": "Split nextflow_schema.json into several files",
+    "category_id": 37,
+    "post": {
+      "id": 3863,
+      "created_at": "2025-01-21T23:08:28.014Z"
+    },
+    "accepted_answer": {
+      "post_id": 3864,
+      "created_at": "2025-01-21T23:28:31.047Z"
+    }
+  },
+  {
+    "topic_id": 1627,
+    "title": "Rmd report got written into `${rmd_file}` source location because of symlink",
+    "category_id": 37,
+    "post": {
+      "id": 3851,
+      "created_at": "2025-01-17T18:47:17.537Z"
+    },
+    "accepted_answer": {
+      "post_id": 3855,
+      "created_at": "2025-01-20T13:54:45.271Z"
+    }
+  },
+  {
+    "topic_id": 1571,
+    "title": "My vscode plug-in does not have all the fancy features Phil demoed in the webinar",
+    "category_id": 37,
+    "post": {
+      "id": 3722,
+      "created_at": "2024-12-20T22:40:27.375Z"
+    },
+    "accepted_answer": {
+      "post_id": 3740,
+      "created_at": "2024-12-23T22:07:01.982Z"
+    }
+  },
+  {
+    "topic_id": 1578,
+    "title": "Making processes that collect a large number of input files resumable",
+    "category_id": 37,
+    "post": {
+      "id": 3752,
+      "created_at": "2024-12-27T16:57:57.085Z"
+    },
+    "accepted_answer": {
+      "post_id": 3834,
+      "created_at": "2025-01-15T16:33:41.922Z"
+    }
+  },
+  {
+    "topic_id": 1605,
+    "title": "Failed to create publish directory when submitting on seqera plaform",
+    "category_id": 37,
+    "post": {
+      "id": 3812,
+      "created_at": "2025-01-13T19:33:10.249Z"
+    },
+    "accepted_answer": {
+      "post_id": 3831,
+      "created_at": "2025-01-15T05:00:10.856Z"
+    }
+  },
+  {
+    "topic_id": 1592,
+    "title": "Error if channel is NOT empty",
+    "category_id": 37,
+    "post": {
+      "id": 3787,
+      "created_at": "2025-01-07T20:35:02.251Z"
+    },
+    "accepted_answer": {
+      "post_id": 3805,
+      "created_at": "2025-01-13T13:43:08.268Z"
+    }
+  },
+  {
+    "topic_id": 1560,
+    "title": "Issues with vscode multi-root and groovy classes in lib/",
+    "category_id": 37,
+    "post": {
+      "id": 3702,
+      "created_at": "2024-12-18T00:59:46.263Z"
+    },
+    "accepted_answer": {
+      "post_id": 3781,
+      "created_at": "2025-01-06T15:53:00.696Z"
+    }
+  },
+  {
+    "topic_id": 1581,
+    "title": "Timeline report generation Seqera platform",
+    "category_id": 37,
+    "post": {
+      "id": 3762,
+      "created_at": "2025-01-02T05:20:19.626Z"
+    },
+    "accepted_answer": {
+      "post_id": 3773,
+      "created_at": "2025-01-03T16:51:34.998Z"
+    }
+  },
+  {
+    "topic_id": 1579,
+    "title": "Issue running bash with Jellyfish container",
+    "category_id": 37,
+    "post": {
+      "id": 3754,
+      "created_at": "2024-12-29T17:47:03.053Z"
+    },
+    "accepted_answer": {
+      "post_id": 3758,
+      "created_at": "2024-12-31T02:53:31.395Z"
+    }
+  },
+  {
+    "topic_id": 1574,
+    "title": "Adding legends to picard plots",
+    "category_id": 37,
+    "post": {
+      "id": 3738,
+      "created_at": "2024-12-23T18:17:02.140Z"
+    },
+    "accepted_answer": {
+      "post_id": 3749,
+      "created_at": "2024-12-26T15:29:00.318Z"
+    }
+  },
+  {
+    "topic_id": 1544,
+    "title": "Easiest way to access nextflow run command from within the pipeline?",
+    "category_id": 37,
+    "post": {
+      "id": 3670,
+      "created_at": "2024-12-12T16:22:53.102Z"
+    },
+    "accepted_answer": {
+      "post_id": 3674,
+      "created_at": "2024-12-12T19:53:54.071Z"
+    }
+  },
+  {
+    "topic_id": 1573,
+    "title": "Access to undefined parameter after refactor for vscode extension",
+    "category_id": 37,
+    "post": {
+      "id": 3731,
+      "created_at": "2024-12-23T15:11:05.010Z"
+    },
+    "accepted_answer": {
+      "post_id": 3734,
+      "created_at": "2024-12-23T16:49:29.193Z"
+    }
+  },
+  {
+    "topic_id": 1532,
+    "title": "Assistance Required for Error in \u201cNextflow for Newcomers\u201d Tutorial (Part 3: Hello Genomic)",
+    "category_id": 37,
+    "post": {
+      "id": 3634,
+      "created_at": "2024-12-10T13:27:21.791Z"
+    },
+    "accepted_answer": {
+      "post_id": 3728,
+      "created_at": "2024-12-22T10:15:42.810Z"
+    }
+  },
+  {
+    "topic_id": 1558,
+    "title": "Running a pipeline from Seqera Cloud on Local Executor?",
+    "category_id": 37,
+    "post": {
+      "id": 3698,
+      "created_at": "2024-12-17T21:01:08.447Z"
+    },
+    "accepted_answer": {
+      "post_id": 3725,
+      "created_at": "2024-12-20T23:58:02.740Z"
+    }
+  },
+  {
+    "topic_id": 1547,
+    "title": "Replacement for nf_core `check_max` function with new nextflow vscode extension",
+    "category_id": 37,
+    "post": {
+      "id": 3678,
+      "created_at": "2024-12-12T22:02:52.578Z"
+    },
+    "accepted_answer": {
+      "post_id": 3683,
+      "created_at": "2024-12-13T08:45:22.879Z"
+    }
+  },
+  {
+    "topic_id": 1530,
+    "title": "Catching matlab output",
+    "category_id": 37,
+    "post": {
+      "id": 3631,
+      "created_at": "2024-12-10T01:01:00.708Z"
+    },
+    "accepted_answer": {
+      "post_id": 3672,
+      "created_at": "2024-12-12T18:58:30.959Z"
+    }
+  },
+  {
+    "topic_id": 1545,
+    "title": "Vscode extension \"unexpected input: try\"",
+    "category_id": 37,
+    "post": {
+      "id": 3671,
+      "created_at": "2024-12-12T18:44:08.775Z"
+    },
+    "accepted_answer": {
+      "post_id": 3675,
+      "created_at": "2024-12-12T20:01:09.180Z"
+    }
+  },
+  {
+    "topic_id": 1534,
+    "title": "Run the latest release of a pipeline automatically",
+    "category_id": 37,
+    "post": {
+      "id": 3637,
+      "created_at": "2024-12-10T16:38:50.098Z"
+    },
+    "accepted_answer": {
+      "post_id": 3659,
+      "created_at": "2024-12-12T09:39:26.748Z"
+    }
+  },
+  {
+    "topic_id": 1538,
+    "title": "AWS Batch - migration to graviton - implications on wave performance",
+    "category_id": 37,
+    "post": {
+      "id": 3654,
+      "created_at": "2024-12-11T14:53:50.011Z"
+    },
+    "accepted_answer": {
+      "post_id": 3657,
+      "created_at": "2024-12-11T18:15:45.391Z"
+    }
+  },
+  {
+    "topic_id": 1535,
+    "title": "Best practices to avoid long lines when using eval()",
+    "category_id": 37,
+    "post": {
+      "id": 3639,
+      "created_at": "2024-12-10T17:50:01.447Z"
+    },
+    "accepted_answer": {
+      "post_id": 3642,
+      "created_at": "2024-12-10T18:56:42.798Z"
+    }
+  },
+  {
+    "topic_id": 1525,
+    "title": "When clause depreciated. What's a good alternative?",
+    "category_id": 37,
+    "post": {
+      "id": 3619,
+      "created_at": "2024-12-06T17:44:38.119Z"
+    },
+    "accepted_answer": {
+      "post_id": 3641,
+      "created_at": "2024-12-10T18:52:15.318Z"
+    }
+  },
+  {
+    "topic_id": 1520,
+    "title": "Input parameters pipeline launch",
+    "category_id": 37,
+    "post": {
+      "id": 3606,
+      "created_at": "2024-12-04T16:08:56.172Z"
+    },
+    "accepted_answer": {
+      "post_id": 3609,
+      "created_at": "2024-12-05T00:31:13.059Z"
+    }
+  },
+  {
+    "topic_id": 1511,
+    "title": "Nextflow Docker thin pool error",
+    "category_id": 37,
+    "post": {
+      "id": 3581,
+      "created_at": "2024-12-02T16:46:40.632Z"
+    },
+    "accepted_answer": {
+      "post_id": 3592,
+      "created_at": "2024-12-03T14:31:03.551Z"
+    }
+  },
+  {
+    "topic_id": 1493,
+    "title": "Show cached tasks in nextflow run preview",
+    "category_id": 37,
+    "post": {
+      "id": 3535,
+      "created_at": "2024-11-25T16:51:16.369Z"
+    },
+    "accepted_answer": {
+      "post_id": 3541,
+      "created_at": "2024-11-25T20:40:31.723Z"
+    }
+  },
+  {
+    "topic_id": 1514,
+    "title": "Nf-core modules list remote failed",
+    "category_id": 37,
+    "post": {
+      "id": 3587,
+      "created_at": "2024-12-03T01:33:17.568Z"
+    },
+    "accepted_answer": {
+      "post_id": 3595,
+      "created_at": "2024-12-03T17:04:16.074Z"
+    }
+  },
+  {
+    "topic_id": 1414,
+    "title": "Comments Within Process Removed",
+    "category_id": 37,
+    "post": {
+      "id": 3377,
+      "created_at": "2024-11-14T00:06:47.359Z"
+    },
+    "accepted_answer": {
+      "post_id": 3382,
+      "created_at": "2024-11-14T13:09:24.004Z"
+    }
+  },
+  {
+    "topic_id": 1431,
+    "title": "Nextflow language server v1.0.1 - fails parsing a main.nf",
+    "category_id": 37,
+    "post": {
+      "id": 3423,
+      "created_at": "2024-11-15T13:42:17.870Z"
+    },
+    "accepted_answer": {
+      "post_id": 3576,
+      "created_at": "2024-11-29T11:05:30.917Z"
+    }
+  },
+  {
+    "topic_id": 1482,
+    "title": "Adding custom data to multiqc",
+    "category_id": 37,
+    "post": {
+      "id": 3508,
+      "created_at": "2024-11-22T14:04:50.658Z"
+    },
+    "accepted_answer": {
+      "post_id": 3552,
+      "created_at": "2024-11-26T11:27:40.455Z"
+    }
+  },
+  {
+    "topic_id": 1469,
+    "title": "Importing custom groovy classes from lib/ at configuration parsing time",
+    "category_id": 37,
+    "post": {
+      "id": 3492,
+      "created_at": "2024-11-20T23:52:54.875Z"
+    },
+    "accepted_answer": {
+      "post_id": 3559,
+      "created_at": "2024-11-26T23:49:55.246Z"
+    }
+  },
+  {
+    "topic_id": 1495,
+    "title": "Config syntax errors with `includeConfig`",
+    "category_id": 37,
+    "post": {
+      "id": 3548,
+      "created_at": "2024-11-26T03:20:22.042Z"
+    },
+    "accepted_answer": {
+      "post_id": 3555,
+      "created_at": "2024-11-26T14:19:34.301Z"
+    }
+  },
+  {
+    "topic_id": 1460,
+    "title": "Inability to parallelize sequential processes",
+    "category_id": 37,
+    "post": {
+      "id": 3479,
+      "created_at": "2024-11-20T00:20:29.428Z"
+    },
+    "accepted_answer": {
+      "post_id": 3484,
+      "created_at": "2024-11-20T16:16:43.304Z"
+    }
+  },
+  {
+    "topic_id": 1481,
+    "title": "Resolving variable number of s3 paths in a list of lists fed to a process",
+    "category_id": 37,
+    "post": {
+      "id": 3507,
+      "created_at": "2024-11-22T11:33:31.378Z"
+    },
+    "accepted_answer": {
+      "post_id": 3545,
+      "created_at": "2024-11-25T22:07:57.016Z"
+    }
+  },
+  {
+    "topic_id": 1494,
+    "title": "Variables trapped in 'if' statment",
+    "category_id": 37,
+    "post": {
+      "id": 3538,
+      "created_at": "2024-11-25T19:55:39.152Z"
+    },
+    "accepted_answer": {
+      "post_id": 3539,
+      "created_at": "2024-11-25T20:32:23.191Z"
+    }
+  },
+  {
+    "topic_id": 1450,
+    "title": "Naming Convention for Consolidating FASTQC and Bowtie2 Reports",
+    "category_id": 37,
+    "post": {
+      "id": 3455,
+      "created_at": "2024-11-18T07:29:06.601Z"
+    },
+    "accepted_answer": {
+      "post_id": 3512,
+      "created_at": "2024-11-22T14:58:04.682Z"
+    }
+  },
+  {
+    "topic_id": 1403,
+    "title": "RNAseq pipeline not terminating",
+    "category_id": 37,
+    "post": {
+      "id": 3353,
+      "created_at": "2024-11-12T21:15:28.569Z"
+    },
+    "accepted_answer": {
+      "post_id": 3465,
+      "created_at": "2024-11-18T14:27:19.085Z"
+    }
+  },
+  {
+    "topic_id": 1435,
+    "title": "How can I assign a default channel to another channel if it\u2019s empty, while retaining its original content when it\u2019s not empty, considering the default value is also a channel?",
+    "category_id": 37,
+    "post": {
+      "id": 3436,
+      "created_at": "2024-11-17T07:33:32.116Z"
+    },
+    "accepted_answer": {
+      "post_id": 3461,
+      "created_at": "2024-11-18T10:26:17.439Z"
+    }
+  },
+  {
+    "topic_id": 1336,
+    "title": "Using 2 AWS Batch Compute Environments within a single pipeline",
+    "category_id": 37,
+    "post": {
+      "id": 3214,
+      "created_at": "2024-10-25T11:08:48.684Z"
+    },
+    "accepted_answer": {
+      "post_id": 3397,
+      "created_at": "2024-11-15T00:40:23.720Z"
+    }
+  },
+  {
+    "topic_id": 1411,
+    "title": "Nextflow ERROR ~ Cannot read write-only property: from",
+    "category_id": 37,
+    "post": {
+      "id": 3369,
+      "created_at": "2024-11-13T17:47:26.284Z"
+    },
+    "accepted_answer": {
+      "post_id": 3370,
+      "created_at": "2024-11-13T18:28:24.913Z"
+    }
+  },
+  {
+    "topic_id": 1374,
+    "title": "Backslashes when auto-formatting processes",
+    "category_id": 37,
+    "post": {
+      "id": 3291,
+      "created_at": "2024-11-06T14:23:28.705Z"
+    },
+    "accepted_answer": {
+      "post_id": 3425,
+      "created_at": "2024-11-15T14:15:50.066Z"
+    }
+  },
+  {
+    "topic_id": 1398,
+    "title": "Quick Start Help",
+    "category_id": 37,
+    "post": {
+      "id": 3345,
+      "created_at": "2024-11-12T10:55:12.022Z"
+    },
+    "accepted_answer": {
+      "post_id": 3379,
+      "created_at": "2024-11-14T10:42:43.399Z"
+    }
+  },
+  {
+    "topic_id": 1405,
+    "title": "Advice with some linting messages",
+    "category_id": 37,
+    "post": {
+      "id": 3356,
+      "created_at": "2024-11-13T10:57:54.706Z"
+    },
+    "accepted_answer": {
+      "post_id": 3359,
+      "created_at": "2024-11-13T12:49:58.080Z"
+    }
+  },
+  {
+    "topic_id": 1368,
+    "title": "Method to generate a ReadGroup string",
+    "category_id": 37,
+    "post": {
+      "id": 3282,
+      "created_at": "2024-11-05T10:16:30.295Z"
+    },
+    "accepted_answer": {
+      "post_id": 3298,
+      "created_at": "2024-11-06T17:38:25.929Z"
+    }
+  },
+  {
+    "topic_id": 1310,
+    "title": "Custom_plot_config and custom_table_header_config not working",
+    "category_id": 37,
+    "post": {
+      "id": 3163,
+      "created_at": "2024-10-19T15:40:02.691Z"
+    },
+    "accepted_answer": {
+      "post_id": 3339,
+      "created_at": "2024-11-11T18:09:43.267Z"
+    }
+  },
+  {
+    "topic_id": 1331,
+    "title": "Section_comments showed twice, section_name doesn't follow the setting",
+    "category_id": 37,
+    "post": {
+      "id": 3206,
+      "created_at": "2024-10-25T03:19:06.420Z"
+    },
+    "accepted_answer": {
+      "post_id": 3338,
+      "created_at": "2024-11-11T18:09:16.997Z"
+    }
+  },
+  {
+    "topic_id": 1255,
+    "title": "Why do the structures seem to differ between the multiqc report and usage in a notebook?",
+    "category_id": 37,
+    "post": {
+      "id": 3028,
+      "created_at": "2024-10-04T11:52:29.036Z"
+    },
+    "accepted_answer": {
+      "post_id": 3331,
+      "created_at": "2024-11-11T12:23:31.152Z"
+    }
+  },
+  {
+    "topic_id": 1377,
+    "title": "Duplicate file names",
+    "category_id": 37,
+    "post": {
+      "id": 3299,
+      "created_at": "2024-11-06T18:01:10.056Z"
+    },
+    "accepted_answer": {
+      "post_id": 3302,
+      "created_at": "2024-11-06T21:08:13.137Z"
+    }
+  },
+  {
+    "topic_id": 1367,
+    "title": "Join named tuples",
+    "category_id": 37,
+    "post": {
+      "id": 3279,
+      "created_at": "2024-11-04T23:10:01.627Z"
+    },
+    "accepted_answer": {
+      "post_id": 3281,
+      "created_at": "2024-11-05T02:39:46.865Z"
+    }
+  },
+  {
+    "topic_id": 1349,
+    "title": "Wait and retry if not ready",
+    "category_id": 37,
+    "post": {
+      "id": 3246,
+      "created_at": "2024-10-30T16:49:16.006Z"
+    },
+    "accepted_answer": {
+      "post_id": 3247,
+      "created_at": "2024-10-30T19:47:14.186Z"
+    }
+  },
+  {
+    "topic_id": 1353,
+    "title": "Wave invalid response: [400] {\"Container image does not exist or access is not authorized\"}",
+    "category_id": 37,
+    "post": {
+      "id": 3251,
+      "created_at": "2024-10-31T16:35:50.554Z"
+    },
+    "accepted_answer": {
+      "post_id": 3272,
+      "created_at": "2024-11-01T17:25:51.381Z"
+    }
+  },
+  {
+    "topic_id": 1351,
+    "title": "Batching samples into groups of 5 within patients",
+    "category_id": 37,
+    "post": {
+      "id": 3249,
+      "created_at": "2024-10-31T16:07:18.363Z"
+    },
+    "accepted_answer": {
+      "post_id": 3264,
+      "created_at": "2024-11-01T11:50:08.594Z"
+    }
+  },
+  {
+    "topic_id": 1342,
+    "title": "Nextflow language server errors",
+    "category_id": 37,
+    "post": {
+      "id": 3230,
+      "created_at": "2024-10-29T10:23:32.702Z"
+    },
+    "accepted_answer": {
+      "post_id": 3233,
+      "created_at": "2024-10-29T10:36:52.891Z"
+    }
+  },
+  {
+    "topic_id": 1252,
+    "title": "MultiQC plots in Quarto don't display generally",
+    "category_id": 37,
+    "post": {
+      "id": 3019,
+      "created_at": "2024-10-03T14:29:19.028Z"
+    },
+    "accepted_answer": {
+      "post_id": 3025,
+      "created_at": "2024-10-03T20:35:27.013Z"
+    }
+  },
+  {
+    "topic_id": 1175,
+    "title": "Plot.show() in Quarto notebook after if statement is not showing",
+    "category_id": 37,
+    "post": {
+      "id": 2842,
+      "created_at": "2024-09-10T07:05:38.871Z"
+    },
+    "accepted_answer": {
+      "post_id": 2895,
+      "created_at": "2024-09-17T21:25:15.435Z"
+    }
+  },
+  {
+    "topic_id": 1324,
+    "title": "Changing process.executer for specific applications (from SLURM to local)",
+    "category_id": 37,
+    "post": {
+      "id": 3196,
+      "created_at": "2024-10-23T19:37:55.181Z"
+    },
+    "accepted_answer": {
+      "post_id": 3216,
+      "created_at": "2024-10-25T18:39:22.632Z"
+    }
+  },
+  {
+    "topic_id": 1248,
+    "title": "Multi-channel output cannot be applied to operator combine",
+    "category_id": 37,
+    "post": {
+      "id": 3000,
+      "created_at": "2024-10-02T17:11:34.780Z"
+    },
+    "accepted_answer": {
+      "post_id": 3005,
+      "created_at": "2024-10-02T19:30:22.448Z"
+    }
+  },
+  {
+    "topic_id": 1319,
+    "title": "Nested tuple as input",
+    "category_id": 37,
+    "post": {
+      "id": 3187,
+      "created_at": "2024-10-22T19:56:46.363Z"
+    },
+    "accepted_answer": {
+      "post_id": 3194,
+      "created_at": "2024-10-23T13:54:46.247Z"
+    }
+  },
+  {
+    "topic_id": 1308,
+    "title": "Non-aws S3 bucket won't be picked up by nextflow",
+    "category_id": 37,
+    "post": {
+      "id": 3160,
+      "created_at": "2024-10-18T09:33:39.897Z"
+    },
+    "accepted_answer": {
+      "post_id": 3178,
+      "created_at": "2024-10-21T12:41:17.029Z"
+    }
+  },
+  {
+    "topic_id": 1250,
+    "title": "Conditional workflow execution",
+    "category_id": 37,
+    "post": {
+      "id": 3003,
+      "created_at": "2024-10-02T18:49:42.996Z"
+    },
+    "accepted_answer": {
+      "post_id": 3154,
+      "created_at": "2024-10-17T15:48:07.127Z"
+    }
+  },
+  {
+    "topic_id": 1293,
+    "title": "Publish AWS batch -> S3",
+    "category_id": 37,
+    "post": {
+      "id": 3129,
+      "created_at": "2024-10-15T16:06:36.384Z"
+    },
+    "accepted_answer": {
+      "post_id": 3140,
+      "created_at": "2024-10-16T10:16:50.671Z"
+    }
+  },
+  {
+    "topic_id": 1271,
+    "title": "Noob splitText question",
+    "category_id": 37,
+    "post": {
+      "id": 3072,
+      "created_at": "2024-10-09T07:26:16.779Z"
+    },
+    "accepted_answer": {
+      "post_id": 3102,
+      "created_at": "2024-10-10T00:46:48.078Z"
+    }
+  },
+  {
+    "topic_id": 1259,
+    "title": "Using a program to pre-process the samplesheet",
+    "category_id": 37,
+    "post": {
+      "id": 3033,
+      "created_at": "2024-10-04T20:02:21.759Z"
+    },
+    "accepted_answer": {
+      "post_id": 3100,
+      "created_at": "2024-10-09T22:01:04.170Z"
+    }
+  },
+  {
+    "topic_id": 1254,
+    "title": "Pandoc fails to convert html to pdf in the presence of a UNIcode \u2265 sign",
+    "category_id": 37,
+    "post": {
+      "id": 3021,
+      "created_at": "2024-10-03T17:00:24.728Z"
+    },
+    "accepted_answer": {
+      "post_id": 3027,
+      "created_at": "2024-10-04T11:02:32.381Z"
+    }
+  },
+  {
+    "topic_id": 672,
+    "title": "Custom column on general stats table",
+    "category_id": 37,
+    "post": {
+      "id": 1600,
+      "created_at": "2024-04-19T02:41:44.935Z"
+    },
+    "accepted_answer": {
+      "post_id": 1601,
+      "created_at": "2024-04-19T05:44:50.135Z"
+    }
+  },
+  {
+    "topic_id": 1244,
+    "title": "Confusion over why a tool works in Docker but fails in Singularity when the installation doesn't differ, i.e. using wave ( micromamba )",
+    "category_id": 37,
+    "post": {
+      "id": 2995,
+      "created_at": "2024-10-02T13:39:04.671Z"
+    },
+    "accepted_answer": {
+      "post_id": 3007,
+      "created_at": "2024-10-02T20:52:10.507Z"
+    }
+  },
+  {
+    "topic_id": 1232,
+    "title": "Permission Denied Issue with Network-Mounted FASTQ Files in Nextflow",
+    "category_id": 37,
+    "post": {
+      "id": 2967,
+      "created_at": "2024-09-28T13:50:40.724Z"
+    },
+    "accepted_answer": {
+      "post_id": 2988,
+      "created_at": "2024-10-01T15:17:40.807Z"
+    }
+  },
+  {
+    "topic_id": 1226,
+    "title": "Single cell multiqc report",
+    "category_id": 37,
+    "post": {
+      "id": 2955,
+      "created_at": "2024-09-26T18:31:25.557Z"
+    },
+    "accepted_answer": {
+      "post_id": 2986,
+      "created_at": "2024-10-01T14:17:42.647Z"
+    }
+  },
+  {
+    "topic_id": 1233,
+    "title": "withLabel not applied in profiles scope",
+    "category_id": 37,
+    "post": {
+      "id": 2968,
+      "created_at": "2024-09-29T19:42:52.140Z"
+    },
+    "accepted_answer": {
+      "post_id": 2969,
+      "created_at": "2024-09-29T21:44:50.792Z"
+    }
+  },
+  {
+    "topic_id": 1215,
+    "title": "Which features of a task must be unchanged for resuming to work?",
+    "category_id": 37,
+    "post": {
+      "id": 2932,
+      "created_at": "2024-09-25T09:40:53.980Z"
+    },
+    "accepted_answer": {
+      "post_id": 2943,
+      "created_at": "2024-09-26T08:46:54.299Z"
+    }
+  },
+  {
+    "topic_id": 1217,
+    "title": "Nextflow can't file file from combined Channel when running on running awsbatch executor",
+    "category_id": 37,
+    "post": {
+      "id": 2935,
+      "created_at": "2024-09-25T17:55:18.334Z"
+    },
+    "accepted_answer": {
+      "post_id": 2937,
+      "created_at": "2024-09-25T18:29:42.328Z"
+    }
+  },
+  {
+    "topic_id": 1210,
+    "title": "PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target",
+    "category_id": 37,
+    "post": {
+      "id": 2915,
+      "created_at": "2024-09-23T19:58:43.132Z"
+    },
+    "accepted_answer": {
+      "post_id": 2920,
+      "created_at": "2024-09-24T14:18:39.209Z"
+    }
+  },
+  {
+    "topic_id": 1172,
+    "title": "Importing a jar file into a workflow",
+    "category_id": 37,
+    "post": {
+      "id": 2835,
+      "created_at": "2024-09-09T20:35:30.497Z"
+    },
+    "accepted_answer": {
+      "post_id": 2882,
+      "created_at": "2024-09-14T20:43:50.512Z"
+    }
+  },
+  {
+    "topic_id": 1161,
+    "title": "Append to params from a .csv",
+    "category_id": 37,
+    "post": {
+      "id": 2795,
+      "created_at": "2024-09-06T15:01:21.404Z"
+    },
+    "accepted_answer": {
+      "post_id": 2801,
+      "created_at": "2024-09-06T19:23:18.331Z"
+    }
+  },
+  {
+    "topic_id": 456,
+    "title": "Simple Bash Computing environment",
+    "category_id": 37,
+    "post": {
+      "id": 944,
+      "created_at": "2024-02-03T20:17:14.498Z"
+    },
+    "accepted_answer": {
+      "post_id": 946,
+      "created_at": "2024-02-04T05:28:20.749Z"
+    }
+  },
+  {
+    "topic_id": 1186,
+    "title": "Running a program directly from a container in nextflow process",
+    "category_id": 37,
+    "post": {
+      "id": 2872,
+      "created_at": "2024-09-12T18:56:47.819Z"
+    },
+    "accepted_answer": {
+      "post_id": 2873,
+      "created_at": "2024-09-12T19:30:59.557Z"
+    }
+  },
+  {
+    "topic_id": 1136,
+    "title": "Custom MultiqcModule Factory Pattern",
+    "category_id": 37,
+    "post": {
+      "id": 2728,
+      "created_at": "2024-08-23T07:58:46.415Z"
+    },
+    "accepted_answer": {
+      "post_id": 2865,
+      "created_at": "2024-09-11T21:33:44.287Z"
+    }
+  },
+  {
+    "topic_id": 1183,
+    "title": "How to adapt institutional Nextflow pipelines to Include a GUI for parameters",
+    "category_id": 37,
+    "post": {
+      "id": 2858,
+      "created_at": "2024-09-11T14:51:20.254Z"
+    },
+    "accepted_answer": {
+      "post_id": 2859,
+      "created_at": "2024-09-11T15:58:05.959Z"
+    }
+  },
+  {
+    "topic_id": 1174,
+    "title": "Provenance or Audit Trail of computation",
+    "category_id": 37,
+    "post": {
+      "id": 2841,
+      "created_at": "2024-09-10T03:39:00.657Z"
+    },
+    "accepted_answer": {
+      "post_id": 2851,
+      "created_at": "2024-09-10T15:32:51.503Z"
+    }
+  },
+  {
+    "topic_id": 1149,
+    "title": "Nextflow pipeline fails on AWS because it can't find executable in Docker container",
+    "category_id": 37,
+    "post": {
+      "id": 2766,
+      "created_at": "2024-08-28T22:14:34.705Z"
+    },
+    "accepted_answer": {
+      "post_id": 2784,
+      "created_at": "2024-08-30T16:52:38.316Z"
+    }
+  },
+  {
+    "topic_id": 1138,
+    "title": "A minimal Nextflow configuration for Azure Batch",
+    "category_id": 37,
+    "post": {
+      "id": 2735,
+      "created_at": "2024-08-25T11:14:14.369Z"
+    },
+    "accepted_answer": {
+      "post_id": 2737,
+      "created_at": "2024-08-26T08:17:16.237Z"
+    }
+  },
+  {
+    "topic_id": 1139,
+    "title": "Repurpose GATK module for Sentieon with similar data but changed headers",
+    "category_id": 37,
+    "post": {
+      "id": 2741,
+      "created_at": "2024-08-26T14:51:40.735Z"
+    },
+    "accepted_answer": {
+      "post_id": 2753,
+      "created_at": "2024-08-27T17:40:48.065Z"
+    }
+  },
+  {
+    "topic_id": 1125,
+    "title": "Markdown in section comments",
+    "category_id": 37,
+    "post": {
+      "id": 2713,
+      "created_at": "2024-08-21T16:03:38.311Z"
+    },
+    "accepted_answer": {
+      "post_id": 2740,
+      "created_at": "2024-08-26T13:53:47.012Z"
+    }
+  },
+  {
+    "topic_id": 1100,
+    "title": "Set the default view to percentage view of a custom content (bargraph)",
+    "category_id": 37,
+    "post": {
+      "id": 2639,
+      "created_at": "2024-08-15T15:24:56.473Z"
+    },
+    "accepted_answer": {
+      "post_id": 2732,
+      "created_at": "2024-08-23T21:48:41.569Z"
+    }
+  },
+  {
+    "topic_id": 1129,
+    "title": "Custom table configs do not work anymore in v1.24.1 (custom_table_header_config, table_columns_placement)",
+    "category_id": 37,
+    "post": {
+      "id": 2718,
+      "created_at": "2024-08-22T10:04:09.444Z"
+    },
+    "accepted_answer": {
+      "post_id": 2730,
+      "created_at": "2024-08-23T14:03:54.556Z"
+    }
+  },
+  {
+    "topic_id": 1053,
+    "title": "Associate label to compute environment",
+    "category_id": 37,
+    "post": {
+      "id": 2509,
+      "created_at": "2024-08-05T14:55:56.926Z"
+    },
+    "accepted_answer": {
+      "post_id": 2696,
+      "created_at": "2024-08-20T13:34:37.733Z"
+    }
+  },
+  {
+    "topic_id": 1120,
+    "title": "Seqera Platform IP Addresses",
+    "category_id": 37,
+    "post": {
+      "id": 2699,
+      "created_at": "2024-08-20T13:45:49.509Z"
+    },
+    "accepted_answer": {
+      "post_id": 2700,
+      "created_at": "2024-08-20T14:06:01.566Z"
+    }
+  },
+  {
+    "topic_id": 909,
+    "title": "PyPI package not found",
+    "category_id": 37,
+    "post": {
+      "id": 2195,
+      "created_at": "2024-07-02T14:17:30.468Z"
+    },
+    "accepted_answer": {
+      "post_id": 2606,
+      "created_at": "2024-08-13T22:30:12.938Z"
+    }
+  },
+  {
+    "topic_id": 830,
+    "title": "Re-use a task working directory on retries",
+    "category_id": 37,
+    "post": {
+      "id": 1991,
+      "created_at": "2024-06-07T11:36:17.569Z"
+    },
+    "accepted_answer": {
+      "post_id": 2655,
+      "created_at": "2024-08-16T01:38:30.970Z"
+    }
+  },
+  {
+    "topic_id": 1116,
+    "title": "Platform specificity",
+    "category_id": 37,
+    "post": {
+      "id": 2682,
+      "created_at": "2024-08-19T12:24:24.128Z"
+    },
+    "accepted_answer": {
+      "post_id": 2686,
+      "created_at": "2024-08-19T13:50:44.010Z"
+    }
+  },
+  {
+    "topic_id": 1092,
+    "title": "Need syntax help declaring a closure or comparator for collectFile sort option",
+    "category_id": 37,
+    "post": {
+      "id": 2617,
+      "created_at": "2024-08-14T18:34:05.730Z"
+    },
+    "accepted_answer": {
+      "post_id": 2657,
+      "created_at": "2024-08-16T02:30:28.970Z"
+    }
+  },
+  {
+    "topic_id": 1099,
+    "title": "Change the default description of a supported tool",
+    "category_id": 37,
+    "post": {
+      "id": 2638,
+      "created_at": "2024-08-15T15:18:27.426Z"
+    },
+    "accepted_answer": {
+      "post_id": 2641,
+      "created_at": "2024-08-15T16:54:36.350Z"
+    }
+  },
+  {
+    "topic_id": 991,
+    "title": "Custom content table tooltip?",
+    "category_id": 37,
+    "post": {
+      "id": 2371,
+      "created_at": "2024-07-20T12:37:20.875Z"
+    },
+    "accepted_answer": {
+      "post_id": 2588,
+      "created_at": "2024-08-13T14:09:31.938Z"
+    }
+  },
+  {
+    "topic_id": 1098,
+    "title": "Help with rnaseq pipeline - looks like it is not recognizing the --input path",
+    "category_id": 37,
+    "post": {
+      "id": 2630,
+      "created_at": "2024-08-15T13:57:41.037Z"
+    },
+    "accepted_answer": {
+      "post_id": 2631,
+      "created_at": "2024-08-15T14:06:14.831Z"
+    }
+  },
+  {
+    "topic_id": 1093,
+    "title": "Massive slowdown using singularity instead of docker or conda/mamba",
+    "category_id": 37,
+    "post": {
+      "id": 2618,
+      "created_at": "2024-08-14T18:44:19.114Z"
+    },
+    "accepted_answer": {
+      "post_id": 2619,
+      "created_at": "2024-08-14T20:29:49.345Z"
+    }
+  },
+  {
+    "topic_id": 976,
+    "title": "Containers search interface not finding conda-forge:duckdb version 1.0.0",
+    "category_id": 37,
+    "post": {
+      "id": 2342,
+      "created_at": "2024-07-17T21:38:39.430Z"
+    },
+    "accepted_answer": {
+      "post_id": 2604,
+      "created_at": "2024-08-13T22:25:53.728Z"
+    }
+  },
+  {
+    "topic_id": 1087,
+    "title": "Multiqc output files have changed v1.21",
+    "category_id": 37,
+    "post": {
+      "id": 2591,
+      "created_at": "2024-08-13T16:10:14.477Z"
+    },
+    "accepted_answer": {
+      "post_id": 2611,
+      "created_at": "2024-08-14T09:48:46.139Z"
+    }
+  },
+  {
+    "topic_id": 816,
+    "title": "Interproscan from Seqera Containers fails to build",
+    "category_id": 37,
+    "post": {
+      "id": 1973,
+      "created_at": "2024-06-05T11:18:47.544Z"
+    },
+    "accepted_answer": {
+      "post_id": 2039,
+      "created_at": "2024-06-14T22:35:25.861Z"
+    }
+  },
+  {
+    "topic_id": 1071,
+    "title": "Error on selecting a specific output from a process that outputs multiple files, and pass it to the next process?",
+    "category_id": 37,
+    "post": {
+      "id": 2545,
+      "created_at": "2024-08-08T00:40:29.335Z"
+    },
+    "accepted_answer": {
+      "post_id": 2565,
+      "created_at": "2024-08-09T16:19:08.681Z"
+    }
+  },
+  {
+    "topic_id": 1075,
+    "title": "High resolution screenshot of MultiQC HTML report",
+    "category_id": 37,
+    "post": {
+      "id": 2562,
+      "created_at": "2024-08-09T15:00:51.638Z"
+    },
+    "accepted_answer": {
+      "post_id": 2573,
+      "created_at": "2024-08-09T23:32:11.768Z"
+    }
+  },
+  {
+    "topic_id": 1076,
+    "title": "SIngle nextflow job vs the executor",
+    "category_id": 37,
+    "post": {
+      "id": 2566,
+      "created_at": "2024-08-09T18:50:31.151Z"
+    },
+    "accepted_answer": {
+      "post_id": 2567,
+      "created_at": "2024-08-09T19:15:09.442Z"
+    }
+  },
+  {
+    "topic_id": 1073,
+    "title": "Is the parallelization working properly?",
+    "category_id": 37,
+    "post": {
+      "id": 2554,
+      "created_at": "2024-08-08T19:06:15.780Z"
+    },
+    "accepted_answer": {
+      "post_id": 2558,
+      "created_at": "2024-08-09T10:53:57.272Z"
+    }
+  },
+  {
+    "topic_id": 1070,
+    "title": "Forcing processes to wait for each other",
+    "category_id": 37,
+    "post": {
+      "id": 2544,
+      "created_at": "2024-08-07T18:08:10.971Z"
+    },
+    "accepted_answer": {
+      "post_id": 2557,
+      "created_at": "2024-08-09T10:40:29.767Z"
+    }
+  },
+  {
+    "topic_id": 1067,
+    "title": "Unexpected behaviour of nextflow when passing a condition to the 'when' block",
+    "category_id": 37,
+    "post": {
+      "id": 2538,
+      "created_at": "2024-08-07T10:28:18.912Z"
+    },
+    "accepted_answer": {
+      "post_id": 2543,
+      "created_at": "2024-08-07T16:47:23.967Z"
+    }
+  },
+  {
+    "topic_id": 1062,
+    "title": "Unable to parse pipeline config",
+    "category_id": 37,
+    "post": {
+      "id": 2524,
+      "created_at": "2024-08-06T12:38:20.400Z"
+    },
+    "accepted_answer": {
+      "post_id": 2528,
+      "created_at": "2024-08-06T14:01:09.573Z"
+    }
+  },
+  {
+    "topic_id": 1056,
+    "title": "Icons for pipelines in workspace",
+    "category_id": 37,
+    "post": {
+      "id": 2514,
+      "created_at": "2024-08-05T22:34:54.181Z"
+    },
+    "accepted_answer": {
+      "post_id": 2517,
+      "created_at": "2024-08-05T22:51:02.460Z"
+    }
+  },
+  {
+    "topic_id": 1061,
+    "title": "Nextflow piping option in the latest release version 24.07.0-edge (Pre-release)",
+    "category_id": 37,
+    "post": {
+      "id": 2523,
+      "created_at": "2024-08-06T11:54:59.194Z"
+    },
+    "accepted_answer": {
+      "post_id": 2525,
+      "created_at": "2024-08-06T12:46:06.393Z"
+    }
+  },
+  {
+    "topic_id": 1039,
+    "title": "maxForks extended to multiple processes?",
+    "category_id": 37,
+    "post": {
+      "id": 2476,
+      "created_at": "2024-08-01T00:36:54.642Z"
+    },
+    "accepted_answer": {
+      "post_id": 2519,
+      "created_at": "2024-08-05T23:36:58.686Z"
+    }
+  },
+  {
+    "topic_id": 1041,
+    "title": "Invalid method invocation call with arguments",
+    "category_id": 37,
+    "post": {
+      "id": 2478,
+      "created_at": "2024-08-01T09:24:34.441Z"
+    },
+    "accepted_answer": {
+      "post_id": 2495,
+      "created_at": "2024-08-02T17:22:34.191Z"
+    }
+  },
+  {
+    "topic_id": 1044,
+    "title": "Singularity qiime2 container - qiime command not found",
+    "category_id": 37,
+    "post": {
+      "id": 2487,
+      "created_at": "2024-08-01T23:43:32.061Z"
+    },
+    "accepted_answer": {
+      "post_id": 2502,
+      "created_at": "2024-08-03T00:23:47.187Z"
+    }
+  },
+  {
+    "topic_id": 1033,
+    "title": "Failed to import pandas in python process",
+    "category_id": 37,
+    "post": {
+      "id": 2465,
+      "created_at": "2024-07-31T03:41:47.560Z"
+    },
+    "accepted_answer": {
+      "post_id": 2469,
+      "created_at": "2024-07-31T13:09:59.780Z"
+    }
+  },
+  {
+    "topic_id": 1038,
+    "title": "Save and rerun conveniently using stored value of \"params\"?",
+    "category_id": 37,
+    "post": {
+      "id": 2475,
+      "created_at": "2024-07-31T23:54:12.963Z"
+    },
+    "accepted_answer": {
+      "post_id": 2479,
+      "created_at": "2024-08-01T13:41:28.409Z"
+    }
+  },
+  {
+    "topic_id": 1028,
+    "title": "Create jobs on Seqera Cloud and run on local server",
+    "category_id": 37,
+    "post": {
+      "id": 2453,
+      "created_at": "2024-07-29T22:12:23.827Z"
+    },
+    "accepted_answer": {
+      "post_id": 2454,
+      "created_at": "2024-07-29T23:38:22.698Z"
+    }
+  },
+  {
+    "topic_id": 599,
+    "title": "Sample names order in tables and plots",
+    "category_id": 37,
+    "post": {
+      "id": 1368,
+      "created_at": "2024-03-26T13:52:40.403Z"
+    },
+    "accepted_answer": {
+      "post_id": 1775,
+      "created_at": "2024-05-06T19:55:10.391Z"
+    }
+  },
+  {
+    "topic_id": 1023,
+    "title": "Keyword arguments of functions can't be skipped?",
+    "category_id": 37,
+    "post": {
+      "id": 2445,
+      "created_at": "2024-07-28T00:37:27.582Z"
+    },
+    "accepted_answer": {
+      "post_id": 2450,
+      "created_at": "2024-07-29T15:53:26.909Z"
+    }
+  },
+  {
+    "topic_id": 1016,
+    "title": "Are Groovy closure signatures in global scope in Nextflow?",
+    "category_id": 37,
+    "post": {
+      "id": 2434,
+      "created_at": "2024-07-26T18:34:56.748Z"
+    },
+    "accepted_answer": {
+      "post_id": 2444,
+      "created_at": "2024-07-27T09:10:44.452Z"
+    }
+  },
+  {
+    "topic_id": 1004,
+    "title": "Fixing race condition when channel items altered by later subworkflow are seen by earlier one",
+    "category_id": 37,
+    "post": {
+      "id": 2393,
+      "created_at": "2024-07-24T00:40:39.595Z"
+    },
+    "accepted_answer": {
+      "post_id": 2408,
+      "created_at": "2024-07-24T21:09:46.400Z"
+    }
+  },
+  {
+    "topic_id": 1013,
+    "title": "Why Am I Unable to See My Post?",
+    "category_id": 37,
+    "post": {
+      "id": 2426,
+      "created_at": "2024-07-26T13:10:33.165Z"
+    },
+    "accepted_answer": {
+      "post_id": 2430,
+      "created_at": "2024-07-26T15:51:34.259Z"
+    }
+  },
+  {
+    "topic_id": 1003,
+    "title": "Why are my samples being mixed up in the work dirs?",
+    "category_id": 37,
+    "post": {
+      "id": 2390,
+      "created_at": "2024-07-23T19:25:08.835Z"
+    },
+    "accepted_answer": {
+      "post_id": 2413,
+      "created_at": "2024-07-25T13:26:02.580Z"
+    }
+  },
+  {
+    "topic_id": 1002,
+    "title": "Accessing Process Runtimes and Memory Usage",
+    "category_id": 37,
+    "post": {
+      "id": 2389,
+      "created_at": "2024-07-23T19:16:25.486Z"
+    },
+    "accepted_answer": {
+      "post_id": 2404,
+      "created_at": "2024-07-24T17:58:46.048Z"
+    }
+  },
+  {
+    "topic_id": 938,
+    "title": "Slurm jobs not being submitted",
+    "category_id": 37,
+    "post": {
+      "id": 2257,
+      "created_at": "2024-07-10T13:20:57.938Z"
+    },
+    "accepted_answer": {
+      "post_id": 2354,
+      "created_at": "2024-07-18T09:20:41.363Z"
+    }
+  },
+  {
+    "topic_id": 997,
+    "title": "Collecting output from different processes to run another process",
+    "category_id": 37,
+    "post": {
+      "id": 2382,
+      "created_at": "2024-07-23T13:58:29.463Z"
+    },
+    "accepted_answer": {
+      "post_id": 2387,
+      "created_at": "2024-07-23T18:42:07.107Z"
+    }
+  },
+  {
+    "topic_id": 955,
+    "title": "Custom Content + beeswarm : same min/max for all tracks",
+    "category_id": 37,
+    "post": {
+      "id": 2301,
+      "created_at": "2024-07-11T17:14:02.546Z"
+    },
+    "accepted_answer": {
+      "post_id": 2373,
+      "created_at": "2024-07-20T15:08:11.983Z"
+    }
+  },
+  {
+    "topic_id": 906,
+    "title": "Customising order of modules",
+    "category_id": 37,
+    "post": {
+      "id": 2191,
+      "created_at": "2024-07-02T06:45:12.935Z"
+    },
+    "accepted_answer": {
+      "post_id": 2368,
+      "created_at": "2024-07-19T13:46:21.364Z"
+    }
+  },
+  {
+    "topic_id": 904,
+    "title": "GATK.GRCh38 vs GRCh38",
+    "category_id": 37,
+    "post": {
+      "id": 2189,
+      "created_at": "2024-07-01T21:53:31.326Z"
+    },
+    "accepted_answer": {
+      "post_id": 2201,
+      "created_at": "2024-07-03T01:58:47.828Z"
+    }
+  },
+  {
+    "topic_id": 977,
+    "title": "More advanced learning of nf-core and nextflow",
+    "category_id": 37,
+    "post": {
+      "id": 2343,
+      "created_at": "2024-07-17T22:58:46.911Z"
+    },
+    "accepted_answer": {
+      "post_id": 2345,
+      "created_at": "2024-07-18T03:45:17.689Z"
+    }
+  },
+  {
+    "topic_id": 903,
+    "title": "Azure Batch not communicating with storage container",
+    "category_id": 37,
+    "post": {
+      "id": 2185,
+      "created_at": "2024-07-01T20:09:52.278Z"
+    },
+    "accepted_answer": {
+      "post_id": 2361,
+      "created_at": "2024-07-18T19:22:36.395Z"
+    }
+  },
+  {
+    "topic_id": 961,
+    "title": "Custom content table with 2K+ rows",
+    "category_id": 37,
+    "post": {
+      "id": 2310,
+      "created_at": "2024-07-12T14:06:23.882Z"
+    },
+    "accepted_answer": {
+      "post_id": 2318,
+      "created_at": "2024-07-13T06:56:37.838Z"
+    }
+  },
+  {
+    "topic_id": 966,
+    "title": "Not a valid path value type?",
+    "category_id": 37,
+    "post": {
+      "id": 2316,
+      "created_at": "2024-07-12T20:59:12.265Z"
+    },
+    "accepted_answer": {
+      "post_id": 2319,
+      "created_at": "2024-07-13T13:48:18.524Z"
+    }
+  },
+  {
+    "topic_id": 965,
+    "title": "Breaking down CPU-hours of Nextflow run across processes?",
+    "category_id": 37,
+    "post": {
+      "id": 2315,
+      "created_at": "2024-07-12T20:56:31.264Z"
+    },
+    "accepted_answer": {
+      "post_id": 2317,
+      "created_at": "2024-07-12T21:54:28.212Z"
+    }
+  },
+  {
+    "topic_id": 918,
+    "title": "Renaming large files causing possible Fusion error",
+    "category_id": 37,
+    "post": {
+      "id": 2211,
+      "created_at": "2024-07-03T21:44:25.303Z"
+    },
+    "accepted_answer": {
+      "post_id": 2223,
+      "created_at": "2024-07-04T15:02:12.594Z"
+    }
+  },
+  {
+    "topic_id": 936,
+    "title": "Sorting within a tuple",
+    "category_id": 37,
+    "post": {
+      "id": 2252,
+      "created_at": "2024-07-09T15:06:39.590Z"
+    },
+    "accepted_answer": {
+      "post_id": 2253,
+      "created_at": "2024-07-09T15:15:00.174Z"
+    }
+  },
+  {
+    "topic_id": 915,
+    "title": "Nextflow run does not pick up parameters submitted via Seqera platform",
+    "category_id": 37,
+    "post": {
+      "id": 2205,
+      "created_at": "2024-07-03T10:41:52.271Z"
+    },
+    "accepted_answer": {
+      "post_id": 2220,
+      "created_at": "2024-07-04T11:06:38.665Z"
+    }
+  },
+  {
+    "topic_id": 917,
+    "title": "Specifying equivalent of -dump-hashes on Seqera Platform",
+    "category_id": 37,
+    "post": {
+      "id": 2208,
+      "created_at": "2024-07-03T17:08:22.928Z"
+    },
+    "accepted_answer": {
+      "post_id": 2225,
+      "created_at": "2024-07-04T15:06:52.524Z"
+    }
+  },
+  {
+    "topic_id": 897,
+    "title": "Optional publishable output?",
+    "category_id": 37,
+    "post": {
+      "id": 2165,
+      "created_at": "2024-06-27T23:40:27.006Z"
+    },
+    "accepted_answer": {
+      "post_id": 2199,
+      "created_at": "2024-07-02T18:04:33.411Z"
+    }
+  },
+  {
+    "topic_id": 890,
+    "title": "Understanding Subworkflow logic",
+    "category_id": 37,
+    "post": {
+      "id": 2147,
+      "created_at": "2024-06-26T17:29:27.992Z"
+    },
+    "accepted_answer": {
+      "post_id": 2193,
+      "created_at": "2024-07-02T13:06:22.250Z"
+    }
+  },
+  {
+    "topic_id": 886,
+    "title": "Get method on LinkedHashMap modifies the hashmap",
+    "category_id": 37,
+    "post": {
+      "id": 2136,
+      "created_at": "2024-06-25T22:53:47.329Z"
+    },
+    "accepted_answer": {
+      "post_id": 2137,
+      "created_at": "2024-06-25T23:19:36.373Z"
+    }
+  },
+  {
+    "topic_id": 889,
+    "title": "Wrong calculation of .metrics file? - Picard",
+    "category_id": 37,
+    "post": {
+      "id": 2146,
+      "created_at": "2024-06-26T14:54:30.658Z"
+    },
+    "accepted_answer": {
+      "post_id": 2155,
+      "created_at": "2024-06-27T12:07:20.467Z"
+    }
+  },
+  {
+    "topic_id": 882,
+    "title": "Using Reference File Name to Emit Reference Path",
+    "category_id": 37,
+    "post": {
+      "id": 2127,
+      "created_at": "2024-06-24T13:18:26.655Z"
+    },
+    "accepted_answer": {
+      "post_id": 2133,
+      "created_at": "2024-06-25T15:45:42.151Z"
+    }
+  },
+  {
+    "topic_id": 884,
+    "title": "Custom content table highlight a row below threshold value",
+    "category_id": 37,
+    "post": {
+      "id": 2129,
+      "created_at": "2024-06-24T13:48:35.749Z"
+    },
+    "accepted_answer": {
+      "post_id": 2130,
+      "created_at": "2024-06-24T14:16:19.191Z"
+    }
+  },
+  {
+    "topic_id": 883,
+    "title": "Custom content software version display",
+    "category_id": 37,
+    "post": {
+      "id": 2128,
+      "created_at": "2024-06-24T13:38:58.467Z"
+    },
+    "accepted_answer": {
+      "post_id": 2131,
+      "created_at": "2024-06-24T14:26:53.273Z"
+    }
+  },
+  {
+    "topic_id": 873,
+    "title": "Custom content",
+    "category_id": 37,
+    "post": {
+      "id": 2099,
+      "created_at": "2024-06-21T06:16:17.440Z"
+    },
+    "accepted_answer": {
+      "post_id": 2120,
+      "created_at": "2024-06-22T12:15:02.533Z"
+    }
+  },
+  {
+    "topic_id": 868,
+    "title": "Getting Unexpected input: '{' Error, but neither I or github copilot can find any syntax error",
+    "category_id": 37,
+    "post": {
+      "id": 2084,
+      "created_at": "2024-06-19T14:49:27.358Z"
+    },
+    "accepted_answer": {
+      "post_id": 2106,
+      "created_at": "2024-06-21T08:34:46.200Z"
+    }
+  },
+  {
+    "topic_id": 869,
+    "title": "I don't know how to sort",
+    "category_id": 37,
+    "post": {
+      "id": 2086,
+      "created_at": "2024-06-19T18:47:28.595Z"
+    },
+    "accepted_answer": {
+      "post_id": 2109,
+      "created_at": "2024-06-21T10:00:40.535Z"
+    }
+  },
+  {
+    "topic_id": 857,
+    "title": "Grouping,mapping is shuffling the labels",
+    "category_id": 37,
+    "post": {
+      "id": 2056,
+      "created_at": "2024-06-17T18:57:08.591Z"
+    },
+    "accepted_answer": {
+      "post_id": 2107,
+      "created_at": "2024-06-21T08:58:40.268Z"
+    }
+  },
+  {
+    "topic_id": 871,
+    "title": "Unable to create Azure Batch Compute Environment",
+    "category_id": 37,
+    "post": {
+      "id": 2095,
+      "created_at": "2024-06-20T09:51:32.237Z"
+    },
+    "accepted_answer": {
+      "post_id": 2100,
+      "created_at": "2024-06-21T06:46:20.654Z"
+    }
+  },
+  {
+    "topic_id": 864,
+    "title": "Option run_modules broken in latest version (1.22.2)",
+    "category_id": 37,
+    "post": {
+      "id": 2073,
+      "created_at": "2024-06-19T08:20:31.484Z"
+    },
+    "accepted_answer": {
+      "post_id": 2081,
+      "created_at": "2024-06-19T12:40:47.964Z"
+    }
+  },
+  {
+    "topic_id": 861,
+    "title": "Dragen module broken in latest version",
+    "category_id": 37,
+    "post": {
+      "id": 2061,
+      "created_at": "2024-06-18T07:41:38.414Z"
+    },
+    "accepted_answer": {
+      "post_id": 2062,
+      "created_at": "2024-06-18T08:25:26.220Z"
+    }
+  },
+  {
+    "topic_id": 836,
+    "title": "Gitlab token not working when MFA is enabled",
+    "category_id": 37,
+    "post": {
+      "id": 2005,
+      "created_at": "2024-06-12T07:29:04.124Z"
+    },
+    "accepted_answer": {
+      "post_id": 2050,
+      "created_at": "2024-06-17T07:42:44.363Z"
+    }
+  },
+  {
+    "topic_id": 851,
+    "title": "How to process multiple runs of featurecounts in the same directory where each run used a differnt gtf file",
+    "category_id": 37,
+    "post": {
+      "id": 2037,
+      "created_at": "2024-06-14T18:20:31.766Z"
+    },
+    "accepted_answer": {
+      "post_id": 2046,
+      "created_at": "2024-06-15T18:13:45.312Z"
+    }
+  },
+  {
+    "topic_id": 847,
+    "title": "Custom filepaths for workflow-level output",
+    "category_id": 37,
+    "post": {
+      "id": 2025,
+      "created_at": "2024-06-13T17:05:42.072Z"
+    },
+    "accepted_answer": {
+      "post_id": 2029,
+      "created_at": "2024-06-13T18:19:29.346Z"
+    }
+  },
+  {
+    "topic_id": 839,
+    "title": "MultiQC does not find picard rnaseqmetrics files",
+    "category_id": 37,
+    "post": {
+      "id": 2009,
+      "created_at": "2024-06-12T13:30:02.492Z"
+    },
+    "accepted_answer": {
+      "post_id": 2020,
+      "created_at": "2024-06-13T15:11:10.963Z"
+    }
+  },
+  {
+    "topic_id": 828,
+    "title": "Missing RDS Missing output file(s)",
+    "category_id": 37,
+    "post": {
+      "id": 1989,
+      "created_at": "2024-06-07T11:07:35.800Z"
+    },
+    "accepted_answer": {
+      "post_id": 1992,
+      "created_at": "2024-06-07T12:22:03.323Z"
+    }
+  },
+  {
+    "topic_id": 811,
+    "title": "Does Nextflow avoid redundancy when fetching same HTTP/FTP files 2+ times?",
+    "category_id": 37,
+    "post": {
+      "id": 1965,
+      "created_at": "2024-06-04T04:20:53.157Z"
+    },
+    "accepted_answer": {
+      "post_id": 1966,
+      "created_at": "2024-06-04T07:26:06.628Z"
+    }
+  },
+  {
+    "topic_id": 777,
+    "title": "Python module in process problem",
+    "category_id": 37,
+    "post": {
+      "id": 1876,
+      "created_at": "2024-05-23T14:36:36.253Z"
+    },
+    "accepted_answer": {
+      "post_id": 1892,
+      "created_at": "2024-05-26T15:47:12.655Z"
+    }
+  },
+  {
+    "topic_id": 802,
+    "title": "Getting Nextflow to detect docker engine",
+    "category_id": 37,
+    "post": {
+      "id": 1940,
+      "created_at": "2024-05-31T09:50:26.512Z"
+    },
+    "accepted_answer": {
+      "post_id": 1953,
+      "created_at": "2024-06-01T09:01:03.922Z"
+    }
+  },
+  {
+    "topic_id": 803,
+    "title": "Create a better DAG file",
+    "category_id": 37,
+    "post": {
+      "id": 1941,
+      "created_at": "2024-05-31T18:08:12.665Z"
+    },
+    "accepted_answer": {
+      "post_id": 1943,
+      "created_at": "2024-05-31T20:59:43.370Z"
+    }
+  },
+  {
+    "topic_id": 792,
+    "title": "Adding sample id to resourceLabels in config file",
+    "category_id": 37,
+    "post": {
+      "id": 1907,
+      "created_at": "2024-05-28T12:02:45.600Z"
+    },
+    "accepted_answer": {
+      "post_id": 1924,
+      "created_at": "2024-05-29T14:45:44.813Z"
+    }
+  },
+  {
+    "topic_id": 788,
+    "title": "How to see echo results in .command.out to debug a pipeline?",
+    "category_id": 37,
+    "post": {
+      "id": 1902,
+      "created_at": "2024-05-28T04:08:54.467Z"
+    },
+    "accepted_answer": {
+      "post_id": 1908,
+      "created_at": "2024-05-28T12:09:11.120Z"
+    }
+  },
+  {
+    "topic_id": 786,
+    "title": "Issue grouping by id",
+    "category_id": 37,
+    "post": {
+      "id": 1899,
+      "created_at": "2024-05-27T22:28:55.768Z"
+    },
+    "accepted_answer": {
+      "post_id": 1900,
+      "created_at": "2024-05-27T22:56:57.497Z"
+    }
+  },
+  {
+    "topic_id": 784,
+    "title": "Problem grouping technical replicates",
+    "category_id": 37,
+    "post": {
+      "id": 1894,
+      "created_at": "2024-05-27T10:52:15.872Z"
+    },
+    "accepted_answer": {
+      "post_id": 1895,
+      "created_at": "2024-05-27T18:00:22.907Z"
+    }
+  },
+  {
+    "topic_id": 741,
+    "title": "Disable mean read length in picard",
+    "category_id": 37,
+    "post": {
+      "id": 1787,
+      "created_at": "2024-05-07T16:00:19.295Z"
+    },
+    "accepted_answer": {
+      "post_id": 1793,
+      "created_at": "2024-05-08T17:23:45.182Z"
+    }
+  },
+  {
+    "topic_id": 771,
+    "title": "R script from bin folder isn't executed",
+    "category_id": 37,
+    "post": {
+      "id": 1860,
+      "created_at": "2024-05-20T21:38:25.580Z"
+    },
+    "accepted_answer": {
+      "post_id": 1862,
+      "created_at": "2024-05-21T13:03:44.134Z"
+    }
+  },
+  {
+    "topic_id": 770,
+    "title": "Pipeline only processes first element of channel",
+    "category_id": 37,
+    "post": {
+      "id": 1859,
+      "created_at": "2024-05-20T21:28:43.855Z"
+    },
+    "accepted_answer": {
+      "post_id": 1863,
+      "created_at": "2024-05-21T13:08:59.694Z"
+    }
+  },
+  {
+    "topic_id": 746,
+    "title": "How to print files names after collect in a process to a file",
+    "category_id": 37,
+    "post": {
+      "id": 1795,
+      "created_at": "2024-05-08T19:34:27.810Z"
+    },
+    "accepted_answer": {
+      "post_id": 1857,
+      "created_at": "2024-05-20T20:34:48.692Z"
+    }
+  },
+  {
+    "topic_id": 762,
+    "title": "Help setting apptainer cache dir",
+    "category_id": 37,
+    "post": {
+      "id": 1831,
+      "created_at": "2024-05-16T00:50:49.770Z"
+    },
+    "accepted_answer": {
+      "post_id": 1852,
+      "created_at": "2024-05-20T00:04:13.284Z"
+    }
+  },
+  {
+    "topic_id": 760,
+    "title": "Custom Module for MultiQC with Nextflow",
+    "category_id": 37,
+    "post": {
+      "id": 1822,
+      "created_at": "2024-05-14T14:43:02.241Z"
+    },
+    "accepted_answer": {
+      "post_id": 1826,
+      "created_at": "2024-05-15T13:59:58.278Z"
+    }
+  },
+  {
+    "topic_id": 752,
+    "title": "Creating a nf script to run a pipeline in Azure VM",
+    "category_id": 37,
+    "post": {
+      "id": 1812,
+      "created_at": "2024-05-13T16:07:40.936Z"
+    },
+    "accepted_answer": {
+      "post_id": 1820,
+      "created_at": "2024-05-14T14:23:38.896Z"
+    }
+  },
+  {
+    "topic_id": 736,
+    "title": "Show_analysis_paths doesn't work",
+    "category_id": 37,
+    "post": {
+      "id": 1774,
+      "created_at": "2024-05-06T19:42:43.257Z"
+    },
+    "accepted_answer": {
+      "post_id": 1777,
+      "created_at": "2024-05-06T20:24:27.007Z"
+    }
+  },
+  {
+    "topic_id": 712,
+    "title": "Cutadapt module plot classification of adapters",
+    "category_id": 37,
+    "post": {
+      "id": 1695,
+      "created_at": "2024-04-29T15:54:02.296Z"
+    },
+    "accepted_answer": {
+      "post_id": 1770,
+      "created_at": "2024-05-06T12:22:56.483Z"
+    }
+  },
+  {
+    "topic_id": 735,
+    "title": "How to process a list of files, while knowing the file I\"m processing?",
+    "category_id": 37,
+    "post": {
+      "id": 1767,
+      "created_at": "2024-05-05T20:00:57.194Z"
+    },
+    "accepted_answer": {
+      "post_id": 1768,
+      "created_at": "2024-05-05T20:22:43.608Z"
+    }
+  },
+  {
+    "topic_id": 734,
+    "title": "How to print count with text/message?",
+    "category_id": 37,
+    "post": {
+      "id": 1765,
+      "created_at": "2024-05-04T14:46:57.415Z"
+    },
+    "accepted_answer": {
+      "post_id": 1766,
+      "created_at": "2024-05-04T17:09:39.556Z"
+    }
+  },
+  {
+    "topic_id": 716,
+    "title": "Reuse channel result in subworkflows",
+    "category_id": 37,
+    "post": {
+      "id": 1701,
+      "created_at": "2024-04-30T09:29:21.141Z"
+    },
+    "accepted_answer": {
+      "post_id": 1702,
+      "created_at": "2024-04-30T12:01:15.733Z"
+    }
+  },
+  {
+    "topic_id": 662,
+    "title": "Adding glimpse support",
+    "category_id": 37,
+    "post": {
+      "id": 1571,
+      "created_at": "2024-04-17T09:34:42.652Z"
+    },
+    "accepted_answer": {
+      "post_id": 1572,
+      "created_at": "2024-04-17T10:35:51.463Z"
+    }
+  },
+  {
+    "topic_id": 594,
+    "title": "How do I make categorical values from integers?",
+    "category_id": 37,
+    "post": {
+      "id": 1356,
+      "created_at": "2024-03-25T17:59:31.086Z"
+    },
+    "accepted_answer": {
+      "post_id": 1750,
+      "created_at": "2024-05-01T23:41:56.852Z"
+    }
+  },
+  {
+    "topic_id": 717,
+    "title": "Join channels based on meta field",
+    "category_id": 37,
+    "post": {
+      "id": 1703,
+      "created_at": "2024-04-30T15:10:51.599Z"
+    },
+    "accepted_answer": {
+      "post_id": 1727,
+      "created_at": "2024-04-30T19:01:49.276Z"
+    }
+  },
+  {
+    "topic_id": 721,
+    "title": "Wave container builds failing due to private ECR path modifications",
+    "category_id": 37,
+    "post": {
+      "id": 1726,
+      "created_at": "2024-04-30T18:31:15.344Z"
+    },
+    "accepted_answer": {
+      "post_id": 1733,
+      "created_at": "2024-04-30T21:05:39.766Z"
+    }
+  },
+  {
+    "topic_id": 706,
+    "title": "Wave error when using SHA256 as tag does not support the containerConfig",
+    "category_id": 37,
+    "post": {
+      "id": 1685,
+      "created_at": "2024-04-29T08:29:55.500Z"
+    },
+    "accepted_answer": {
+      "post_id": 1686,
+      "created_at": "2024-04-29T08:42:20.113Z"
+    }
+  },
+  {
+    "topic_id": 695,
+    "title": "Error creating Kubernetes Compute Environment",
+    "category_id": 37,
+    "post": {
+      "id": 1669,
+      "created_at": "2024-04-25T18:31:09.598Z"
+    },
+    "accepted_answer": {
+      "post_id": 1672,
+      "created_at": "2024-04-25T20:13:58.320Z"
+    }
+  },
+  {
+    "topic_id": 685,
+    "title": "How do i accept multiple file paths/globs in my channel?",
+    "category_id": 37,
+    "post": {
+      "id": 1644,
+      "created_at": "2024-04-23T14:56:26.981Z"
+    },
+    "accepted_answer": {
+      "post_id": 1648,
+      "created_at": "2024-04-23T18:35:21.607Z"
+    }
+  },
+  {
+    "topic_id": 682,
+    "title": "Unable to run parallel threads",
+    "category_id": 37,
+    "post": {
+      "id": 1623,
+      "created_at": "2024-04-21T07:44:10.619Z"
+    },
+    "accepted_answer": {
+      "post_id": 1641,
+      "created_at": "2024-04-23T08:54:18.343Z"
+    }
+  },
+  {
+    "topic_id": 675,
+    "title": "Multiple AWS Batch executors in one workflow (for different AWS accounts)",
+    "category_id": 37,
+    "post": {
+      "id": 1606,
+      "created_at": "2024-04-19T15:37:49.306Z"
+    },
+    "accepted_answer": {
+      "post_id": 1613,
+      "created_at": "2024-04-19T19:42:37.633Z"
+    }
+  },
+  {
+    "topic_id": 670,
+    "title": "Changing nextflow work directory",
+    "category_id": 37,
+    "post": {
+      "id": 1597,
+      "created_at": "2024-04-18T15:45:21.825Z"
+    },
+    "accepted_answer": {
+      "post_id": 1598,
+      "created_at": "2024-04-18T16:57:49.532Z"
+    }
+  },
+  {
+    "topic_id": 673,
+    "title": "FastQC read quality scores in general stats table",
+    "category_id": 37,
+    "post": {
+      "id": 1602,
+      "created_at": "2024-04-19T14:37:33.268Z"
+    },
+    "accepted_answer": {
+      "post_id": 1604,
+      "created_at": "2024-04-19T15:35:42.885Z"
+    }
+  },
+  {
+    "topic_id": 660,
+    "title": "Input file name collision - There are multiple input files",
+    "category_id": 37,
+    "post": {
+      "id": 1565,
+      "created_at": "2024-04-16T19:07:59.006Z"
+    },
+    "accepted_answer": {
+      "post_id": 1568,
+      "created_at": "2024-04-16T19:30:26.365Z"
+    }
+  },
+  {
+    "topic_id": 664,
+    "title": "Create channel after collect from channel that has multiple files?",
+    "category_id": 37,
+    "post": {
+      "id": 1577,
+      "created_at": "2024-04-17T14:40:45.515Z"
+    },
+    "accepted_answer": {
+      "post_id": 1587,
+      "created_at": "2024-04-17T15:52:06.899Z"
+    }
+  },
+  {
+    "topic_id": 655,
+    "title": "How to wait until a process is complete?",
+    "category_id": 37,
+    "post": {
+      "id": 1526,
+      "created_at": "2024-04-10T18:58:52.484Z"
+    },
+    "accepted_answer": {
+      "post_id": 1560,
+      "created_at": "2024-04-16T17:14:12.638Z"
+    }
+  },
+  {
+    "topic_id": 653,
+    "title": "Apptainer and nextflow",
+    "category_id": 37,
+    "post": {
+      "id": 1515,
+      "created_at": "2024-04-09T15:50:00.072Z"
+    },
+    "accepted_answer": {
+      "post_id": 1520,
+      "created_at": "2024-04-09T19:03:15.880Z"
+    }
+  },
+  {
+    "topic_id": 643,
+    "title": "Call methods in groovy classes don't seem to work",
+    "category_id": 37,
+    "post": {
+      "id": 1478,
+      "created_at": "2024-04-05T02:44:20.488Z"
+    },
+    "accepted_answer": {
+      "post_id": 1487,
+      "created_at": "2024-04-08T10:34:18.757Z"
+    }
+  },
+  {
+    "topic_id": 648,
+    "title": "Issues running available singularity container with Nextflow",
+    "category_id": 37,
+    "post": {
+      "id": 1489,
+      "created_at": "2024-04-08T10:51:51.536Z"
+    },
+    "accepted_answer": {
+      "post_id": 1500,
+      "created_at": "2024-04-08T16:28:40.971Z"
+    }
+  },
+  {
+    "topic_id": 641,
+    "title": "How can I dynamically name collectFile output based on input file",
+    "category_id": 37,
+    "post": {
+      "id": 1472,
+      "created_at": "2024-04-04T20:41:50.763Z"
+    },
+    "accepted_answer": {
+      "post_id": 1485,
+      "created_at": "2024-04-06T13:10:27.360Z"
+    }
+  },
+  {
+    "topic_id": 630,
+    "title": "Including groovy classes from nextflow modules",
+    "category_id": 37,
+    "post": {
+      "id": 1433,
+      "created_at": "2024-04-03T23:51:37.915Z"
+    },
+    "accepted_answer": {
+      "post_id": 1477,
+      "created_at": "2024-04-05T01:57:29.339Z"
+    }
+  },
+  {
+    "topic_id": 629,
+    "title": "Check whether a channel is queue or value",
+    "category_id": 37,
+    "post": {
+      "id": 1430,
+      "created_at": "2024-04-03T16:35:34.002Z"
+    },
+    "accepted_answer": {
+      "post_id": 1431,
+      "created_at": "2024-04-03T18:58:14.754Z"
+    }
+  },
+  {
+    "topic_id": 619,
+    "title": "How to optimise the pipeline for resume functionality?",
+    "category_id": 37,
+    "post": {
+      "id": 1413,
+      "created_at": "2024-04-02T14:33:54.731Z"
+    },
+    "accepted_answer": {
+      "post_id": 1419,
+      "created_at": "2024-04-02T23:21:14.827Z"
+    }
+  },
+  {
+    "topic_id": 582,
+    "title": "Variable defined w/ def gives \"Missing name with which to set the channel variable\"",
+    "category_id": 37,
+    "post": {
+      "id": 1336,
+      "created_at": "2024-03-21T17:03:54.172Z"
+    },
+    "accepted_answer": {
+      "post_id": 1337,
+      "created_at": "2024-03-21T17:41:27.820Z"
+    }
+  },
+  {
+    "topic_id": 579,
+    "title": "Variables declared in function seem to get overridden when called multiple times in parallel",
+    "category_id": 37,
+    "post": {
+      "id": 1329,
+      "created_at": "2024-03-21T09:09:18.814Z"
+    },
+    "accepted_answer": {
+      "post_id": 1330,
+      "created_at": "2024-03-21T11:44:43.636Z"
+    }
+  },
+  {
+    "topic_id": 569,
+    "title": "Workflow unable to find input from Seqera Datasets",
+    "category_id": 37,
+    "post": {
+      "id": 1276,
+      "created_at": "2024-03-15T13:22:21.031Z"
+    },
+    "accepted_answer": {
+      "post_id": 1323,
+      "created_at": "2024-03-20T17:50:49.366Z"
+    }
+  },
+  {
+    "topic_id": 572,
+    "title": "How to join branched channel with multi channel?",
+    "category_id": 37,
+    "post": {
+      "id": 1289,
+      "created_at": "2024-03-18T15:54:27.214Z"
+    },
+    "accepted_answer": {
+      "post_id": 1322,
+      "created_at": "2024-03-20T17:36:09.932Z"
+    }
+  },
+  {
+    "topic_id": 566,
+    "title": "How to join with multiple files in emits?",
+    "category_id": 37,
+    "post": {
+      "id": 1267,
+      "created_at": "2024-03-14T16:38:32.982Z"
+    },
+    "accepted_answer": {
+      "post_id": 1310,
+      "created_at": "2024-03-19T17:42:25.334Z"
+    }
+  },
+  {
+    "topic_id": 574,
+    "title": "Bundling in tuple gives different results in process output vs. workflow",
+    "category_id": 37,
+    "post": {
+      "id": 1291,
+      "created_at": "2024-03-18T23:20:25.675Z"
+    },
+    "accepted_answer": {
+      "post_id": 1311,
+      "created_at": "2024-03-19T17:43:23.001Z"
+    }
+  },
+  {
+    "topic_id": 562,
+    "title": "Advice on best practices for submitting processes that wait for others to complete before starting",
+    "category_id": 37,
+    "post": {
+      "id": 1259,
+      "created_at": "2024-03-13T22:02:08.849Z"
+    },
+    "accepted_answer": {
+      "post_id": 1261,
+      "created_at": "2024-03-14T02:30:14.114Z"
+    }
+  },
+  {
+    "topic_id": 561,
+    "title": "conda.useMamba",
+    "category_id": 37,
+    "post": {
+      "id": 1250,
+      "created_at": "2024-03-13T10:57:20.678Z"
+    },
+    "accepted_answer": {
+      "post_id": 1251,
+      "created_at": "2024-03-13T12:09:22.643Z"
+    }
+  },
+  {
+    "topic_id": 559,
+    "title": "The output of the process is not accessible",
+    "category_id": 37,
+    "post": {
+      "id": 1244,
+      "created_at": "2024-03-13T09:24:25.729Z"
+    },
+    "accepted_answer": {
+      "post_id": 1245,
+      "created_at": "2024-03-13T09:52:12.515Z"
+    }
+  },
+  {
+    "topic_id": 555,
+    "title": "How to use collect on two process and do a join?",
+    "category_id": 37,
+    "post": {
+      "id": 1236,
+      "created_at": "2024-03-08T17:18:39.080Z"
+    },
+    "accepted_answer": {
+      "post_id": 1241,
+      "created_at": "2024-03-13T01:36:19.786Z"
+    }
+  },
+  {
+    "topic_id": 554,
+    "title": "Ln: failed to create symbolic link",
+    "category_id": 37,
+    "post": {
+      "id": 1232,
+      "created_at": "2024-03-08T12:43:07.679Z"
+    },
+    "accepted_answer": {
+      "post_id": 1233,
+      "created_at": "2024-03-08T12:51:49.904Z"
+    }
+  },
+  {
+    "topic_id": 543,
+    "title": "Dynamically change button name for reports that have percentages and counts/number_of_reads",
+    "category_id": 37,
+    "post": {
+      "id": 1209,
+      "created_at": "2024-03-03T20:07:58.903Z"
+    },
+    "accepted_answer": {
+      "post_id": 1227,
+      "created_at": "2024-03-07T06:39:43.031Z"
+    }
+  },
+  {
+    "topic_id": 541,
+    "title": "How to add violin plot toggle to all MultiQC tables",
+    "category_id": 37,
+    "post": {
+      "id": 1181,
+      "created_at": "2024-03-03T00:00:22.970Z"
+    },
+    "accepted_answer": {
+      "post_id": 1183,
+      "created_at": "2024-03-03T15:35:43.441Z"
+    }
+  },
+  {
+    "topic_id": 540,
+    "title": "Tower 23.4.3 in Tower Forge created AWS CE does not show if CE has VPC and keypair after creation",
+    "category_id": 37,
+    "post": {
+      "id": 1180,
+      "created_at": "2024-03-02T22:42:13.954Z"
+    },
+    "accepted_answer": {
+      "post_id": 1184,
+      "created_at": "2024-03-03T15:43:10.258Z"
+    }
+  },
+  {
+    "topic_id": 536,
+    "title": "Get full URL fromSRA Channel such that I can download fastq files",
+    "category_id": 37,
+    "post": {
+      "id": 1174,
+      "created_at": "2024-03-01T14:44:46.343Z"
+    },
+    "accepted_answer": {
+      "post_id": 1175,
+      "created_at": "2024-03-01T15:19:14.577Z"
+    }
+  },
+  {
+    "topic_id": 522,
+    "title": "How to access attributes from subMap and branch to print",
+    "category_id": 37,
+    "post": {
+      "id": 1147,
+      "created_at": "2024-02-28T20:38:53.113Z"
+    },
+    "accepted_answer": {
+      "post_id": 1161,
+      "created_at": "2024-02-29T12:10:43.144Z"
+    }
+  },
+  {
+    "topic_id": 521,
+    "title": "Cannot get dump to print variable",
+    "category_id": 37,
+    "post": {
+      "id": 1146,
+      "created_at": "2024-02-28T20:35:04.700Z"
+    },
+    "accepted_answer": {
+      "post_id": 1159,
+      "created_at": "2024-02-29T12:07:13.893Z"
+    }
+  },
+  {
+    "topic_id": 523,
+    "title": "What kind of variable is created from subMap and branch",
+    "category_id": 37,
+    "post": {
+      "id": 1148,
+      "created_at": "2024-02-28T20:43:47.489Z"
+    },
+    "accepted_answer": {
+      "post_id": 1151,
+      "created_at": "2024-02-29T01:44:26.634Z"
+    }
+  },
+  {
+    "topic_id": 516,
+    "title": "Extra line in header table in version 1.19 & 1.20",
+    "category_id": 37,
+    "post": {
+      "id": 1134,
+      "created_at": "2024-02-26T16:18:17.883Z"
+    },
+    "accepted_answer": {
+      "post_id": 1142,
+      "created_at": "2024-02-27T22:42:21.996Z"
+    }
+  },
+  {
+    "topic_id": 499,
+    "title": "How to get more informative log - pipeline trace?",
+    "category_id": 37,
+    "post": {
+      "id": 1085,
+      "created_at": "2024-02-16T17:18:40.455Z"
+    },
+    "accepted_answer": {
+      "post_id": 1129,
+      "created_at": "2024-02-26T09:09:58.174Z"
+    }
+  },
+  {
+    "topic_id": 501,
+    "title": "Local executor processor utilisation",
+    "category_id": 37,
+    "post": {
+      "id": 1091,
+      "created_at": "2024-02-18T01:26:45.486Z"
+    },
+    "accepted_answer": {
+      "post_id": 1130,
+      "created_at": "2024-02-26T09:12:11.948Z"
+    }
+  },
+  {
+    "topic_id": 509,
+    "title": "Passing Docker runOptions over to Wave",
+    "category_id": 37,
+    "post": {
+      "id": 1113,
+      "created_at": "2024-02-21T16:54:55.187Z"
+    },
+    "accepted_answer": {
+      "post_id": 1121,
+      "created_at": "2024-02-22T12:47:53.976Z"
+    }
+  },
+  {
+    "topic_id": 505,
+    "title": "Modifying the format for all columns in a custom table",
+    "category_id": 37,
+    "post": {
+      "id": 1103,
+      "created_at": "2024-02-19T18:06:09.685Z"
+    },
+    "accepted_answer": {
+      "post_id": 1104,
+      "created_at": "2024-02-19T18:14:02.764Z"
+    }
+  },
+  {
+    "topic_id": 464,
+    "title": "Handle NA and use branch operator - then send to process",
+    "category_id": 37,
+    "post": {
+      "id": 977,
+      "created_at": "2024-02-08T18:47:16.379Z"
+    },
+    "accepted_answer": {
+      "post_id": 1042,
+      "created_at": "2024-02-14T10:06:37.153Z"
+    }
+  },
+  {
+    "topic_id": 486,
+    "title": "AWS Megatests failing due to entrypoint overwrite not being applied to wave",
+    "category_id": 37,
+    "post": {
+      "id": 1041,
+      "created_at": "2024-02-14T08:22:18.181Z"
+    },
+    "accepted_answer": {
+      "post_id": 1043,
+      "created_at": "2024-02-14T14:24:53.336Z"
+    }
+  },
+  {
+    "topic_id": 485,
+    "title": "Input cardinality issue after collect",
+    "category_id": 37,
+    "post": {
+      "id": 1031,
+      "created_at": "2024-02-13T13:50:35.190Z"
+    },
+    "accepted_answer": {
+      "post_id": 1037,
+      "created_at": "2024-02-13T16:05:41.367Z"
+    }
+  },
+  {
+    "topic_id": 495,
+    "title": "Combining several MultiQC reports into one",
+    "category_id": 37,
+    "post": {
+      "id": 1073,
+      "created_at": "2024-02-15T11:42:26.755Z"
+    },
+    "accepted_answer": {
+      "post_id": 1074,
+      "created_at": "2024-02-15T12:49:30.084Z"
+    }
+  },
+  {
+    "topic_id": 480,
+    "title": "How to make errors from template scripts print and get added to .nextflow.log",
+    "category_id": 37,
+    "post": {
+      "id": 1015,
+      "created_at": "2024-02-12T13:31:50.708Z"
+    },
+    "accepted_answer": {
+      "post_id": 1030,
+      "created_at": "2024-02-13T11:55:03.068Z"
+    }
+  },
+  {
+    "topic_id": 472,
+    "title": "How to wait until all files are processed at a task for next step?",
+    "category_id": 37,
+    "post": {
+      "id": 999,
+      "created_at": "2024-02-10T16:26:05.904Z"
+    },
+    "accepted_answer": {
+      "post_id": 1012,
+      "created_at": "2024-02-12T13:13:36.821Z"
+    }
+  },
+  {
+    "topic_id": 473,
+    "title": "How to keep the pipeline going if error occurs at any step for any sample?",
+    "category_id": 37,
+    "post": {
+      "id": 1003,
+      "created_at": "2024-02-11T02:15:44.718Z"
+    },
+    "accepted_answer": {
+      "post_id": 1004,
+      "created_at": "2024-02-11T02:35:32.184Z"
+    }
+  },
+  {
+    "topic_id": 458,
+    "title": "Reports section not displaying certain outputs",
+    "category_id": 37,
+    "post": {
+      "id": 948,
+      "created_at": "2024-02-04T19:20:14.351Z"
+    },
+    "accepted_answer": {
+      "post_id": 978,
+      "created_at": "2024-02-08T19:31:11.697Z"
+    }
+  },
+  {
+    "topic_id": 409,
+    "title": "How to handle NA in file/path in map and process?",
+    "category_id": 37,
+    "post": {
+      "id": 826,
+      "created_at": "2024-01-18T19:29:31.165Z"
+    },
+    "accepted_answer": {
+      "post_id": 828,
+      "created_at": "2024-01-18T20:13:17.627Z"
+    }
+  },
+  {
+    "topic_id": 460,
+    "title": "Nextflow only processes one of my paired-end samples",
+    "category_id": 37,
+    "post": {
+      "id": 960,
+      "created_at": "2024-02-07T14:09:36.978Z"
+    },
+    "accepted_answer": {
+      "post_id": 962,
+      "created_at": "2024-02-07T21:45:54.953Z"
+    }
+  },
+  {
+    "topic_id": 452,
+    "title": "Nf-core modules best practice",
+    "category_id": 37,
+    "post": {
+      "id": 915,
+      "created_at": "2024-02-02T10:42:52.108Z"
+    },
+    "accepted_answer": {
+      "post_id": 941,
+      "created_at": "2024-02-02T22:11:08.568Z"
+    }
+  },
+  {
+    "topic_id": 447,
+    "title": "Adding supported tool table columns to generalstats table",
+    "category_id": 37,
+    "post": {
+      "id": 906,
+      "created_at": "2024-01-31T21:49:11.758Z"
+    },
+    "accepted_answer": {
+      "post_id": 955,
+      "created_at": "2024-02-05T16:34:13.913Z"
+    }
+  },
+  {
+    "topic_id": 431,
+    "title": "AWS Batch cannot determine region of bucket",
+    "category_id": 37,
+    "post": {
+      "id": 879,
+      "created_at": "2024-01-25T20:08:59.265Z"
+    },
+    "accepted_answer": {
+      "post_id": 901,
+      "created_at": "2024-01-30T21:04:47.488Z"
+    }
+  },
+  {
+    "topic_id": 437,
+    "title": "Slurm node overhead",
+    "category_id": 37,
+    "post": {
+      "id": 890,
+      "created_at": "2024-01-28T23:13:05.818Z"
+    },
+    "accepted_answer": {
+      "post_id": 892,
+      "created_at": "2024-01-29T17:00:08.713Z"
+    }
+  },
+  {
+    "topic_id": 418,
+    "title": "Env: can't execute 'perl",
+    "category_id": 37,
+    "post": {
+      "id": 841,
+      "created_at": "2024-01-19T15:43:28.905Z"
+    },
+    "accepted_answer": {
+      "post_id": 882,
+      "created_at": "2024-01-25T22:42:47.202Z"
+    }
+  },
+  {
+    "topic_id": 428,
+    "title": "Getting hostnames from executing nodes",
+    "category_id": 37,
+    "post": {
+      "id": 869,
+      "created_at": "2024-01-24T08:44:44.857Z"
+    },
+    "accepted_answer": {
+      "post_id": 873,
+      "created_at": "2024-01-24T17:34:25.966Z"
+    }
+  },
+  {
+    "topic_id": 412,
+    "title": "Can I create histograms with custom_data?",
+    "category_id": 37,
+    "post": {
+      "id": 833,
+      "created_at": "2024-01-19T02:50:11.641Z"
+    },
+    "accepted_answer": {
+      "post_id": 845,
+      "created_at": "2024-01-20T07:07:08.164Z"
+    }
+  },
+  {
+    "topic_id": 408,
+    "title": "How to stop/exit workflow?",
+    "category_id": 37,
+    "post": {
+      "id": 824,
+      "created_at": "2024-01-18T17:36:41.332Z"
+    },
+    "accepted_answer": {
+      "post_id": 825,
+      "created_at": "2024-01-18T17:47:51.351Z"
+    }
+  },
+  {
+    "topic_id": 396,
+    "title": "How to iterate over groupTuple data for processes?",
+    "category_id": 37,
+    "post": {
+      "id": 796,
+      "created_at": "2024-01-16T00:42:12.162Z"
+    },
+    "accepted_answer": {
+      "post_id": 803,
+      "created_at": "2024-01-16T13:36:15.835Z"
+    }
+  },
+  {
+    "topic_id": 369,
+    "title": "Timeout issue in nextflow process run on Azure batch",
+    "category_id": 37,
+    "post": {
+      "id": 729,
+      "created_at": "2024-01-08T11:01:12.505Z"
+    },
+    "accepted_answer": {
+      "post_id": 764,
+      "created_at": "2024-01-11T23:44:08.803Z"
+    }
+  },
+  {
+    "topic_id": 397,
+    "title": "Number formatting \"comma\" doesn't seem to work",
+    "category_id": 37,
+    "post": {
+      "id": 797,
+      "created_at": "2024-01-16T04:39:05.131Z"
+    },
+    "accepted_answer": {
+      "post_id": 801,
+      "created_at": "2024-01-16T09:30:42.541Z"
+    }
+  },
+  {
+    "topic_id": 384,
+    "title": "Can I make the filename pattern case _insensitive_?",
+    "category_id": 37,
+    "post": {
+      "id": 771,
+      "created_at": "2024-01-12T20:27:38.521Z"
+    },
+    "accepted_answer": {
+      "post_id": 793,
+      "created_at": "2024-01-15T22:49:57.270Z"
+    }
+  },
+  {
+    "topic_id": 385,
+    "title": "Docker: how to run a script within nextflow?",
+    "category_id": 37,
+    "post": {
+      "id": 772,
+      "created_at": "2024-01-12T21:42:53.219Z"
+    },
+    "accepted_answer": {
+      "post_id": 790,
+      "created_at": "2024-01-15T12:19:26.855Z"
+    }
+  },
+  {
+    "topic_id": 378,
+    "title": "How to access/print elements of a map?",
+    "category_id": 37,
+    "post": {
+      "id": 755,
+      "created_at": "2024-01-11T17:29:09.220Z"
+    },
+    "accepted_answer": {
+      "post_id": 763,
+      "created_at": "2024-01-11T23:35:51.675Z"
+    }
+  },
+  {
+    "topic_id": 364,
+    "title": "Naming the first column in a custom table",
+    "category_id": 37,
+    "post": {
+      "id": 721,
+      "created_at": "2024-01-04T21:06:39.578Z"
+    },
+    "accepted_answer": {
+      "post_id": 737,
+      "created_at": "2024-01-08T16:15:58.896Z"
+    }
+  },
+  {
+    "topic_id": 358,
+    "title": "Is there a way to make custom/additional messages for resource exceeded errors?",
+    "category_id": 37,
+    "post": {
+      "id": 713,
+      "created_at": "2024-01-03T06:37:28.559Z"
+    },
+    "accepted_answer": {
+      "post_id": 716,
+      "created_at": "2024-01-03T19:01:59.593Z"
+    }
+  },
+  {
+    "topic_id": 326,
+    "title": "Fastp: not enough samples showing",
+    "category_id": 37,
+    "post": {
+      "id": 603,
+      "created_at": "2023-12-06T18:34:28.700Z"
+    },
+    "accepted_answer": {
+      "post_id": 614,
+      "created_at": "2023-12-07T22:02:59.733Z"
+    }
+  },
+  {
+    "topic_id": 324,
+    "title": "EC2 access to R script",
+    "category_id": 37,
+    "post": {
+      "id": 601,
+      "created_at": "2023-12-05T23:08:44.206Z"
+    },
+    "accepted_answer": {
+      "post_id": 649,
+      "created_at": "2023-12-08T22:31:01.039Z"
+    }
+  },
+  {
+    "topic_id": 315,
+    "title": "Nextflow debugging and browsing work directories",
+    "category_id": 37,
+    "post": {
+      "id": 581,
+      "created_at": "2023-12-01T22:03:16.496Z"
+    },
+    "accepted_answer": {
+      "post_id": 589,
+      "created_at": "2023-12-04T11:19:45.015Z"
+    }
+  },
+  {
+    "topic_id": 284,
+    "title": "Parallelizing a perl script that is executed from a python script",
+    "category_id": 37,
+    "post": {
+      "id": 529,
+      "created_at": "2023-11-11T05:24:24.079Z"
+    },
+    "accepted_answer": {
+      "post_id": 578,
+      "created_at": "2023-12-01T18:31:20.376Z"
+    }
+  },
+  {
+    "topic_id": 280,
+    "title": "How to debug a task in the context of fusion",
+    "category_id": 37,
+    "post": {
+      "id": 520,
+      "created_at": "2023-11-09T23:30:41.520Z"
+    },
+    "accepted_answer": {
+      "post_id": 565,
+      "created_at": "2023-11-29T23:12:17.034Z"
+    }
+  },
+  {
+    "topic_id": 290,
+    "title": "Nextflow - bash: /usr/local/bin/nextflow: Permission denied",
+    "category_id": 37,
+    "post": {
+      "id": 536,
+      "created_at": "2023-11-14T10:56:23.212Z"
+    },
+    "accepted_answer": {
+      "post_id": 539,
+      "created_at": "2023-11-14T14:20:12.544Z"
+    }
+  },
+  {
+    "topic_id": 278,
+    "title": "With fusion based on (unlimited) object storage, how much of space is needed on the main OS itself?",
+    "category_id": 37,
+    "post": {
+      "id": 516,
+      "created_at": "2023-11-08T15:16:20.568Z"
+    },
+    "accepted_answer": {
+      "post_id": 518,
+      "created_at": "2023-11-09T04:38:58.810Z"
+    }
+  },
+  {
+    "topic_id": 272,
+    "title": "Installation",
+    "category_id": 37,
+    "post": {
+      "id": 508,
+      "created_at": "2023-11-07T20:27:06.418Z"
+    },
+    "accepted_answer": {
+      "post_id": 511,
+      "created_at": "2023-11-08T09:16:40.609Z"
+    }
+  },
+  {
+    "topic_id": 255,
+    "title": "Adjusting an existing pipeline to use the new Wave containers",
+    "category_id": 37,
+    "post": {
+      "id": 482,
+      "created_at": "2023-11-02T11:56:08.156Z"
+    },
+    "accepted_answer": {
+      "post_id": 492,
+      "created_at": "2023-11-02T16:49:03.090Z"
+    }
+  },
+  {
+    "topic_id": 257,
+    "title": "Adapting existing AWS Batch infrastructure to integrate the Fusion file system",
+    "category_id": 37,
+    "post": {
+      "id": 484,
+      "created_at": "2023-11-02T12:01:14.608Z"
+    },
+    "accepted_answer": {
+      "post_id": 489,
+      "created_at": "2023-11-02T16:12:03.040Z"
+    }
+  },
+  {
+    "topic_id": 192,
+    "title": "Automatically Set Report to be Within the Working Directory",
+    "category_id": 37,
+    "post": {
+      "id": 356,
+      "created_at": "2023-10-23T02:27:54.388Z"
+    },
+    "accepted_answer": {
+      "post_id": 370,
+      "created_at": "2023-10-23T21:40:30.795Z"
+    }
+  },
+  {
+    "topic_id": 147,
+    "title": "MultiQC: ModuleNotFoundError: No module named 'imp'",
+    "category_id": 37,
+    "post": {
+      "id": 213,
+      "created_at": "2023-10-12T10:25:16.428Z"
+    },
+    "accepted_answer": {
+      "post_id": 283,
+      "created_at": "2023-10-21T15:46:51.480Z"
+    }
+  },
+  {
+    "topic_id": 185,
+    "title": "Pushing my first 'mulled' container with wave: quay.io and AWS ECR \u2705",
+    "category_id": 37,
+    "post": {
+      "id": 264,
+      "created_at": "2023-10-21T10:15:31.814Z"
+    },
+    "accepted_answer": {
+      "post_id": 275,
+      "created_at": "2023-10-21T11:29:23.032Z"
+    }
+  },
+  {
+    "topic_id": 141,
+    "title": "Branching and splitting",
+    "category_id": 37,
+    "post": {
+      "id": 196,
+      "created_at": "2023-10-05T22:46:22.878Z"
+    },
+    "accepted_answer": {
+      "post_id": 207,
+      "created_at": "2023-10-06T16:06:23.493Z"
+    }
+  },
+  {
+    "topic_id": 137,
+    "title": "Five files in to a process, but only 1 comes out for the next?",
+    "category_id": 37,
+    "post": {
+      "id": 185,
+      "created_at": "2023-10-05T00:21:27.174Z"
+    },
+    "accepted_answer": {
+      "post_id": 200,
+      "created_at": "2023-10-06T01:53:07.192Z"
+    }
+  },
+  {
+    "topic_id": 2639,
+    "title": "Line of code Training > nf-core > part 3 > 3.5 fails me",
+    "category_id": 39,
+    "post": {
+      "id": 6175,
+      "created_at": "2026-04-20T20:03:46.526Z"
+    },
+    "accepted_answer": {
+      "post_id": 6177,
+      "created_at": "2026-04-20T20:25:20.372Z"
+    }
+  },
+  {
+    "topic_id": 2541,
+    "title": "Nextflow Training Week 2026 Certification",
+    "category_id": 39,
+    "post": {
+      "id": 5919,
+      "created_at": "2026-02-10T06:39:29.749Z"
+    },
+    "accepted_answer": {
+      "post_id": 5929,
+      "created_at": "2026-02-10T16:34:02.838Z"
+    }
+  },
+  {
+    "topic_id": 2586,
+    "title": "Copies of the same file leading to different, shorter output files",
+    "category_id": 39,
+    "post": {
+      "id": 6056,
+      "created_at": "2026-02-27T10:43:22.677Z"
+    },
+    "accepted_answer": {
+      "post_id": 6099,
+      "created_at": "2026-03-13T10:30:54.066Z"
+    }
+  },
+  {
+    "topic_id": 2558,
+    "title": "PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target",
+    "category_id": 39,
+    "post": {
+      "id": 5980,
+      "created_at": "2026-02-13T12:42:53.565Z"
+    },
+    "accepted_answer": {
+      "post_id": 6001,
+      "created_at": "2026-02-16T11:12:25.235Z"
+    }
+  },
+  {
+    "topic_id": 2553,
+    "title": "Nf-core training",
+    "category_id": 39,
+    "post": {
+      "id": 5959,
+      "created_at": "2026-02-12T13:30:14.878Z"
+    },
+    "accepted_answer": {
+      "post_id": 5962,
+      "created_at": "2026-02-12T13:41:42.211Z"
+    }
+  },
+  {
+    "topic_id": 2554,
+    "title": "Discrepancy in hello-nf-core training Part 3 to Part 4",
+    "category_id": 39,
+    "post": {
+      "id": 5965,
+      "created_at": "2026-02-12T16:01:25.946Z"
+    },
+    "accepted_answer": {
+      "post_id": 5966,
+      "created_at": "2026-02-12T16:13:52.324Z"
+    }
+  },
+  {
+    "topic_id": 2547,
+    "title": "Github codespace hello-nf-core import nf-schema error",
+    "category_id": 39,
+    "post": {
+      "id": 5937,
+      "created_at": "2026-02-11T13:02:05.933Z"
+    },
+    "accepted_answer": {
+      "post_id": 5938,
+      "created_at": "2026-02-11T14:00:00.320Z"
+    }
+  },
+  {
+    "topic_id": 2545,
+    "title": "Github codespace out of monthly free usage or have exceeded your budget for Codespaces",
+    "category_id": 39,
+    "post": {
+      "id": 5934,
+      "created_at": "2026-02-11T09:46:24.781Z"
+    },
+    "accepted_answer": {
+      "post_id": 5941,
+      "created_at": "2026-02-11T15:09:27.684Z"
+    }
+  },
+  {
+    "topic_id": 2546,
+    "title": "The form for zoom call is closed",
+    "category_id": 39,
+    "post": {
+      "id": 5936,
+      "created_at": "2026-02-11T12:46:15.116Z"
+    },
+    "accepted_answer": {
+      "post_id": 5942,
+      "created_at": "2026-02-11T15:13:48.533Z"
+    }
+  },
+  {
+    "topic_id": 2534,
+    "title": "ERROR ~ Script compilation error cause: you tried to assign a value to the class 'java.lang.String'",
+    "category_id": 39,
+    "post": {
+      "id": 5900,
+      "created_at": "2026-02-09T14:28:18.999Z"
+    },
+    "accepted_answer": {
+      "post_id": 5906,
+      "created_at": "2026-02-09T14:56:43.130Z"
+    }
+  },
+  {
+    "topic_id": 2521,
+    "title": "Hello-nf-core training codespace: plugin does not exist",
+    "category_id": 39,
+    "post": {
+      "id": 5862,
+      "created_at": "2026-01-30T17:19:51.207Z"
+    },
+    "accepted_answer": {
+      "post_id": 5898,
+      "created_at": "2026-02-08T00:14:58.753Z"
+    }
+  },
+  {
+    "topic_id": 2454,
+    "title": "Metadata Side Quest",
+    "category_id": 39,
+    "post": {
+      "id": 5671,
+      "created_at": "2025-11-18T14:52:01.876Z"
+    },
+    "accepted_answer": {
+      "post_id": 5672,
+      "created_at": "2025-11-18T15:16:56.931Z"
+    }
+  },
+  {
+    "topic_id": 2453,
+    "title": "Where does docker pull stores the image?",
+    "category_id": 39,
+    "post": {
+      "id": 5666,
+      "created_at": "2025-11-18T10:11:50.847Z"
+    },
+    "accepted_answer": {
+      "post_id": 5670,
+      "created_at": "2025-11-18T14:26:16.383Z"
+    }
+  },
+  {
+    "topic_id": 2452,
+    "title": "Suggestion(?) for the Genomics Course",
+    "category_id": 39,
+    "post": {
+      "id": 5662,
+      "created_at": "2025-11-17T15:50:07.668Z"
+    },
+    "accepted_answer": {
+      "post_id": 5664,
+      "created_at": "2025-11-17T21:07:07.569Z"
+    }
+  },
+  {
+    "topic_id": 2368,
+    "title": "Nextflow Training Week - Sep 22-26, 2025",
+    "category_id": 39,
+    "post": {
+      "id": 5379,
+      "created_at": "2025-09-22T06:49:25.905Z"
+    },
+    "accepted_answer": {
+      "post_id": 5402,
+      "created_at": "2025-09-23T13:35:11.455Z"
+    }
+  },
+  {
+    "topic_id": 2231,
+    "title": "Error finding collect()",
+    "category_id": 39,
+    "post": {
+      "id": 4995,
+      "created_at": "2025-06-26T09:08:15.754Z"
+    },
+    "accepted_answer": {
+      "post_id": 4996,
+      "created_at": "2025-06-26T09:19:28.875Z"
+    }
+  },
+  {
+    "topic_id": 1903,
+    "title": "Nextflow: command not found",
+    "category_id": 39,
+    "post": {
+      "id": 4320,
+      "created_at": "2025-03-07T18:21:45.565Z"
+    },
+    "accepted_answer": {
+      "post_id": 4339,
+      "created_at": "2025-03-08T09:16:03.673Z"
+    }
+  },
+  {
+    "topic_id": 1997,
+    "title": "Generating a List of File Paths for Parallel Jobs from output of another process",
+    "category_id": 39,
+    "post": {
+      "id": 4482,
+      "created_at": "2025-03-20T16:28:03.608Z"
+    },
+    "accepted_answer": {
+      "post_id": 4492,
+      "created_at": "2025-03-21T14:54:14.446Z"
+    }
+  },
+  {
+    "topic_id": 1967,
+    "title": "Cannot run HiSat2 (nf4-science(rnaseq) training)",
+    "category_id": 39,
+    "post": {
+      "id": 4415,
+      "created_at": "2025-03-14T04:37:01.974Z"
+    },
+    "accepted_answer": {
+      "post_id": 4421,
+      "created_at": "2025-03-14T16:54:30.044Z"
+    }
+  },
+  {
+    "topic_id": 1952,
+    "title": "Does -resume account for tool version?",
+    "category_id": 39,
+    "post": {
+      "id": 4390,
+      "created_at": "2025-03-12T15:37:53.895Z"
+    },
+    "accepted_answer": {
+      "post_id": 4392,
+      "created_at": "2025-03-12T16:08:47.447Z"
+    }
+  },
+  {
+    "topic_id": 546,
+    "title": "Enabling resume for specific processes",
+    "category_id": 36,
+    "post": {
+      "id": 1213,
+      "created_at": "2024-03-04T13:21:15.788Z"
+    },
+    "accepted_answer": {
+      "post_id": 5329,
+      "created_at": "2025-09-08T00:41:20.282Z"
+    }
+  },
+  {
+    "topic_id": 507,
+    "title": "Running a Nextflow pipeline from a Git repository: Setting defaults",
+    "category_id": 36,
+    "post": {
+      "id": 1110,
+      "created_at": "2024-02-20T15:03:26.287Z"
+    },
+    "accepted_answer": {
+      "post_id": 2979,
+      "created_at": "2024-09-30T21:24:27.698Z"
+    }
+  },
+  {
+    "topic_id": 1723,
+    "title": "Prevent nextflow from running a process if the output file exists",
+    "category_id": 36,
+    "post": {
+      "id": 4026,
+      "created_at": "2025-02-08T20:18:32.721Z"
+    },
+    "accepted_answer": {
+      "post_id": 4027,
+      "created_at": "2025-02-08T21:12:31.339Z"
+    }
+  },
+  {
+    "topic_id": 2440,
+    "title": "Virtual Nextflow Training at ENGENE & SNNB 2025",
+    "category_id": 15,
+    "post": {
+      "id": 5636,
+      "created_at": "2025-11-10T17:18:47.956Z"
+    },
+    "accepted_answer": {
+      "post_id": 5645,
+      "created_at": "2025-11-11T21:53:45.443Z"
+    }
+  }
+]
