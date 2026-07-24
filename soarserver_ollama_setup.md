@@ -22,7 +22,7 @@ Due to the lack of `sudo` privileges on the servers, a standard installation is 
     Add the following lines to `~/dot.bashrc` file - so you don't need to set the environment variables for each shell session:
     ````shell
     export OLLAMA_HOST=localhost:4378 # choose a port no one is using
-    export OLLAMA_MODELS=/u2/users/<nsid/models # or wherever you want to store your models in the server
+    export OLLAMA_MODELS=/u2/users/<nsid>/models # or wherever you want to store your models in the server
     export PATH="/u2/users/<nsid>/ollama/bin:$PATH" # wherever you extracted the binary
     ````
     
@@ -40,13 +40,13 @@ Due to the lack of `sudo` privileges on the servers, a standard installation is 
 
 ## On Local Machine
 
-1. **Connect to ollama server***
+1. **Connect to ollama server**
 
     ````shell
     ssh -L 4378:localhost:4378 <user>@<host>
     ````
 
-    The ollama server can now be accessed locally on localhost:4378.
+    The ollama server can now be accessed locally on `localhost:4378`.
     Check to see "Ollama is running".
     In the next step you can configure ssh to automatically bind the ports when connecting to the ollama service.
 
@@ -62,6 +62,20 @@ Due to the lack of `sudo` privileges on the servers, a standard installation is 
 
     You'll need to add a `ProxyJump` if you're using your personal computer and outside the university network.
 
+    E.g.:
+    ```ssh_config
+    Host tux
+        HostName tuxworld.usask.ca
+        User <nsid>
+        IdentityFile ~/.ssh/id_rsa
+
+    Host ollama-server
+        HostName soarserver-1
+        User <nsid>
+        ProxyJump tux
+        LocalForward 4378 localhost:4378
+    ```
+
 3.  **Connect and Start Tunnel**
 
     Run the following command to connect to the server. This will also automatically create the SSH tunnel defined in your config.
@@ -70,3 +84,4 @@ Due to the lack of `sudo` privileges on the servers, a standard installation is 
     ````
     Ollama will now be accessible on your local machine at `localhost:4378`.
     
+** Once done, please stop any unneeded processes on soarserver to share resources!
